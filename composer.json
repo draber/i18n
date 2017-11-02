@@ -1,0 +1,30 @@
+{
+    "name": "draber/i18n",
+    "type": "library",
+    "description": "A set of classes to help with internationalsation",
+    "keywords": ["i18n", "l10n"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dieter Raber"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "i18n\\": "src/i18n/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "extra": {
+        "branch-alias": {
+        }
+    }
+}
