@@ -1,7 +1,7 @@
 {
     "name": "draber/i18n",
     "type": "library",
-    "description": "A set of classes to help with internationalsation",
+    "description": "A set of classes to help with internationalization",
     "keywords": ["i18n", "l10n"],
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "i18n\\": "src/i18n/"
+            "draber\\i18n\\": "src/"
         }
     },
     "autoload-dev": {
