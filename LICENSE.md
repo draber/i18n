@@ -21,6 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Third parties
-This project uses data from various sources on the internet.
-- https://en.wikipedia.org/wiki/List_of_numbers_in_various_languages (CC BY-SA 3.0, https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
-- https://www.omniglot.com/language/numbers/index.htm, permission to use data for this project has been granted by the site owner Simon Ager.
+I'd like to thank other projects for letting me use their data:
+- [List of numbers in various languages](https://en.wikipedia.org/wiki/List_of_numbers_in_various_languages) licensed under [CC BY-SA 3.0](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
+- [Numbers in various languages](https://www.omniglot.com/language/numbers/index.htm), permission to use data for this project has been granted by the site owner [Simon Ager](https://www.omniglot.com/aboutme.htm).
