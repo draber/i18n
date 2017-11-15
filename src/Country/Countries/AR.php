@@ -34,7 +34,7 @@ namespace draber\i18n\Country\Countries;
 use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for {NAME}
+ * Country specific code for Argentina
  *
  * @author Dieter Raber
  */

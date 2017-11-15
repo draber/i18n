@@ -70,4 +70,4 @@ $classGen = new ClassGenerator();
 
 // Generate classes
 $classGen->languages();
-//$classGen->countries();
+$classGen->countries();

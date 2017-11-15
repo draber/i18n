@@ -337,8 +337,8 @@ class ClassGenerator extends GeneratorBase
     {
         return $isoCode
             ? str_replace(
-                ['{SINGULAR}', '{PLURAL}', '{LOWER_PLURAL}', '{ISO_CODE}', '{CLASS_CODE}'],
-                [$this->singular, $this->plural, $this->lowerPlural, $isoCode, $classCode],
+                ['{SINGULAR}', '{PLURAL}', '{LOWER_PLURAL}', '{ISO_CODE}', '{NAME}', '{CLASS_CODE}'],
+                [$this->singular, $this->plural, $this->lowerPlural, $isoCode, $this->isoList[$isoCode], $classCode],
                 $template
             ) : str_replace(
                 ['{SINGULAR}', '{PLURAL}', '{LOWER_PLURAL}', '{CLASS_CODE}'],

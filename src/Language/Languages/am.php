@@ -34,7 +34,7 @@ namespace draber\i18n\Language\Languages;
 use draber\i18n\Language\Languages\LanguageMethods;
 
 /**
- * Language specific code for {NAME}
+ * Language specific code for Amharic
  *
  * @author Dieter Raber
  */
