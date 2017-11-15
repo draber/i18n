@@ -110,6 +110,8 @@ class ClassGenerator extends GeneratorBase
         // topic is the bare name of a JSON file, e.g. 'numeral'
         foreach($this->data as $topic => $data){
             $config = $this->config[$topic];
+            $sTopic = Inflector::singularize($topic);
+
             // code is an ISO code
             foreach($data as $code => $entries){
                 if($topic === $this->lowerPlural){
@@ -123,7 +125,6 @@ class ClassGenerator extends GeneratorBase
                 // one value = one constant
                 else{
                     foreach($entries as $key => $entry){
-                        $sTopic = Inflector::singularize($topic);
                         $this->addConstant($code, $sTopic, $entries, $key);
                         $this->addMethod($sTopic, $entries, $key);
                     }

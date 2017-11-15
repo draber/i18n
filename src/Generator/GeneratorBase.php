@@ -51,13 +51,13 @@ class GeneratorBase extends CommonBase
     protected $config = [];
 
 
-
     /**
      * CSS reader configuration
      *
      * GeneratorBase::CONFIG_CSV_SEPARATOR = ';' to set to semicolon, default is ','
      */
     const CONFIG_CSV_SEPARATOR = 'csvSeparator';
+
 
     /**
      * CSS reader configuration
