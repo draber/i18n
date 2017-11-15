@@ -224,10 +224,10 @@ class ClassGenerator extends GeneratorBase
         $value    = $key ? $value[$key] : $value;
         $constant = '    const ' . $name . ' = ';
         $constant .= gettype($value) === 'array'
-            ? static::prettyPrint($value) . ';'
-            : '"' . str_replace('"', '\\' . '"', $value) . '";';
+            ? static::prettyPrint($value)
+            : $this->quote($value);
 
-        $this->constants[$code][$name] = $constant;
+        $this->constants[$code][$name] = $constant . ';';
 
         return true;
     }

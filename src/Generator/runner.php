@@ -27,8 +27,10 @@ require_once dirname(dirname(dirname(dirname(__DIR__)))) . '/autoload.php';
 
 use draber\i18n\Generator\JsonGenerator;
 use draber\i18n\Generator\ClassGenerator;
+use draber\i18n\Generator\CsvGenerator;
 
 $jsonGen  = new JsonGenerator();
+$csvGen   = new CsvGenerator();
 $classGen = new ClassGenerator();
 
 // Examples with CSV import
@@ -65,6 +67,12 @@ $classGen = new ClassGenerator();
 // $jsonGen->buildDataFromJson('../../resources/data/country.json', [date('Y:m:d H:i:s')])->save('./data/countries/country.json');
 // $jsonGen->buildDataFromJson('../../resources/data/currency.json', [date('Y:m:d H:i:s')])->save('./data/countries/currency.json');
 
+
+// re-convert JSON to CSV
+// $csvGen->fromGeneratedJson('./data/countries/currencies.json')->save('../../resources/data/currencies.csv');
+// $csvGen->fromGeneratedJson('./data/countries/countries.json')->save('../../resources/data/countries.csv');
+// $csvGen->fromGeneratedJson('./data/languages/languages.json')->save('../../resources/data/languages.csv');
+
 // Generate classes
-$classGen->languages();
-$classGen->countries();
+// $classGen->languages();
+// $classGen->countries();

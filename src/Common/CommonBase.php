@@ -42,7 +42,7 @@ class CommonBase
      * @param $array
      * @return bool|false|int|string
      */
-    public static function arrayFuzzySearch($value, $array) {
+    protected static function arrayFuzzySearch($value, $array) {
 
         $value  = trim($value);
         $result = array_search(trim($value), $array);
@@ -67,8 +67,19 @@ class CommonBase
      * @param $filePath
      * @return bool|string
      */
-    public function bareName($filePath){
+    protected function bareName($filePath){
         $file = basename($filePath);
         return substr($file, 0, strrpos($file, '.'));
+    }
+
+
+    /**
+     * Quote a string with double quotes
+     *
+     * @param $string
+     * @return string
+     */
+    protected function quote($string) {
+        return '"' . str_replace('"', '\\' . '"', $string) . '"';
     }
 }
