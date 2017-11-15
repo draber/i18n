@@ -25,6 +25,7 @@
 
 namespace draber\i18n\Common;
 
+use Doctrine\Common\Inflector\Inflector;
 
 /**
  * Factory for the country/language specific classes
@@ -96,6 +97,7 @@ class Factory
         else {
             $isoCode = strtolower(substr($isoCode, 0, 2));
         }
-        return __NAMESPACE__ . '\\' . ucfirst($type) . '\\' . $isoCode;
+        $ns = dirname(__NAMESPACE__) . '\\' . ucfirst(Inflector::singularize($type));
+        return $ns . '\\' . ucfirst($type) . '\\' . $isoCode;
     }
 }

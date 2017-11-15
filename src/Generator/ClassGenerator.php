@@ -28,6 +28,7 @@ namespace draber\i18n\Generator;
 use draber\i18n\Generator\GeneratorBase;
 use draber\i18n\Language\LanguageBase;
 use draber\i18n\Country\CountryBase;
+use Doctrine\Common\Inflector\Inflector;
 
 /**
  * Generate classes that contain country or language specific current
@@ -79,7 +80,6 @@ class ClassGenerator extends GeneratorBase
     public function countries()
     {
         $this->singular    = 'Country';
-        $this->plural      = 'Countries';
         $this->lookupClass = CountryBase::class;
 
         return $this->generate();
@@ -93,7 +93,6 @@ class ClassGenerator extends GeneratorBase
     public function languages()
     {
         $this->singular    = 'Language';
-        $this->plural      = 'Languages';
         $this->lookupClass = LanguageBase::class;
 
         return $this->generate();
@@ -124,8 +123,9 @@ class ClassGenerator extends GeneratorBase
                 // one value = one constant
                 else{
                     foreach($entries as $key => $entry){
-                        $this->addConstant($code, $topic, $entries, $key);
-                        $this->addMethod($topic, $entries, $key);
+                        $sTopic = Inflector::singularize($topic);
+                        $this->addConstant($code, $sTopic, $entries, $key);
+                        $this->addMethod($sTopic, $entries, $key);
                     }
                 }
             }
@@ -178,6 +178,7 @@ class ClassGenerator extends GeneratorBase
         $this->isoList       = [];
         $this->methods       = [];
         $this->constants     = [];
+        $this->plural        = Inflector::pluralize($this->singular);
         $this->classDir      = dirname(__DIR__) . '/' . $this->singular . '/' . $this->plural;
         $this->lowerSingular = strtolower($this->singular);
         $this->lowerPlural   = strtolower($this->plural);

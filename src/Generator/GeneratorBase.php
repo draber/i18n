@@ -97,7 +97,7 @@ class GeneratorBase extends CommonBase
     {
         $indent = '    '; // 4 spaces
         $string = var_export($array, 1);
-        $string = preg_replace("~\s*array \(~m", " [", str_replace(')', ']', $string));
+        $string = preg_replace("~\s*array \(~m", " [", str_replace('),' . PHP_EOL, '],' . PHP_EOL, $string));
         $string = trim(str_replace('  ', $indent, $string));
         return trim(preg_replace("/^/m", $indent, $string));
     }
