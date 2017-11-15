@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Puerto Rico
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryPR extends CountryAbstract
+class PR extends CountryMethods
 {
+    const COUNTRIES_NAME = "Puerto Rico";
+    const COUNTRIES_CODE = "PR";
+    const CURRENCIES_CODE = "USD";
+    const CURRENCIES_CURRENCY = "United States Dollar";
+    const CURRENCIES_SYMBOL = "US$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'PR';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'USD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'United States Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'US$';
 }

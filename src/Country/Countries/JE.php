@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Jersey
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryJE extends CountryAbstract
+class JE extends CountryMethods
 {
+    const COUNTRIES_NAME = "Jersey";
+    const COUNTRIES_CODE = "JE";
+    const CURRENCIES_CODE = "GBP";
+    const CURRENCIES_CURRENCY = "British Pound";
+    const CURRENCIES_SYMBOL = "£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'JE';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'GBP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'British Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '£';
 }

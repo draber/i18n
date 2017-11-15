@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Qatar
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryQA extends CountryAbstract
+class QA extends CountryMethods
 {
+    const COUNTRIES_NAME = "Qatar";
+    const COUNTRIES_CODE = "QA";
+    const CURRENCIES_CODE = "QAR";
+    const CURRENCIES_CURRENCY = "Qatari Riyal";
+    const CURRENCIES_SYMBOL = "ر.ق";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'QA';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'QAR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Qatari Riyal';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ر.ق';
 }

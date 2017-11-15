@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Brazil
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBR extends CountryAbstract
+class BR extends CountryMethods
 {
+    const COUNTRIES_NAME = "Brazil";
+    const COUNTRIES_CODE = "BR";
+    const CURRENCIES_CODE = "BRL";
+    const CURRENCIES_CURRENCY = "Brazilian Real";
+    const CURRENCIES_SYMBOL = "R$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BR';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BRL';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Brazilian Real';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'R$';
 }

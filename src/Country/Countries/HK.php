@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Hong Kong
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryHK extends CountryAbstract
+class HK extends CountryMethods
 {
+    const COUNTRIES_NAME = "Hong Kong";
+    const COUNTRIES_CODE = "HK";
+    const CURRENCIES_CODE = "HKD";
+    const CURRENCIES_CURRENCY = "Hong Kong Dollar";
+    const CURRENCIES_SYMBOL = "HK$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'HK';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'HKD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Hong Kong Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'HK$';
 }

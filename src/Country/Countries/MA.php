@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Morocco
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMA extends CountryAbstract
+class MA extends CountryMethods
 {
+    const COUNTRIES_NAME = "Morocco";
+    const COUNTRIES_CODE = "MA";
+    const CURRENCIES_CODE = "MAD";
+    const CURRENCIES_CURRENCY = "Moroccan Dirham";
+    const CURRENCIES_SYMBOL = "د.م.";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MA';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MAD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Moroccan Dirham';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'د.م.';
 }

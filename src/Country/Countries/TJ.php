@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Tajikistan
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryTJ extends CountryAbstract
+class TJ extends CountryMethods
 {
+    const COUNTRIES_NAME = "Tajikistan";
+    const COUNTRIES_CODE = "TJ";
+    const CURRENCIES_CODE = "TJS";
+    const CURRENCIES_CURRENCY = "Tajikistani Somoni";
+    const CURRENCIES_SYMBOL = "SM";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'TJ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'TJS';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Tajikistani Somoni';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'SM';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Falkland Islands
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryFK extends CountryAbstract
+class FK extends CountryMethods
 {
+    const COUNTRIES_NAME = "Falkland Islands";
+    const COUNTRIES_CODE = "FK";
+    const CURRENCIES_CODE = "FKP";
+    const CURRENCIES_CURRENCY = "Falkland Islands Pound";
+    const CURRENCIES_SYMBOL = "FK£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'FK';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'FKP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Falkland Islands Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'FK£';
 }

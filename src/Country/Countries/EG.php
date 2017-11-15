@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Egypt
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryEG extends CountryAbstract
+class EG extends CountryMethods
 {
+    const COUNTRIES_NAME = "Egypt";
+    const COUNTRIES_CODE = "EG";
+    const CURRENCIES_CODE = "EGP";
+    const CURRENCIES_CURRENCY = "Egyptian Pound";
+    const CURRENCIES_SYMBOL = "E£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'EG';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'EGP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Egyptian Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'E£';
 }

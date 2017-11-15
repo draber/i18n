@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Tonga
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryTO extends CountryAbstract
+class TO extends CountryMethods
 {
+    const COUNTRIES_NAME = "Tonga";
+    const COUNTRIES_CODE = "TO";
+    const CURRENCIES_CODE = "TOP";
+    const CURRENCIES_CURRENCY = "Tongan Pa’anga";
+    const CURRENCIES_SYMBOL = "T$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'TO';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'TOP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Tongan Pa’anga';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'T$';
 }

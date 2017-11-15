@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Czech Republic
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryCZ extends CountryAbstract
+class CZ extends CountryMethods
 {
+    const COUNTRIES_NAME = "Czech Republic";
+    const COUNTRIES_CODE = "CZ";
+    const CURRENCIES_CODE = "CZK";
+    const CURRENCIES_CURRENCY = "Czech Koruna";
+    const CURRENCIES_SYMBOL = "Kč";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'CZ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'CZK';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Czech Koruna';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Kč';
 }

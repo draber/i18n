@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Oman
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryOM extends CountryAbstract
+class OM extends CountryMethods
 {
+    const COUNTRIES_NAME = "Oman";
+    const COUNTRIES_CODE = "OM";
+    const CURRENCIES_CODE = "OMR";
+    const CURRENCIES_CURRENCY = "Omani Rial";
+    const CURRENCIES_SYMBOL = "ر.ع.";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'OM';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'OMR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Omani Rial';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ر.ع.';
 }

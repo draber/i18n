@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Botswana
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBW extends CountryAbstract
+class BW extends CountryMethods
 {
+    const COUNTRIES_NAME = "Botswana";
+    const COUNTRIES_CODE = "BW";
+    const CURRENCIES_CODE = "BWP";
+    const CURRENCIES_CURRENCY = "Botswana Pula";
+    const CURRENCIES_SYMBOL = "P";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BW';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BWP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Botswana Pula';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'P';
 }

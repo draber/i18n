@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for United Arab Emirates
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryAE extends CountryAbstract
+class AE extends CountryMethods
 {
+    const COUNTRIES_NAME = "United Arab Emirates";
+    const COUNTRIES_CODE = "AE";
+    const CURRENCIES_CODE = "AED";
+    const CURRENCIES_CURRENCY = "United Arab Emirates Dirham";
+    const CURRENCIES_SYMBOL = "د.إ";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'AE';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'AED';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'United Arab Emirates Dirham';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'د.إ';
 }

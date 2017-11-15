@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Guyana
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryGY extends CountryAbstract
+class GY extends CountryMethods
 {
+    const COUNTRIES_NAME = "Guyana";
+    const COUNTRIES_CODE = "GY";
+    const CURRENCIES_CODE = "GYD";
+    const CURRENCIES_CURRENCY = "Guyanese Dollar";
+    const CURRENCIES_SYMBOL = "GY$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'GY';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'GYD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Guyanese Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'GY$';
 }

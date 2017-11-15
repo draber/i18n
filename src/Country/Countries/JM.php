@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Jamaica
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryJM extends CountryAbstract
+class JM extends CountryMethods
 {
+    const COUNTRIES_NAME = "Jamaica";
+    const COUNTRIES_CODE = "JM";
+    const CURRENCIES_CODE = "JMD";
+    const CURRENCIES_CURRENCY = "Jamaican Dollar";
+    const CURRENCIES_SYMBOL = "J$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'JM';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'JMD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Jamaican Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'J$';
 }

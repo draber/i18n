@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Russia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryRU extends CountryAbstract
+class RU extends CountryMethods
 {
+    const COUNTRIES_NAME = "Russia";
+    const COUNTRIES_CODE = "RU";
+    const CURRENCIES_CODE = "RUB";
+    const CURRENCIES_CURRENCY = "Russian Ruble";
+    const CURRENCIES_SYMBOL = "руб";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'RU';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'RUB';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Russian Ruble';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'руб';
 }

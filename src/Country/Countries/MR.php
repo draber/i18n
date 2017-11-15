@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Mauritania
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMR extends CountryAbstract
+class MR extends CountryMethods
 {
+    const COUNTRIES_NAME = "Mauritania";
+    const COUNTRIES_CODE = "MR";
+    const CURRENCIES_CODE = "MRO";
+    const CURRENCIES_CURRENCY = "Mauritanian Ouguiya";
+    const CURRENCIES_SYMBOL = "UM";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MR';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MRO';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Mauritanian Ouguiya';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'UM';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Belize
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBZ extends CountryAbstract
+class BZ extends CountryMethods
 {
+    const COUNTRIES_NAME = "Belize";
+    const COUNTRIES_CODE = "BZ";
+    const CURRENCIES_CODE = "BZD";
+    const CURRENCIES_CURRENCY = "Belizean Dollar";
+    const CURRENCIES_SYMBOL = "BZ$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BZ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BZD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Belizean Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'BZ$';
 }

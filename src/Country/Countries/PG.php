@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Papua New Guinea
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryPG extends CountryAbstract
+class PG extends CountryMethods
 {
+    const COUNTRIES_NAME = "Papua New Guinea";
+    const COUNTRIES_CODE = "PG";
+    const CURRENCIES_CODE = "PGK";
+    const CURRENCIES_CURRENCY = "Papua New Guinea Kina";
+    const CURRENCIES_SYMBOL = "K";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'PG';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'PGK';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Papua New Guinea Kina';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'K';
 }

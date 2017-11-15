@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Mauritius
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMU extends CountryAbstract
+class MU extends CountryMethods
 {
+    const COUNTRIES_NAME = "Mauritius";
+    const COUNTRIES_CODE = "MU";
+    const CURRENCIES_CODE = "MUR";
+    const CURRENCIES_CURRENCY = "Mauritian Rupee";
+    const CURRENCIES_SYMBOL = "Ɍs";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MU';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MUR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Mauritian Rupee';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Ɍs';
 }

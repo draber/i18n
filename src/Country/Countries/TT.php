@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Trinidad and Tobago
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryTT extends CountryAbstract
+class TT extends CountryMethods
 {
+    const COUNTRIES_NAME = "Trinidad and Tobago";
+    const COUNTRIES_CODE = "TT";
+    const CURRENCIES_CODE = "TTD";
+    const CURRENCIES_CURRENCY = "Trinidad And Tobago Dollar";
+    const CURRENCIES_SYMBOL = "TT$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'TT';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'TTD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Trinidad And Tobago Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'TT$';
 }

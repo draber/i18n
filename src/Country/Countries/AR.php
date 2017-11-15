@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Argentina
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryAR extends CountryAbstract
+class AR extends CountryMethods
 {
+    const COUNTRIES_NAME = "Argentina";
+    const COUNTRIES_CODE = "AR";
+    const CURRENCIES_CODE = "ARS";
+    const CURRENCIES_CURRENCY = "Argentine Peso";
+    const CURRENCIES_SYMBOL = "$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'AR';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'ARS';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Argentine Peso';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '$';
 }

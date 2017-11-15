@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Liberia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryLR extends CountryAbstract
+class LR extends CountryMethods
 {
+    const COUNTRIES_NAME = "Liberia";
+    const COUNTRIES_CODE = "LR";
+    const CURRENCIES_CODE = "LRD";
+    const CURRENCIES_CURRENCY = "Liberian Dollar";
+    const CURRENCIES_SYMBOL = "L$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'LR';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'LRD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Liberian Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'L$';
 }

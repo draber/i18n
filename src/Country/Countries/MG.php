@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Madagascar
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMG extends CountryAbstract
+class MG extends CountryMethods
 {
+    const COUNTRIES_NAME = "Madagascar";
+    const COUNTRIES_CODE = "MG";
+    const CURRENCIES_CODE = "MGA";
+    const CURRENCIES_CURRENCY = "Malagasy Ariary";
+    const CURRENCIES_SYMBOL = "Ar";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MG';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MGA';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Malagasy Ariary';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Ar';
 }

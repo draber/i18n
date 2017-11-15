@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Iceland
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryIS extends CountryAbstract
+class IS extends CountryMethods
 {
+    const COUNTRIES_NAME = "Iceland";
+    const COUNTRIES_CODE = "IS";
+    const CURRENCIES_CODE = "ISK";
+    const CURRENCIES_CURRENCY = "Icelandic Króna";
+    const CURRENCIES_SYMBOL = "kr";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'IS';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'ISK';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Icelandic Króna';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'kr';
 }

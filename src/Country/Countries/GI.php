@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Gibraltar
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryGI extends CountryAbstract
+class GI extends CountryMethods
 {
+    const COUNTRIES_NAME = "Gibraltar";
+    const COUNTRIES_CODE = "GI";
+    const CURRENCIES_CODE = "GIP";
+    const CURRENCIES_CURRENCY = "Gibraltar Pound";
+    const CURRENCIES_SYMBOL = "£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'GI';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'GIP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Gibraltar Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '£';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Indonesia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryID extends CountryAbstract
+class ID extends CountryMethods
 {
+    const COUNTRIES_NAME = "Indonesia";
+    const COUNTRIES_CODE = "ID";
+    const CURRENCIES_CODE = "IDR";
+    const CURRENCIES_CURRENCY = "Indonesian Rupiah";
+    const CURRENCIES_SYMBOL = "Rp";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'ID';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'IDR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Indonesian Rupiah';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Rp';
 }

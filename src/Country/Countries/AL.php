@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Albania
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryAL extends CountryAbstract
+class AL extends CountryMethods
 {
+    const COUNTRIES_NAME = "Albania";
+    const COUNTRIES_CODE = "AL";
+    const CURRENCIES_CODE = "ALL";
+    const CURRENCIES_CURRENCY = "Albanian Lek";
+    const CURRENCIES_SYMBOL = "L";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'AL';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'ALL';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Albanian Lek';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'L';
 }

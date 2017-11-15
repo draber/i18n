@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Philippines
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryPH extends CountryAbstract
+class PH extends CountryMethods
 {
+    const COUNTRIES_NAME = "Philippines";
+    const COUNTRIES_CODE = "PH";
+    const CURRENCIES_CODE = "PHP";
+    const CURRENCIES_CURRENCY = "Philippine Peso";
+    const CURRENCIES_SYMBOL = "₱";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'PH';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'PHP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Philippine Peso';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '₱';
 }

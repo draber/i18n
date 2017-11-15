@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Cayman Islands
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryKY extends CountryAbstract
+class KY extends CountryMethods
 {
+    const COUNTRIES_NAME = "Cayman Islands";
+    const COUNTRIES_CODE = "KY";
+    const CURRENCIES_CODE = "KYD";
+    const CURRENCIES_CURRENCY = "Cayman Islands Dollar";
+    const CURRENCIES_SYMBOL = "KY$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'KY';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'KYD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Cayman Islands Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'KY$';
 }

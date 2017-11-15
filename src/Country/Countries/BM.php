@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Bermuda
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBM extends CountryAbstract
+class BM extends CountryMethods
 {
+    const COUNTRIES_NAME = "Bermuda";
+    const COUNTRIES_CODE = "BM";
+    const CURRENCIES_CODE = "BMD";
+    const CURRENCIES_CURRENCY = "Bermudian Dollar";
+    const CURRENCIES_SYMBOL = "BD$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BM';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BMD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Bermudian Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'BD$';
 }

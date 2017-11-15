@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Senegal
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySN extends CountryAbstract
+class SN extends CountryMethods
 {
+    const COUNTRIES_NAME = "Senegal";
+    const COUNTRIES_CODE = "SN";
+    const CURRENCIES_CODE = "XOF";
+    const CURRENCIES_CURRENCY = "West African CFA Franc";
+    const CURRENCIES_SYMBOL = "CFA";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SN';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'XOF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'West African CFA Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'CFA';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Wallis and Futuna
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryWF extends CountryAbstract
+class WF extends CountryMethods
 {
+    const COUNTRIES_NAME = "Wallis and Futuna";
+    const COUNTRIES_CODE = "WF";
+    const CURRENCIES_CODE = "XPF";
+    const CURRENCIES_CURRENCY = "CFP Franc";
+    const CURRENCIES_SYMBOL = "F";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'WF';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'XPF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'CFP Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'F';
 }

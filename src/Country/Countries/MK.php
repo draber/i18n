@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Macedonia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMK extends CountryAbstract
+class MK extends CountryMethods
 {
+    const COUNTRIES_NAME = "Macedonia";
+    const COUNTRIES_CODE = "MK";
+    const CURRENCIES_CODE = "MKD";
+    const CURRENCIES_CURRENCY = "Macedonia Denar";
+    const CURRENCIES_SYMBOL = "ден";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MK';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MKD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Macedonia Denar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ден';
 }

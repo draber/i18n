@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Libya
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryLY extends CountryAbstract
+class LY extends CountryMethods
 {
+    const COUNTRIES_NAME = "Libya";
+    const COUNTRIES_CODE = "LY";
+    const CURRENCIES_CODE = "LD";
+    const CURRENCIES_CURRENCY = "Libyan Dinar";
+    const CURRENCIES_SYMBOL = "ل.د";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'LY';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'LD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Libyan Dinar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ل.د';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Barbados
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBB extends CountryAbstract
+class BB extends CountryMethods
 {
+    const COUNTRIES_NAME = "Barbados";
+    const COUNTRIES_CODE = "BB";
+    const CURRENCIES_CODE = "BBD";
+    const CURRENCIES_CURRENCY = "Barbadian Dollar";
+    const CURRENCIES_SYMBOL = "Bds$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BB';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BBD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Barbadian Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Bds$';
 }

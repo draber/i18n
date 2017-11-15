@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Somalia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySO extends CountryAbstract
+class SO extends CountryMethods
 {
+    const COUNTRIES_NAME = "Somalia";
+    const COUNTRIES_CODE = "SO";
+    const CURRENCIES_CODE = "SOS";
+    const CURRENCIES_CURRENCY = "Somali Shilling";
+    const CURRENCIES_SYMBOL = "So. Sh.";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SO';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SOS';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Somali Shilling';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'So. Sh.';
 }

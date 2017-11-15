@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Burundi
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBI extends CountryAbstract
+class BI extends CountryMethods
 {
+    const COUNTRIES_NAME = "Burundi";
+    const COUNTRIES_CODE = "BI";
+    const CURRENCIES_CODE = "BIF";
+    const CURRENCIES_CURRENCY = "Burundian Franc";
+    const CURRENCIES_SYMBOL = "FBu";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BI';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BIF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Burundian Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'FBu';
 }

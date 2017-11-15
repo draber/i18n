@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Mayotte
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryYT extends CountryAbstract
+class YT extends CountryMethods
 {
+    const COUNTRIES_NAME = "Mayotte";
+    const COUNTRIES_CODE = "YT";
+    const CURRENCIES_CODE = "EUR";
+    const CURRENCIES_CURRENCY = "European Euro";
+    const CURRENCIES_SYMBOL = "€";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'YT';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'EUR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'European Euro';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '€';
 }

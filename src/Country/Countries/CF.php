@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Central African Republic
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryCF extends CountryAbstract
+class CF extends CountryMethods
 {
+    const COUNTRIES_NAME = "Central African Republic";
+    const COUNTRIES_CODE = "CF";
+    const CURRENCIES_CODE = "XAF";
+    const CURRENCIES_CURRENCY = "Central African CFA Franc";
+    const CURRENCIES_SYMBOL = "CFA";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'CF';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'XAF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Central African CFA Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'CFA';
 }

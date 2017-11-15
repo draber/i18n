@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Syria
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySY extends CountryAbstract
+class SY extends CountryMethods
 {
+    const COUNTRIES_NAME = "Syria";
+    const COUNTRIES_CODE = "SY";
+    const CURRENCIES_CODE = "SYP";
+    const CURRENCIES_CURRENCY = "Syrian Pound";
+    const CURRENCIES_SYMBOL = "S£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SY';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SYP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Syrian Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'S£';
 }

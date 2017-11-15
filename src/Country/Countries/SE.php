@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Sweden
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySE extends CountryAbstract
+class SE extends CountryMethods
 {
+    const COUNTRIES_NAME = "Sweden";
+    const COUNTRIES_CODE = "SE";
+    const CURRENCIES_CODE = "SEK";
+    const CURRENCIES_CURRENCY = "Swedish Krona";
+    const CURRENCIES_SYMBOL = "kr";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SE';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SEK';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Swedish Krona';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'kr';
 }

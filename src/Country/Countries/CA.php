@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Canada
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryCA extends CountryAbstract
+class CA extends CountryMethods
 {
+    const COUNTRIES_NAME = "Canada";
+    const COUNTRIES_CODE = "CA";
+    const CURRENCIES_CODE = "CAD";
+    const CURRENCIES_CURRENCY = "Canadian Dollar";
+    const CURRENCIES_SYMBOL = "C$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'CA';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'CAD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Canadian Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'C$';
 }

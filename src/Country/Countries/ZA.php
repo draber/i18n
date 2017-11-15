@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for South Africa
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryZA extends CountryAbstract
+class ZA extends CountryMethods
 {
+    const COUNTRIES_NAME = "South Africa";
+    const COUNTRIES_CODE = "ZA";
+    const CURRENCIES_CODE = "ZAR";
+    const CURRENCIES_CURRENCY = "South African Rand";
+    const CURRENCIES_SYMBOL = "R";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'ZA';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'ZAR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'South African Rand';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'R';
 }

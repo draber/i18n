@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Israel
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryIL extends CountryAbstract
+class IL extends CountryMethods
 {
+    const COUNTRIES_NAME = "Israel";
+    const COUNTRIES_CODE = "IL";
+    const CURRENCIES_CODE = "ILS";
+    const CURRENCIES_CURRENCY = "Israeli New Sheqel";
+    const CURRENCIES_SYMBOL = "₪";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'IL';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'ILS';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Israeli New Sheqel';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '₪';
 }

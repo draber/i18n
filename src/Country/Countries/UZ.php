@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Uzbekistan
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryUZ extends CountryAbstract
+class UZ extends CountryMethods
 {
+    const COUNTRIES_NAME = "Uzbekistan";
+    const COUNTRIES_CODE = "UZ";
+    const CURRENCIES_CODE = "UZS";
+    const CURRENCIES_CURRENCY = "Uzbekistani Som";
+    const CURRENCIES_SYMBOL = "лв";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'UZ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'UZS';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Uzbekistani Som';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'лв';
 }

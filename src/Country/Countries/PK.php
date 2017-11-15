@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Pakistan
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryPK extends CountryAbstract
+class PK extends CountryMethods
 {
+    const COUNTRIES_NAME = "Pakistan";
+    const COUNTRIES_CODE = "PK";
+    const CURRENCIES_CODE = "PKR";
+    const CURRENCIES_CURRENCY = "Pakistani Rupee";
+    const CURRENCIES_SYMBOL = "Ɍs";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'PK';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'PKR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Pakistani Rupee';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Ɍs';
 }

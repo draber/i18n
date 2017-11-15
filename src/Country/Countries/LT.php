@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Lithuania
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryLT extends CountryAbstract
+class LT extends CountryMethods
 {
+    const COUNTRIES_NAME = "Lithuania";
+    const COUNTRIES_CODE = "LT";
+    const CURRENCIES_CODE = "LTL";
+    const CURRENCIES_CURRENCY = "Lithuanian Litas";
+    const CURRENCIES_SYMBOL = "Lt";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'LT';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'LTL';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Lithuanian Litas';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Lt';
 }

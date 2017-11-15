@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Maldives
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMV extends CountryAbstract
+class MV extends CountryMethods
 {
+    const COUNTRIES_NAME = "Maldives";
+    const COUNTRIES_CODE = "MV";
+    const CURRENCIES_CODE = "MVR";
+    const CURRENCIES_CURRENCY = "Maldivian Rufiyaa";
+    const CURRENCIES_SYMBOL = "Rf";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MV';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MVR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Maldivian Rufiyaa';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Rf';
 }

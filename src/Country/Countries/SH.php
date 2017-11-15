@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Saint Helena
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySH extends CountryAbstract
+class SH extends CountryMethods
 {
+    const COUNTRIES_NAME = "Saint Helena";
+    const COUNTRIES_CODE = "SH";
+    const CURRENCIES_CODE = "SHP";
+    const CURRENCIES_CURRENCY = "Saint Helena Pound";
+    const CURRENCIES_SYMBOL = "£";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SH';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SHP';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Saint Helena Pound';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '£';
 }

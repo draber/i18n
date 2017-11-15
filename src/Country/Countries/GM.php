@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Gambia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryGM extends CountryAbstract
+class GM extends CountryMethods
 {
+    const COUNTRIES_NAME = "Gambia";
+    const COUNTRIES_CODE = "GM";
+    const CURRENCIES_CODE = "GMD";
+    const CURRENCIES_CURRENCY = "Gambian Dalasi";
+    const CURRENCIES_SYMBOL = "D";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'GM';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'GMD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Gambian Dalasi';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'D';
 }

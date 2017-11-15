@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for New Caledonia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryNC extends CountryAbstract
+class NC extends CountryMethods
 {
+    const COUNTRIES_NAME = "New Caledonia";
+    const COUNTRIES_CODE = "NC";
+    const CURRENCIES_CODE = "XPF";
+    const CURRENCIES_CURRENCY = "CFP Franc";
+    const CURRENCIES_SYMBOL = "F";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'NC';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'XPF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'CFP Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'F';
 }

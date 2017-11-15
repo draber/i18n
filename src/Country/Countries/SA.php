@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Saudi Arabia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySA extends CountryAbstract
+class SA extends CountryMethods
 {
+    const COUNTRIES_NAME = "Saudi Arabia";
+    const COUNTRIES_CODE = "SA";
+    const CURRENCIES_CODE = "SAR";
+    const CURRENCIES_CURRENCY = "Saudi Riyal";
+    const CURRENCIES_SYMBOL = "ر.س";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SA';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SAR';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Saudi Riyal';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ر.س';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Malawi
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryMW extends CountryAbstract
+class MW extends CountryMethods
 {
+    const COUNTRIES_NAME = "Malawi";
+    const COUNTRIES_CODE = "MW";
+    const CURRENCIES_CODE = "MWK";
+    const CURRENCIES_CURRENCY = "Malawian Kwacha";
+    const CURRENCIES_SYMBOL = "MK";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'MW';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'MWK';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Malawian Kwacha';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'MK';
 }

@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Georgia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryGE extends CountryAbstract
+class GE extends CountryMethods
 {
+    const COUNTRIES_NAME = "Georgia";
+    const COUNTRIES_CODE = "GE";
+    const CURRENCIES_CODE = "GEL";
+    const CURRENCIES_CURRENCY = "Georgian Lari";
+    const CURRENCIES_SYMBOL = "ლ";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'GE';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'GEL';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Georgian Lari';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'ლ';
 }

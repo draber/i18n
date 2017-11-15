@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Liechtenstein
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryLI extends CountryAbstract
+class LI extends CountryMethods
 {
+    const COUNTRIES_NAME = "Liechtenstein";
+    const COUNTRIES_CODE = "LI";
+    const CURRENCIES_CODE = "CHF";
+    const CURRENCIES_CURRENCY = "Swiss Franc";
+    const CURRENCIES_SYMBOL = "Fr";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'LI';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'CHF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Swiss Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Fr';
 }

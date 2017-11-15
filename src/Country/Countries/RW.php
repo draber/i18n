@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Rwanda
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryRW extends CountryAbstract
+class RW extends CountryMethods
 {
+    const COUNTRIES_NAME = "Rwanda";
+    const COUNTRIES_CODE = "RW";
+    const CURRENCIES_CODE = "RWF";
+    const CURRENCIES_CURRENCY = "Rwandan Franc";
+    const CURRENCIES_SYMBOL = "RF";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'RW';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'RWF';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Rwandan Franc';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'RF';
 }

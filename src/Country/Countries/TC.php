@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Turks and Caicos Islands
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryTC extends CountryAbstract
+class TC extends CountryMethods
 {
+    const COUNTRIES_NAME = "Turks and Caicos Islands";
+    const COUNTRIES_CODE = "TC";
+    const CURRENCIES_CODE = "USD";
+    const CURRENCIES_CURRENCY = "US Dollar";
+    const CURRENCIES_SYMBOL = "$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'TC';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'USD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'US Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = '$';
 }

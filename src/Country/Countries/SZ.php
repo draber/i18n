@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Swaziland
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountrySZ extends CountryAbstract
+class SZ extends CountryMethods
 {
+    const COUNTRIES_NAME = "Swaziland";
+    const COUNTRIES_CODE = "SZ";
+    const CURRENCIES_CODE = "SZL";
+    const CURRENCIES_CURRENCY = "Swazi Lilangeni";
+    const CURRENCIES_SYMBOL = "L";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'SZ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'SZL';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Swazi Lilangeni';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'L';
 }

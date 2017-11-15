@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Taiwan
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryTW extends CountryAbstract
+class TW extends CountryMethods
 {
+    const COUNTRIES_NAME = "Taiwan";
+    const COUNTRIES_CODE = "TW";
+    const CURRENCIES_CODE = "TWD";
+    const CURRENCIES_CURRENCY = "New Taiwan Dollar";
+    const CURRENCIES_SYMBOL = "NT$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'TW';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'TWD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'New Taiwan Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'NT$';
 }

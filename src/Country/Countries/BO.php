@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for Bolivia
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryBO extends CountryAbstract
+class BO extends CountryMethods
 {
+    const COUNTRIES_NAME = "Bolivia";
+    const COUNTRIES_CODE = "BO";
+    const CURRENCIES_CODE = "BOB";
+    const CURRENCIES_CURRENCY = "Bolivian Boliviano";
+    const CURRENCIES_SYMBOL = "Bs.";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'BO';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'BOB';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Bolivian Boliviano';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'Bs.';
 }

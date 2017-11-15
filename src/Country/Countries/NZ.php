@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for New Zealand
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryNZ extends CountryAbstract
+class NZ extends CountryMethods
 {
+    const COUNTRIES_NAME = "New Zealand";
+    const COUNTRIES_CODE = "NZ";
+    const CURRENCIES_CODE = "NZD";
+    const CURRENCIES_CURRENCY = "New Zealand Dollar";
+    const CURRENCIES_SYMBOL = "NZ$";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'NZ';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'NZD';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'New Zealand Dollar';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'NZ$';
 }

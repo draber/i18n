@@ -23,35 +23,27 @@
  * SOFTWARE.
  */
 
+/**
+ * WARNING: This is generated code - DO NOT EDIT!
+ * Create a new data file in Generator/data/countries instead and run the
+ * the code generator.
+ */
+
 namespace draber\i18n\Country\Countries;
 
-use draber\i18n\Country\CountryAbstract;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
- * Country specific code for China
+ * Country specific code for {NAME}
  *
  * @author Dieter Raber
  */
-class CountryCN extends CountryAbstract
+class CN extends CountryMethods
 {
+    const COUNTRIES_NAME = "China";
+    const COUNTRIES_CODE = "CN";
+    const CURRENCIES_CODE = "CNY";
+    const CURRENCIES_CURRENCY = "Chinese Yuan Renminbi";
+    const CURRENCIES_SYMBOL = "CN¥";
 
-    /**
-     * ISO 3166-1 alpha 2 Country Code
-     */
-    const COUNTRY_CODE = 'CN';
-
-    /**
-     * ISO 4217 Currency Code
-     */
-    const CURRENCY_CODE = 'CNY';
-
-    /**
-     * Currency Name
-     */
-    const CURRENCY_NAME = 'Chinese Yuan Renminbi';
-
-    /**
-     * Currency Symbol
-     */
-    const CURRENCY_SYMBOL = 'CN¥';
 }
