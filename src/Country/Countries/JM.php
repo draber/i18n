@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class JM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Jamaica";
-    const COUNTRIES_CODE = "JM";
-    const CURRENCIES_CODE = "JMD";
-    const CURRENCIES_CURRENCY = "Jamaican Dollar";
-    const CURRENCIES_SYMBOL = "J$";
+    const COUNTRY_NAME = "Jamaica";
+    const COUNTRY_CODE = "JM";
+    const CURRENCY_CODE = "JMD";
+    const CURRENCY_NAME = "Jamaican Dollar";
+    const CURRENCY_SYMBOL = "J$";
 
 }

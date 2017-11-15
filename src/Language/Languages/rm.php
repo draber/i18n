@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class rm extends LanguageMethods
 {
-    const LANGUAGES_CODE = "rm";
-    const LANGUAGES_NAME = "Rhaeto-Romance";
-    const LANGUAGES_NATIVE_NAME = "rumantsch";
+    const LANGUAGE_CODE = "rm";
+    const LANGUAGE_NAME = "Rhaeto-Romance";
+    const LANGUAGE_NATIVE_NAME = "rumantsch";
 
 }

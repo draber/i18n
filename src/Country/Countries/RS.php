@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class RS extends CountryMethods
 {
-    const COUNTRIES_NAME = "Serbia";
-    const COUNTRIES_CODE = "RS";
-    const CURRENCIES_CODE = "RSD";
-    const CURRENCIES_CURRENCY = "Serbian Dinar";
-    const CURRENCIES_SYMBOL = "Дин.";
+    const COUNTRY_NAME = "Serbia";
+    const COUNTRY_CODE = "RS";
+    const CURRENCY_CODE = "RSD";
+    const CURRENCY_NAME = "Serbian Dinar";
+    const CURRENCY_SYMBOL = "Дин.";
 
 }

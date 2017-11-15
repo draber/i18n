@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MV extends CountryMethods
 {
-    const COUNTRIES_NAME = "Maldives";
-    const COUNTRIES_CODE = "MV";
-    const CURRENCIES_CODE = "MVR";
-    const CURRENCIES_CURRENCY = "Maldivian Rufiyaa";
-    const CURRENCIES_SYMBOL = "Rf";
+    const COUNTRY_NAME = "Maldives";
+    const COUNTRY_CODE = "MV";
+    const CURRENCY_CODE = "MVR";
+    const CURRENCY_NAME = "Maldivian Rufiyaa";
+    const CURRENCY_SYMBOL = "Rf";
 
 }

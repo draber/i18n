@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class FM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Micronesia";
-    const COUNTRIES_CODE = "FM";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "US Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Micronesia";
+    const COUNTRY_CODE = "FM";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "US Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

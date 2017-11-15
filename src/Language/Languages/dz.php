@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class dz extends LanguageMethods
 {
-    const LANGUAGES_CODE = "dz";
-    const LANGUAGES_NAME = "Bhutani";
-    const LANGUAGES_NATIVE_NAME = "རྫོང་ཁ";
+    const LANGUAGE_CODE = "dz";
+    const LANGUAGE_NAME = "Bhutani";
+    const LANGUAGE_NATIVE_NAME = "རྫོང་ཁ";
 
 }

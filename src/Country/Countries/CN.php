@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CN extends CountryMethods
 {
-    const COUNTRIES_NAME = "China";
-    const COUNTRIES_CODE = "CN";
-    const CURRENCIES_CODE = "CNY";
-    const CURRENCIES_CURRENCY = "Chinese Yuan Renminbi";
-    const CURRENCIES_SYMBOL = "CN¥";
+    const COUNTRY_NAME = "China";
+    const COUNTRY_CODE = "CN";
+    const CURRENCY_CODE = "CNY";
+    const CURRENCY_NAME = "Chinese Yuan Renminbi";
+    const CURRENCY_SYMBOL = "CN¥";
 
 }

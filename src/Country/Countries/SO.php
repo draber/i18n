@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Somalia";
-    const COUNTRIES_CODE = "SO";
-    const CURRENCIES_CODE = "SOS";
-    const CURRENCIES_CURRENCY = "Somali Shilling";
-    const CURRENCIES_SYMBOL = "So. Sh.";
+    const COUNTRY_NAME = "Somalia";
+    const COUNTRY_CODE = "SO";
+    const CURRENCY_CODE = "SOS";
+    const CURRENCY_NAME = "Somali Shilling";
+    const CURRENCY_SYMBOL = "So. Sh.";
 
 }

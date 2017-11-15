@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Puerto Rico";
-    const COUNTRIES_CODE = "PR";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "United States Dollar";
-    const CURRENCIES_SYMBOL = "US$";
+    const COUNTRY_NAME = "Puerto Rico";
+    const COUNTRY_CODE = "PR";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "United States Dollar";
+    const CURRENCY_SYMBOL = "US$";
 
 }

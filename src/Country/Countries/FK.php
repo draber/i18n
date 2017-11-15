@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class FK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Falkland Islands";
-    const COUNTRIES_CODE = "FK";
-    const CURRENCIES_CODE = "FKP";
-    const CURRENCIES_CURRENCY = "Falkland Islands Pound";
-    const CURRENCIES_SYMBOL = "FK£";
+    const COUNTRY_NAME = "Falkland Islands";
+    const COUNTRY_CODE = "FK";
+    const CURRENCY_CODE = "FKP";
+    const CURRENCY_NAME = "Falkland Islands Pound";
+    const CURRENCY_SYMBOL = "FK£";
 
 }

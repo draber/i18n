@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cambodia";
-    const COUNTRIES_CODE = "KH";
-    const CURRENCIES_CODE = "KHR";
-    const CURRENCIES_CURRENCY = "Cambodian Riel";
-    const CURRENCIES_SYMBOL = "៛";
+    const COUNTRY_NAME = "Cambodia";
+    const COUNTRY_CODE = "KH";
+    const CURRENCY_CODE = "KHR";
+    const CURRENCY_NAME = "Cambodian Riel";
+    const CURRENCY_SYMBOL = "៛";
 
 }

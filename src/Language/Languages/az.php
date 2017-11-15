@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class az extends LanguageMethods
 {
-    const LANGUAGES_CODE = "az";
-    const LANGUAGES_NAME = "Azerbaijani";
-    const LANGUAGES_NATIVE_NAME = "azərbaycan";
+    const LANGUAGE_CODE = "az";
+    const LANGUAGE_NAME = "Azerbaijani";
+    const LANGUAGE_NATIVE_NAME = "azərbaycan";
     const NUMERALS = [
-        0 => 'sıfır',
-        1 => 'bir',
-        2 => 'iki',
-        3 => 'üç',
-        4 => 'dörd',
-        5 => 'beş',
-        6 => 'altı',
-        7 => 'yeddi',
-        8 => 'səkkiz',
-        9 => 'doqquz',
-        10 => 'on',
-        11 => 'on bir',
-        12 => 'on iki',
-        13 => 'on uç',
-        14 => 'on dörd',
-        15 => 'on beş',
-        16 => 'on altı',
-        17 => 'on yeddi',
-        18 => 'on səkkiz',
-        19 => 'on doqquz',
-        20 => 'iyirmi',
+            0 => 'sıfır',
+            1 => 'bir',
+            2 => 'iki',
+            3 => 'üç',
+            4 => 'dörd',
+            5 => 'beş',
+            6 => 'altı',
+            7 => 'yeddi',
+            8 => 'səkkiz',
+            9 => 'doqquz',
+            10 => 'on',
+            11 => 'on bir',
+            12 => 'on iki',
+            13 => 'on uç',
+            14 => 'on dörd',
+            15 => 'on beş',
+            16 => 'on altı',
+            17 => 'on yeddi',
+            18 => 'on səkkiz',
+            19 => 'on doqquz',
+            20 => 'iyirmi',
     ];
 
 }

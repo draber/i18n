@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class my extends LanguageMethods
 {
-    const LANGUAGES_CODE = "my";
-    const LANGUAGES_NAME = "Burmese";
-    const LANGUAGES_NATIVE_NAME = "မြန်မာ";
+    const LANGUAGE_CODE = "my";
+    const LANGUAGE_NAME = "Burmese";
+    const LANGUAGE_NATIVE_NAME = "မြန်မာ";
 
 }

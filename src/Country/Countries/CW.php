@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Curaçao";
-    const COUNTRIES_CODE = "CW";
-    const CURRENCIES_CODE = "ANG";
-    const CURRENCIES_CURRENCY = "Netherlands Antilles Guilder";
-    const CURRENCIES_SYMBOL = "ƒ";
+    const COUNTRY_NAME = "Curaçao";
+    const COUNTRY_CODE = "CW";
+    const CURRENCY_CODE = "ANG";
+    const CURRENCY_NAME = "Netherlands Antilles Guilder";
+    const CURRENCY_SYMBOL = "ƒ";
 
 }

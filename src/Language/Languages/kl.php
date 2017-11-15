@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class kl extends LanguageMethods
 {
-    const LANGUAGES_CODE = "kl";
-    const LANGUAGES_NAME = "Greenlandic";
-    const LANGUAGES_NATIVE_NAME = "kalaallisut";
+    const LANGUAGE_CODE = "kl";
+    const LANGUAGE_NAME = "Greenlandic";
+    const LANGUAGE_NATIVE_NAME = "kalaallisut";
     const NUMERALS = [
-        0 => 'nuulu',
-        1 => 'ataaseq',
-        2 => 'marluk',
-        3 => 'pingasut',
-        4 => 'sisamat',
-        5 => 'tallimat',
-        6 => 'arfinillit',
-        7 => 'arfineq marluk',
-        8 => 'arfineq pingasut',
-        9 => 'qulingiluat',
-        10 => 'qulit',
-        11 => 'aqqaneq',
-        12 => 'aqqaneq-marluk',
-        13 => 'aqqaneq-pingasut',
-        14 => 'aqqaneq-sisamat',
-        15 => 'aqqaneq-tallimat',
-        16 => 'arvirsanillit',
-        17 => 'arvirsani marluk',
-        18 => 'arvirsani pingasut',
-        19 => 'arvirsani sisamat',
-        20 => 'arvirsani tallimat',
+            0 => 'nuulu',
+            1 => 'ataaseq',
+            2 => 'marluk',
+            3 => 'pingasut',
+            4 => 'sisamat',
+            5 => 'tallimat',
+            6 => 'arfinillit',
+            7 => 'arfineq marluk',
+            8 => 'arfineq pingasut',
+            9 => 'qulingiluat',
+            10 => 'qulit',
+            11 => 'aqqaneq',
+            12 => 'aqqaneq-marluk',
+            13 => 'aqqaneq-pingasut',
+            14 => 'aqqaneq-sisamat',
+            15 => 'aqqaneq-tallimat',
+            16 => 'arvirsanillit',
+            17 => 'arvirsani marluk',
+            18 => 'arvirsani pingasut',
+            19 => 'arvirsani sisamat',
+            20 => 'arvirsani tallimat',
     ];
 
 }

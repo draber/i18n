@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Iran";
-    const COUNTRIES_CODE = "IR";
-    const CURRENCIES_CODE = "IRR";
-    const CURRENCIES_CURRENCY = "Iranian Rial";
-    const CURRENCIES_SYMBOL = "﷼";
+    const COUNTRY_NAME = "Iran";
+    const COUNTRY_CODE = "IR";
+    const CURRENCY_CODE = "IRR";
+    const CURRENCY_NAME = "Iranian Rial";
+    const CURRENCY_SYMBOL = "﷼";
 
 }

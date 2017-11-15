@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class eo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "eo";
-    const LANGUAGES_NAME = "Esperanto";
-    const LANGUAGES_NATIVE_NAME = "esperanto";
+    const LANGUAGE_CODE = "eo";
+    const LANGUAGE_NAME = "Esperanto";
+    const LANGUAGE_NATIVE_NAME = "esperanto";
     const NUMERALS = [
-        0 => 'nulo',
-        1 => 'unu',
-        2 => 'du',
-        3 => 'tri',
-        4 => 'kvar',
-        5 => 'kvin',
-        6 => 'ses',
-        7 => 'sep',
-        8 => 'ok',
-        9 => 'naŭ',
-        10 => 'dek',
-        11 => 'dek unu',
-        12 => 'dek du',
-        13 => 'dek tri',
-        14 => 'dek kvar',
-        15 => 'dek kvin',
-        16 => 'dek ses',
-        17 => 'dek sep',
-        18 => 'dek ok',
-        19 => 'dek naŭ',
-        20 => 'dudek',
+            0 => 'nulo',
+            1 => 'unu',
+            2 => 'du',
+            3 => 'tri',
+            4 => 'kvar',
+            5 => 'kvin',
+            6 => 'ses',
+            7 => 'sep',
+            8 => 'ok',
+            9 => 'naŭ',
+            10 => 'dek',
+            11 => 'dek unu',
+            12 => 'dek du',
+            13 => 'dek tri',
+            14 => 'dek kvar',
+            15 => 'dek kvin',
+            16 => 'dek ses',
+            17 => 'dek sep',
+            18 => 'dek ok',
+            19 => 'dek naŭ',
+            20 => 'dudek',
     ];
 
 }

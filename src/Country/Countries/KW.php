@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Kuwait";
-    const COUNTRIES_CODE = "KW";
-    const CURRENCIES_CODE = "KWD";
-    const CURRENCIES_CURRENCY = "Kuwaiti Dinar";
-    const CURRENCIES_SYMBOL = "د.ك";
+    const COUNTRY_NAME = "Kuwait";
+    const COUNTRY_CODE = "KW";
+    const CURRENCY_CODE = "KWD";
+    const CURRENCY_NAME = "Kuwaiti Dinar";
+    const CURRENCY_SYMBOL = "د.ك";
 
 }

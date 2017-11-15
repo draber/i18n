@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class gv extends LanguageMethods
 {
-    const LANGUAGES_CODE = "gv";
-    const LANGUAGES_NAME = "Manx Gaelic";
-    const LANGUAGES_NATIVE_NAME = "Gaelg";
+    const LANGUAGE_CODE = "gv";
+    const LANGUAGE_NAME = "Manx Gaelic";
+    const LANGUAGE_NATIVE_NAME = "Gaelg";
     const NUMERALS = [
-        0 => 'neunhee',
-        1 => 'naneun',
-        2 => 'jeesdaa',
-        3 => 'tree',
-        4 => 'kiare',
-        5 => 'queig',
-        6 => 'shey',
-        7 => 'shiaght',
-        8 => 'hoght',
-        9 => 'nuy',
-        10 => 'jeih',
-        11 => 'nane-jeigunnane-jeig',
-        12 => 'daa-yeig',
-        13 => 'tree-jeig',
-        14 => 'kiare-jeig',
-        15 => 'queig-jeig',
-        16 => 'shey-jeig',
-        17 => 'shiaght-jeig',
-        18 => 'hoght-jeig',
-        19 => 'nuy-jeig',
-        20 => 'feed',
+            0 => 'neunhee',
+            1 => 'naneun',
+            2 => 'jeesdaa',
+            3 => 'tree',
+            4 => 'kiare',
+            5 => 'queig',
+            6 => 'shey',
+            7 => 'shiaght',
+            8 => 'hoght',
+            9 => 'nuy',
+            10 => 'jeih',
+            11 => 'nane-jeigunnane-jeig',
+            12 => 'daa-yeig',
+            13 => 'tree-jeig',
+            14 => 'kiare-jeig',
+            15 => 'queig-jeig',
+            16 => 'shey-jeig',
+            17 => 'shiaght-jeig',
+            18 => 'hoght-jeig',
+            19 => 'nuy-jeig',
+            20 => 'feed',
     ];
 
 }

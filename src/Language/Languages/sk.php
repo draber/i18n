@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sk extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sk";
-    const LANGUAGES_NAME = "Slovak";
-    const LANGUAGES_NATIVE_NAME = "slovenčina";
+    const LANGUAGE_CODE = "sk";
+    const LANGUAGE_NAME = "Slovak";
+    const LANGUAGE_NATIVE_NAME = "slovenčina";
     const NUMERALS = [
-        0 => 'nula',
-        1 => 'jeden',
-        2 => 'dva',
-        3 => 'tri',
-        4 => 'štyri',
-        5 => 'päť',
-        6 => 'šesť',
-        7 => 'sedem',
-        8 => 'osem',
-        9 => 'deväť',
-        10 => 'desať',
-        11 => 'jedenásť',
-        12 => 'dvanásť',
-        13 => 'trinásť',
-        14 => 'štrnásť',
-        15 => 'pätnásť',
-        16 => 'šestnásť',
-        17 => 'sedemnásť',
-        18 => 'osemnásť',
-        19 => 'devätnásť',
-        20 => 'dvadsať',
+            0 => 'nula',
+            1 => 'jeden',
+            2 => 'dva',
+            3 => 'tri',
+            4 => 'štyri',
+            5 => 'päť',
+            6 => 'šesť',
+            7 => 'sedem',
+            8 => 'osem',
+            9 => 'deväť',
+            10 => 'desať',
+            11 => 'jedenásť',
+            12 => 'dvanásť',
+            13 => 'trinásť',
+            14 => 'štrnásť',
+            15 => 'pätnásť',
+            16 => 'šestnásť',
+            17 => 'sedemnásť',
+            18 => 'osemnásť',
+            19 => 'devätnásť',
+            20 => 'dvadsať',
     ];
 
 }

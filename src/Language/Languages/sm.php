@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sm extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sm";
-    const LANGUAGES_NAME = "Samoan";
-    const LANGUAGES_NATIVE_NAME = "Samoan";
+    const LANGUAGE_CODE = "sm";
+    const LANGUAGE_NAME = "Samoan";
+    const LANGUAGE_NATIVE_NAME = "Samoan";
     const NUMERALS = [
-        0 => '\'ō',
-        1 => 'tasi',
-        2 => 'lua',
-        3 => 'tolu',
-        4 => 'fa',
-        5 => 'lima',
-        6 => 'ono',
-        7 => 'fitu',
-        8 => 'valu',
-        9 => 'iva',
-        10 => 'sefulu',
-        11 => 'sefulu-tasi',
-        12 => 'sefulu-lua',
-        13 => 'sefulu-tolu',
-        14 => 'sefulu-fa',
-        15 => 'sefulu-lima',
-        16 => 'sefulu-ono',
-        17 => 'sefulu-fitu',
-        18 => 'sefulu-valu',
-        19 => 'sefulu-iva',
-        20 => 'lua-sefulu',
+            0 => '\'ō',
+            1 => 'tasi',
+            2 => 'lua',
+            3 => 'tolu',
+            4 => 'fa',
+            5 => 'lima',
+            6 => 'ono',
+            7 => 'fitu',
+            8 => 'valu',
+            9 => 'iva',
+            10 => 'sefulu',
+            11 => 'sefulu-tasi',
+            12 => 'sefulu-lua',
+            13 => 'sefulu-tolu',
+            14 => 'sefulu-fa',
+            15 => 'sefulu-lima',
+            16 => 'sefulu-ono',
+            17 => 'sefulu-fitu',
+            18 => 'sefulu-valu',
+            19 => 'sefulu-iva',
+            20 => 'lua-sefulu',
     ];
 
 }

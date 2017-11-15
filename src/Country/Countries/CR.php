@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Costa Rica";
-    const COUNTRIES_CODE = "CR";
-    const CURRENCIES_CODE = "CRC";
-    const CURRENCIES_CURRENCY = "Costa Rican Colón";
-    const CURRENCIES_SYMBOL = "₡";
+    const COUNTRY_NAME = "Costa Rica";
+    const COUNTRY_CODE = "CR";
+    const CURRENCY_CODE = "CRC";
+    const CURRENCY_NAME = "Costa Rican Colón";
+    const CURRENCY_SYMBOL = "₡";
 
 }

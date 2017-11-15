@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LI extends CountryMethods
 {
-    const COUNTRIES_NAME = "Liechtenstein";
-    const COUNTRIES_CODE = "LI";
-    const CURRENCIES_CODE = "CHF";
-    const CURRENCIES_CURRENCY = "Swiss Franc";
-    const CURRENCIES_SYMBOL = "Fr";
+    const COUNTRY_NAME = "Liechtenstein";
+    const COUNTRY_CODE = "LI";
+    const CURRENCY_CODE = "CHF";
+    const CURRENCY_NAME = "Swiss Franc";
+    const CURRENCY_SYMBOL = "Fr";
 
 }

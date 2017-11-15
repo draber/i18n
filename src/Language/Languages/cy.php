@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class cy extends LanguageMethods
 {
-    const LANGUAGES_CODE = "cy";
-    const LANGUAGES_NAME = "Welsh";
-    const LANGUAGES_NATIVE_NAME = "Cymraeg";
+    const LANGUAGE_CODE = "cy";
+    const LANGUAGE_NAME = "Welsh";
+    const LANGUAGE_NATIVE_NAME = "Cymraeg";
     const NUMERALS = [
-        0 => 'dim',
-        1 => 'un',
-        2 => 'dau',
-        3 => 'tri',
-        4 => 'pedwar',
-        5 => 'pump',
-        6 => 'chwech',
-        7 => 'saith',
-        8 => 'wyth',
-        9 => 'naw',
-        10 => 'deg',
-        11 => 'un ar ddeg',
-        12 => 'deuddeg',
-        13 => 'tri ar ddeg',
-        14 => 'pedwar ar ddeg',
-        15 => 'pymtheg',
-        16 => 'un ar bymtheg',
-        17 => 'dau ar bymtheg',
-        18 => 'deunaw',
-        19 => 'pedwar ar bymtheg',
-        20 => 'ugain',
+            0 => 'dim',
+            1 => 'un',
+            2 => 'dau',
+            3 => 'tri',
+            4 => 'pedwar',
+            5 => 'pump',
+            6 => 'chwech',
+            7 => 'saith',
+            8 => 'wyth',
+            9 => 'naw',
+            10 => 'deg',
+            11 => 'un ar ddeg',
+            12 => 'deuddeg',
+            13 => 'tri ar ddeg',
+            14 => 'pedwar ar ddeg',
+            15 => 'pymtheg',
+            16 => 'un ar bymtheg',
+            17 => 'dau ar bymtheg',
+            18 => 'deunaw',
+            19 => 'pedwar ar bymtheg',
+            20 => 'ugain',
     ];
 
 }

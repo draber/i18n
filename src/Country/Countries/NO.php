@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Norway";
-    const COUNTRIES_CODE = "NO";
-    const CURRENCIES_CODE = "NOK";
-    const CURRENCIES_CURRENCY = "Norwegian Krone";
-    const CURRENCIES_SYMBOL = "kr";
+    const COUNTRY_NAME = "Norway";
+    const COUNTRY_CODE = "NO";
+    const CURRENCY_CODE = "NOK";
+    const CURRENCY_NAME = "Norwegian Krone";
+    const CURRENCY_SYMBOL = "kr";
 
 }

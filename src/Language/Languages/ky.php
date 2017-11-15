@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ky extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ky";
-    const LANGUAGES_NAME = "Kirghiz";
-    const LANGUAGES_NATIVE_NAME = "кыргызча";
+    const LANGUAGE_CODE = "ky";
+    const LANGUAGE_NAME = "Kirghiz";
+    const LANGUAGE_NATIVE_NAME = "кыргызча";
 
 }

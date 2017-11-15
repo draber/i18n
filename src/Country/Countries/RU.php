@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class RU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Russia";
-    const COUNTRIES_CODE = "RU";
-    const CURRENCIES_CODE = "RUB";
-    const CURRENCIES_CURRENCY = "Russian Ruble";
-    const CURRENCIES_SYMBOL = "руб";
+    const COUNTRY_NAME = "Russia";
+    const COUNTRY_CODE = "RU";
+    const CURRENCY_CODE = "RUB";
+    const CURRENCY_NAME = "Russian Ruble";
+    const CURRENCY_SYMBOL = "руб";
 
 }

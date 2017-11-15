@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Czech Republic";
-    const COUNTRIES_CODE = "CZ";
-    const CURRENCIES_CODE = "CZK";
-    const CURRENCIES_CURRENCY = "Czech Koruna";
-    const CURRENCIES_SYMBOL = "Kč";
+    const COUNTRY_NAME = "Czech Republic";
+    const COUNTRY_CODE = "CZ";
+    const CURRENCY_CODE = "CZK";
+    const CURRENCY_NAME = "Czech Koruna";
+    const CURRENCY_SYMBOL = "Kč";
 
 }

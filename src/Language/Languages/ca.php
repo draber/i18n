@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ca extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ca";
-    const LANGUAGES_NAME = "Catalan";
-    const LANGUAGES_NATIVE_NAME = "català";
+    const LANGUAGE_CODE = "ca";
+    const LANGUAGE_NAME = "Catalan";
+    const LANGUAGE_NATIVE_NAME = "català";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'u',
-        2 => 'dos',
-        3 => 'tres',
-        4 => 'quatre',
-        5 => 'cinc',
-        6 => 'sis',
-        7 => 'set',
-        8 => 'vuit',
-        9 => 'nou',
-        10 => 'deu',
-        11 => 'onze',
-        12 => 'dotze',
-        13 => 'tretze',
-        14 => 'catorze',
-        15 => 'quinze',
-        16 => 'setze',
-        17 => 'disset',
-        18 => 'divuit',
-        19 => 'dinou',
-        20 => 'vint',
+            0 => 'zero',
+            1 => 'u',
+            2 => 'dos',
+            3 => 'tres',
+            4 => 'quatre',
+            5 => 'cinc',
+            6 => 'sis',
+            7 => 'set',
+            8 => 'vuit',
+            9 => 'nou',
+            10 => 'deu',
+            11 => 'onze',
+            12 => 'dotze',
+            13 => 'tretze',
+            14 => 'catorze',
+            15 => 'quinze',
+            16 => 'setze',
+            17 => 'disset',
+            18 => 'divuit',
+            19 => 'dinou',
+            20 => 'vint',
     ];
 
 }

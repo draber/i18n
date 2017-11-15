@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class HT extends CountryMethods
 {
-    const COUNTRIES_NAME = "Haiti";
-    const COUNTRIES_CODE = "HT";
-    const CURRENCIES_CODE = "HTG";
-    const CURRENCIES_CURRENCY = "Haitian Gourde";
-    const CURRENCIES_SYMBOL = "G";
+    const COUNTRY_NAME = "Haiti";
+    const COUNTRY_CODE = "HT";
+    const CURRENCY_CODE = "HTG";
+    const CURRENCY_NAME = "Haitian Gourde";
+    const CURRENCY_SYMBOL = "G";
 
 }

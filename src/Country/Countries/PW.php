@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Palau";
-    const COUNTRIES_CODE = "PW";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "US Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Palau";
+    const COUNTRY_CODE = "PW";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "US Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

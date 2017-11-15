@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Marshall Islands";
-    const COUNTRIES_CODE = "MH";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "US Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Marshall Islands";
+    const COUNTRY_CODE = "MH";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "US Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

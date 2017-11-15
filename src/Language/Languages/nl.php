@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class nl extends LanguageMethods
 {
-    const LANGUAGES_CODE = "nl";
-    const LANGUAGES_NAME = "Dutch";
-    const LANGUAGES_NATIVE_NAME = "Nederlands";
+    const LANGUAGE_CODE = "nl";
+    const LANGUAGE_NAME = "Dutch";
+    const LANGUAGE_NATIVE_NAME = "Nederlands";
     const NUMERALS = [
-        0 => 'nul',
-        1 => 'één',
-        2 => 'twee',
-        3 => 'drie',
-        4 => 'vier',
-        5 => 'vĳf',
-        6 => 'zes',
-        7 => 'zeven',
-        8 => 'acht',
-        9 => 'negen',
-        10 => 'tien',
-        11 => 'elf',
-        12 => 'twaalf',
-        13 => 'dertien',
-        14 => 'veertien',
-        15 => 'vijftien',
-        16 => 'zestien',
-        17 => 'zeventien',
-        18 => 'achttien',
-        19 => 'negentien',
-        20 => 'twintig',
+            0 => 'nul',
+            1 => 'één',
+            2 => 'twee',
+            3 => 'drie',
+            4 => 'vier',
+            5 => 'vĳf',
+            6 => 'zes',
+            7 => 'zeven',
+            8 => 'acht',
+            9 => 'negen',
+            10 => 'tien',
+            11 => 'elf',
+            12 => 'twaalf',
+            13 => 'dertien',
+            14 => 'veertien',
+            15 => 'vijftien',
+            16 => 'zestien',
+            17 => 'zeventien',
+            18 => 'achttien',
+            19 => 'negentien',
+            20 => 'twintig',
     ];
 
 }

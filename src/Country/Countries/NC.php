@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NC extends CountryMethods
 {
-    const COUNTRIES_NAME = "New Caledonia";
-    const COUNTRIES_CODE = "NC";
-    const CURRENCIES_CODE = "XPF";
-    const CURRENCIES_CURRENCY = "CFP Franc";
-    const CURRENCIES_SYMBOL = "F";
+    const COUNTRY_NAME = "New Caledonia";
+    const COUNTRY_CODE = "NC";
+    const CURRENCY_CODE = "XPF";
+    const CURRENCY_NAME = "CFP Franc";
+    const CURRENCY_SYMBOL = "F";
 
 }

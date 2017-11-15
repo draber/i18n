@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class xh extends LanguageMethods
 {
-    const LANGUAGES_CODE = "xh";
-    const LANGUAGES_NAME = "Xhosa";
-    const LANGUAGES_NATIVE_NAME = "Xhosa";
+    const LANGUAGE_CODE = "xh";
+    const LANGUAGE_NAME = "Xhosa";
+    const LANGUAGE_NATIVE_NAME = "Xhosa";
     const NUMERALS = [
-        0 => 'unothi',
-        1 => 'inye',
-        2 => 'zimbini',
-        3 => 'zintathu',
-        4 => 'zine',
-        5 => 'zintlanu',
-        6 => 'zintandathu',
-        7 => 'isixhenxe',
-        8 => 'sisibhozo',
-        9 => 'lithoba',
-        10 => 'lishumi',
-        11 => 'lishumi elinanye',
-        12 => 'lishumi elinesbini',
-        13 => 'lishumi elinesithathu',
-        14 => 'lishumi elinesine',
-        15 => 'lishumi elinesihlanu',
-        16 => 'lishumi elinesithandathu',
-        17 => 'lishumi elinesixhenxe',
-        18 => 'lishumi elinesibhozo',
-        19 => 'lishumi elinethoba',
-        20 => 'amashumi amabini',
+            0 => 'unothi',
+            1 => 'inye',
+            2 => 'zimbini',
+            3 => 'zintathu',
+            4 => 'zine',
+            5 => 'zintlanu',
+            6 => 'zintandathu',
+            7 => 'isixhenxe',
+            8 => 'sisibhozo',
+            9 => 'lithoba',
+            10 => 'lishumi',
+            11 => 'lishumi elinanye',
+            12 => 'lishumi elinesbini',
+            13 => 'lishumi elinesithathu',
+            14 => 'lishumi elinesine',
+            15 => 'lishumi elinesihlanu',
+            16 => 'lishumi elinesithandathu',
+            17 => 'lishumi elinesixhenxe',
+            18 => 'lishumi elinesibhozo',
+            19 => 'lishumi elinethoba',
+            20 => 'amashumi amabini',
     ];
 
 }

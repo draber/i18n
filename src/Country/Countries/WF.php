@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class WF extends CountryMethods
 {
-    const COUNTRIES_NAME = "Wallis and Futuna";
-    const COUNTRIES_CODE = "WF";
-    const CURRENCIES_CODE = "XPF";
-    const CURRENCIES_CURRENCY = "CFP Franc";
-    const CURRENCIES_SYMBOL = "F";
+    const COUNTRY_NAME = "Wallis and Futuna";
+    const COUNTRY_CODE = "WF";
+    const CURRENCY_CODE = "XPF";
+    const CURRENCY_NAME = "CFP Franc";
+    const CURRENCY_SYMBOL = "F";
 
 }

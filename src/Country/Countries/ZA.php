@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ZA extends CountryMethods
 {
-    const COUNTRIES_NAME = "South Africa";
-    const COUNTRIES_CODE = "ZA";
-    const CURRENCIES_CODE = "ZAR";
-    const CURRENCIES_CURRENCY = "South African Rand";
-    const CURRENCIES_SYMBOL = "R";
+    const COUNTRY_NAME = "South Africa";
+    const COUNTRY_CODE = "ZA";
+    const CURRENCY_CODE = "ZAR";
+    const CURRENCY_NAME = "South African Rand";
+    const CURRENCY_SYMBOL = "R";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class WS extends CountryMethods
 {
-    const COUNTRIES_NAME = "Samoa";
-    const COUNTRIES_CODE = "WS";
-    const CURRENCIES_CODE = "WST";
-    const CURRENCIES_CURRENCY = "Samoan Tālā";
-    const CURRENCIES_SYMBOL = "T";
+    const COUNTRY_NAME = "Samoa";
+    const COUNTRY_CODE = "WS";
+    const CURRENCY_CODE = "WST";
+    const CURRENCY_NAME = "Samoan Tālā";
+    const CURRENCY_SYMBOL = "T";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class fi extends LanguageMethods
 {
-    const LANGUAGES_CODE = "fi";
-    const LANGUAGES_NAME = "Finnish";
-    const LANGUAGES_NATIVE_NAME = "suomi";
+    const LANGUAGE_CODE = "fi";
+    const LANGUAGE_NAME = "Finnish";
+    const LANGUAGE_NATIVE_NAME = "suomi";
     const NUMERALS = [
-        0 => 'nolla',
-        1 => 'yksi',
-        2 => 'kaksi',
-        3 => 'kolme',
-        4 => 'neljä',
-        5 => 'viisi',
-        6 => 'kuusi',
-        7 => 'seitsemän',
-        8 => 'kahdeksan',
-        9 => 'yhdeksän',
-        10 => 'kymmenen',
-        11 => 'yksitoista',
-        12 => 'kaksitoista',
-        13 => 'kolmetoista',
-        14 => 'neljätoista',
-        15 => 'viisitoista',
-        16 => 'kuusitoista',
-        17 => 'seitsemäntoista',
-        18 => 'kahdeksantoista',
-        19 => 'yhdeksäntoista',
-        20 => 'kaksikymmentä',
+            0 => 'nolla',
+            1 => 'yksi',
+            2 => 'kaksi',
+            3 => 'kolme',
+            4 => 'neljä',
+            5 => 'viisi',
+            6 => 'kuusi',
+            7 => 'seitsemän',
+            8 => 'kahdeksan',
+            9 => 'yhdeksän',
+            10 => 'kymmenen',
+            11 => 'yksitoista',
+            12 => 'kaksitoista',
+            13 => 'kolmetoista',
+            14 => 'neljätoista',
+            15 => 'viisitoista',
+            16 => 'kuusitoista',
+            17 => 'seitsemäntoista',
+            18 => 'kahdeksantoista',
+            19 => 'yhdeksäntoista',
+            20 => 'kaksikymmentä',
     ];
 
 }

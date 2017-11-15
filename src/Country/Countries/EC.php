@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class EC extends CountryMethods
 {
-    const COUNTRIES_NAME = "Ecuador";
-    const COUNTRIES_CODE = "EC";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "US Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Ecuador";
+    const COUNTRY_CODE = "EC";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "US Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

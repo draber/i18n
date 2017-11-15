@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class oc extends LanguageMethods
 {
-    const LANGUAGES_CODE = "oc";
-    const LANGUAGES_NAME = "Occitan";
-    const LANGUAGES_NATIVE_NAME = "Occitan";
+    const LANGUAGE_CODE = "oc";
+    const LANGUAGE_NAME = "Occitan";
+    const LANGUAGE_NATIVE_NAME = "Occitan";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'un',
-        2 => 'dos',
-        3 => 'tres',
-        4 => 'quatre',
-        5 => 'cinc',
-        6 => 'sièis',
-        7 => 'sèt',
-        8 => 'uèch',
-        9 => 'nòu',
-        10 => 'dètz',
-        11 => 'onze',
-        12 => 'dotze',
-        13 => 'tretze',
-        14 => 'catòrze',
-        15 => 'quinze',
-        16 => 'setze',
-        17 => 'dètz-e-sèt',
-        18 => 'dètz-e-uèch',
-        19 => 'dètz-e-nòu',
-        20 => 'vint',
+            0 => 'zero',
+            1 => 'un',
+            2 => 'dos',
+            3 => 'tres',
+            4 => 'quatre',
+            5 => 'cinc',
+            6 => 'sièis',
+            7 => 'sèt',
+            8 => 'uèch',
+            9 => 'nòu',
+            10 => 'dètz',
+            11 => 'onze',
+            12 => 'dotze',
+            13 => 'tretze',
+            14 => 'catòrze',
+            15 => 'quinze',
+            16 => 'setze',
+            17 => 'dètz-e-sèt',
+            18 => 'dètz-e-uèch',
+            19 => 'dètz-e-nòu',
+            20 => 'vint',
     ];
 
 }

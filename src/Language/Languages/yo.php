@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class yo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "yo";
-    const LANGUAGES_NAME = "Yoruba";
-    const LANGUAGES_NATIVE_NAME = "Èdè Yorùbá";
+    const LANGUAGE_CODE = "yo";
+    const LANGUAGE_NAME = "Yoruba";
+    const LANGUAGE_NATIVE_NAME = "Èdè Yorùbá";
     const NUMERALS = [
-        0 => 'odo',
-        1 => 'ení, ọ̀kan',
-        2 => 'èjì',
-        3 => 'ẹ̀ta',
-        4 => 'ẹ̀rin',
-        5 => 'àrún',
-        6 => 'ẹ̀fà',
-        7 => 'èje',
-        8 => 'ẹ̀jọ',
-        9 => 'ẹ̀sán',
-        10 => 'ẹ̀wá',
-        11 => 'ọ̀kanlá',
-        12 => 'èjìlá',
-        13 => 'ẹ̀talá',
-        14 => 'ẹ̀rinlá',
-        15 => 'ẹ́ẹdógún',
-        16 => 'ẹẹ́rìndílógún',
-        17 => 'eétàdílógún',
-        18 => 'eéjìdílógún',
-        19 => 'oókàndílógún',
-        20 => 'ogún',
+            0 => 'odo',
+            1 => 'ení, ọ̀kan',
+            2 => 'èjì',
+            3 => 'ẹ̀ta',
+            4 => 'ẹ̀rin',
+            5 => 'àrún',
+            6 => 'ẹ̀fà',
+            7 => 'èje',
+            8 => 'ẹ̀jọ',
+            9 => 'ẹ̀sán',
+            10 => 'ẹ̀wá',
+            11 => 'ọ̀kanlá',
+            12 => 'èjìlá',
+            13 => 'ẹ̀talá',
+            14 => 'ẹ̀rinlá',
+            15 => 'ẹ́ẹdógún',
+            16 => 'ẹẹ́rìndílógún',
+            17 => 'eétàdílógún',
+            18 => 'eéjìdílógún',
+            19 => 'oókàndílógún',
+            20 => 'ogún',
     ];
 
 }

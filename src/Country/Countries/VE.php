@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class VE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Venezuela";
-    const COUNTRIES_CODE = "VE";
-    const CURRENCIES_CODE = "VEF";
-    const CURRENCIES_CURRENCY = "Venezuelan Bolivar";
-    const CURRENCIES_SYMBOL = "Bs";
+    const COUNTRY_NAME = "Venezuela";
+    const COUNTRY_CODE = "VE";
+    const CURRENCY_CODE = "VEF";
+    const CURRENCY_NAME = "Venezuelan Bolivar";
+    const CURRENCY_SYMBOL = "Bs";
 
 }

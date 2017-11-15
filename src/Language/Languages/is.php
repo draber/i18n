@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class is extends LanguageMethods
 {
-    const LANGUAGES_CODE = "is";
-    const LANGUAGES_NAME = "Icelandic";
-    const LANGUAGES_NATIVE_NAME = "íslenska";
+    const LANGUAGE_CODE = "is";
+    const LANGUAGE_NAME = "Icelandic";
+    const LANGUAGE_NATIVE_NAME = "íslenska";
     const NUMERALS = [
-        0 => 'núll',
-        1 => 'einn',
-        2 => 'tveir',
-        3 => 'þrír',
-        4 => 'fjórir',
-        5 => 'fimm',
-        6 => 'sex',
-        7 => 'sjö',
-        8 => 'átta',
-        9 => 'níu',
-        10 => 'tíu',
-        11 => 'ellefu',
-        12 => 'tólf',
-        13 => 'þrettán',
-        14 => 'fjórtán',
-        15 => 'fimmtán',
-        16 => 'sextán',
-        17 => 'sautján',
-        18 => 'átján',
-        19 => 'nítján',
-        20 => 'tuttugu',
+            0 => 'núll',
+            1 => 'einn',
+            2 => 'tveir',
+            3 => 'þrír',
+            4 => 'fjórir',
+            5 => 'fimm',
+            6 => 'sex',
+            7 => 'sjö',
+            8 => 'átta',
+            9 => 'níu',
+            10 => 'tíu',
+            11 => 'ellefu',
+            12 => 'tólf',
+            13 => 'þrettán',
+            14 => 'fjórtán',
+            15 => 'fimmtán',
+            16 => 'sextán',
+            17 => 'sautján',
+            18 => 'átján',
+            19 => 'nítján',
+            20 => 'tuttugu',
     ];
 
 }

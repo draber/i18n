@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Gambia";
-    const COUNTRIES_CODE = "GM";
-    const CURRENCIES_CODE = "GMD";
-    const CURRENCIES_CURRENCY = "Gambian Dalasi";
-    const CURRENCIES_SYMBOL = "D";
+    const COUNTRY_NAME = "Gambia";
+    const COUNTRY_CODE = "GM";
+    const CURRENCY_CODE = "GMD";
+    const CURRENCY_NAME = "Gambian Dalasi";
+    const CURRENCY_SYMBOL = "D";
 
 }

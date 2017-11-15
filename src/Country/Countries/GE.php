@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Georgia";
-    const COUNTRIES_CODE = "GE";
-    const CURRENCIES_CODE = "GEL";
-    const CURRENCIES_CURRENCY = "Georgian Lari";
-    const CURRENCIES_SYMBOL = "ლ";
+    const COUNTRY_NAME = "Georgia";
+    const COUNTRY_CODE = "GE";
+    const CURRENCY_CODE = "GEL";
+    const CURRENCY_NAME = "Georgian Lari";
+    const CURRENCY_SYMBOL = "ლ";
 
 }

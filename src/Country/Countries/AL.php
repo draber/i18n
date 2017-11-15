@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Albania";
-    const COUNTRIES_CODE = "AL";
-    const CURRENCIES_CODE = "ALL";
-    const CURRENCIES_CURRENCY = "Albanian Lek";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Albania";
+    const COUNTRY_CODE = "AL";
+    const CURRENCY_CODE = "ALL";
+    const CURRENCY_NAME = "Albanian Lek";
+    const CURRENCY_SYMBOL = "L";
 
 }

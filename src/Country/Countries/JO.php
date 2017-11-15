@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class JO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Jordan";
-    const COUNTRIES_CODE = "JO";
-    const CURRENCIES_CODE = "JOD";
-    const CURRENCIES_CURRENCY = "Jordanian Dinar";
-    const CURRENCIES_SYMBOL = "د.ا";
+    const COUNTRY_NAME = "Jordan";
+    const COUNTRY_CODE = "JO";
+    const CURRENCY_CODE = "JOD";
+    const CURRENCY_NAME = "Jordanian Dinar";
+    const CURRENCY_SYMBOL = "د.ا";
 
 }

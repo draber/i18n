@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tonga";
-    const COUNTRIES_CODE = "TO";
-    const CURRENCIES_CODE = "TOP";
-    const CURRENCIES_CURRENCY = "Tongan Pa’anga";
-    const CURRENCIES_SYMBOL = "T$";
+    const COUNTRY_NAME = "Tonga";
+    const COUNTRY_CODE = "TO";
+    const CURRENCY_CODE = "TOP";
+    const CURRENCY_NAME = "Tongan Pa’anga";
+    const CURRENCY_SYMBOL = "T$";
 
 }

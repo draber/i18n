@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ug extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ug";
-    const LANGUAGES_NAME = "Uigur";
-    const LANGUAGES_NATIVE_NAME = "ئۇيغۇرچە";
+    const LANGUAGE_CODE = "ug";
+    const LANGUAGE_NAME = "Uigur";
+    const LANGUAGE_NATIVE_NAME = "ئۇيغۇرچە";
 
 }

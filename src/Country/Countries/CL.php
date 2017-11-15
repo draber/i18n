@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Chile";
-    const COUNTRIES_CODE = "CL";
-    const CURRENCIES_CODE = "CLP";
-    const CURRENCIES_CURRENCY = "Chilean Peso";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Chile";
+    const COUNTRY_CODE = "CL";
+    const CURRENCY_CODE = "CLP";
+    const CURRENCY_NAME = "Chilean Peso";
+    const CURRENCY_SYMBOL = "$";
 
 }

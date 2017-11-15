@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MQ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Martinique";
-    const COUNTRIES_CODE = "MQ";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "European Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Martinique";
+    const COUNTRY_CODE = "MQ";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "European Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

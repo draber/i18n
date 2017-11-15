@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class QA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Qatar";
-    const COUNTRIES_CODE = "QA";
-    const CURRENCIES_CODE = "QAR";
-    const CURRENCIES_CURRENCY = "Qatari Riyal";
-    const CURRENCIES_SYMBOL = "ر.ق";
+    const COUNTRY_NAME = "Qatar";
+    const COUNTRY_CODE = "QA";
+    const CURRENCY_CODE = "QAR";
+    const CURRENCY_NAME = "Qatari Riyal";
+    const CURRENCY_SYMBOL = "ر.ق";
 
 }

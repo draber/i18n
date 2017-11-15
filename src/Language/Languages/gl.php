@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class gl extends LanguageMethods
 {
-    const LANGUAGES_CODE = "gl";
-    const LANGUAGES_NAME = "Galician";
-    const LANGUAGES_NATIVE_NAME = "galego";
+    const LANGUAGE_CODE = "gl";
+    const LANGUAGE_NAME = "Galician";
+    const LANGUAGE_NATIVE_NAME = "galego";
     const NUMERALS = [
-        0 => 'cero',
-        1 => 'un',
-        2 => 'dous',
-        3 => 'tres',
-        4 => 'catro',
-        5 => 'cinco',
-        6 => 'seis',
-        7 => 'sete',
-        8 => 'oito',
-        9 => 'nove',
-        10 => 'dez',
-        11 => 'once',
-        12 => 'doce',
-        13 => 'trece',
-        14 => 'catorce',
-        15 => 'quince',
-        16 => 'dezaseis',
-        17 => 'dezasete',
-        18 => 'dezaoito',
-        19 => 'dezanove',
-        20 => 'vinte',
+            0 => 'cero',
+            1 => 'un',
+            2 => 'dous',
+            3 => 'tres',
+            4 => 'catro',
+            5 => 'cinco',
+            6 => 'seis',
+            7 => 'sete',
+            8 => 'oito',
+            9 => 'nove',
+            10 => 'dez',
+            11 => 'once',
+            12 => 'doce',
+            13 => 'trece',
+            14 => 'catorce',
+            15 => 'quince',
+            16 => 'dezaseis',
+            17 => 'dezasete',
+            18 => 'dezaoito',
+            19 => 'dezanove',
+            20 => 'vinte',
     ];
 
 }

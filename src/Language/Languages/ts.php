@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ts extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ts";
-    const LANGUAGES_NAME = "Tsonga";
-    const LANGUAGES_NATIVE_NAME = "Tsonga";
+    const LANGUAGE_CODE = "ts";
+    const LANGUAGE_NAME = "Tsonga";
+    const LANGUAGE_NATIVE_NAME = "Tsonga";
     const NUMERALS = [
-        0 => 'noto',
-        1 => 'n’we',
-        2 => 'mbirhi',
-        3 => 'nharhu',
-        4 => 'mune',
-        5 => 'ntlhanu',
-        6 => 'ntsevu',
-        7 => 'nkombo',
-        8 => 'nhungu',
-        9 => 'nkaye',
-        10 => 'khume',
-        11 => 'khume-n’we',
-        12 => 'khume-mbirhi',
-        13 => 'khume-nharhu',
-        14 => 'khume-mune',
-        15 => 'khume-ntlhanu',
-        16 => 'khume-ntsevu',
-        17 => 'khume-nkombo',
-        18 => 'khume-nhungu',
-        19 => 'khume-nkaye',
-        20 => 'makhume-mambhirhi',
+            0 => 'noto',
+            1 => 'n’we',
+            2 => 'mbirhi',
+            3 => 'nharhu',
+            4 => 'mune',
+            5 => 'ntlhanu',
+            6 => 'ntsevu',
+            7 => 'nkombo',
+            8 => 'nhungu',
+            9 => 'nkaye',
+            10 => 'khume',
+            11 => 'khume-n’we',
+            12 => 'khume-mbirhi',
+            13 => 'khume-nharhu',
+            14 => 'khume-mune',
+            15 => 'khume-ntlhanu',
+            16 => 'khume-ntsevu',
+            17 => 'khume-nkombo',
+            18 => 'khume-nhungu',
+            19 => 'khume-nkaye',
+            20 => 'makhume-mambhirhi',
     ];
 
 }

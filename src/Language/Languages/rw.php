@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class rw extends LanguageMethods
 {
-    const LANGUAGES_CODE = "rw";
-    const LANGUAGES_NAME = "Kinyarwanda";
-    const LANGUAGES_NATIVE_NAME = "Kinyarwanda";
+    const LANGUAGE_CODE = "rw";
+    const LANGUAGE_NAME = "Kinyarwanda";
+    const LANGUAGE_NATIVE_NAME = "Kinyarwanda";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'rimwe',
-        2 => 'kabiri',
-        3 => 'gatatu',
-        4 => 'kane',
-        5 => 'gatanu',
-        6 => 'gatandatu',
-        7 => 'karindwi',
-        8 => 'umunani',
-        9 => 'icyenda',
-        10 => 'icumi',
-        11 => 'cumi na rimwe',
-        12 => 'cumi na kabiri',
-        13 => 'cumi na gatatu',
-        14 => 'cumi na kane',
-        15 => 'cumi na gatanu',
-        16 => 'cumi na gatandatu',
-        17 => 'cumi na kalindwi',
-        18 => 'cumi n’umunane',
-        19 => 'cumi n’icyenda',
-        20 => 'makumyabiri',
+            0 => 'zero',
+            1 => 'rimwe',
+            2 => 'kabiri',
+            3 => 'gatatu',
+            4 => 'kane',
+            5 => 'gatanu',
+            6 => 'gatandatu',
+            7 => 'karindwi',
+            8 => 'umunani',
+            9 => 'icyenda',
+            10 => 'icumi',
+            11 => 'cumi na rimwe',
+            12 => 'cumi na kabiri',
+            13 => 'cumi na gatatu',
+            14 => 'cumi na kane',
+            15 => 'cumi na gatanu',
+            16 => 'cumi na gatandatu',
+            17 => 'cumi na kalindwi',
+            18 => 'cumi n’umunane',
+            19 => 'cumi n’icyenda',
+            20 => 'makumyabiri',
     ];
 
 }

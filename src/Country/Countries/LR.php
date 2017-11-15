@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Liberia";
-    const COUNTRIES_CODE = "LR";
-    const CURRENCIES_CODE = "LRD";
-    const CURRENCIES_CURRENCY = "Liberian Dollar";
-    const CURRENCIES_SYMBOL = "L$";
+    const COUNTRY_NAME = "Liberia";
+    const COUNTRY_CODE = "LR";
+    const CURRENCY_CODE = "LRD";
+    const CURRENCY_NAME = "Liberian Dollar";
+    const CURRENCY_SYMBOL = "L$";
 
 }

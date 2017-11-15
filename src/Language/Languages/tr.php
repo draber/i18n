@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class tr extends LanguageMethods
 {
-    const LANGUAGES_CODE = "tr";
-    const LANGUAGES_NAME = "Turkish";
-    const LANGUAGES_NATIVE_NAME = "Türkçe";
+    const LANGUAGE_CODE = "tr";
+    const LANGUAGE_NAME = "Turkish";
+    const LANGUAGE_NATIVE_NAME = "Türkçe";
     const NUMERALS = [
-        0 => 'sıfır',
-        1 => 'bir',
-        2 => 'iki',
-        3 => 'üç',
-        4 => 'dört',
-        5 => 'beş',
-        6 => 'altı',
-        7 => 'yedi',
-        8 => 'sekiz',
-        9 => 'dokuz',
-        10 => 'on',
-        11 => 'on bir',
-        12 => 'on iki',
-        13 => 'on üç',
-        14 => 'on dört',
-        15 => 'on beş',
-        16 => 'on altı',
-        17 => 'on yedi',
-        18 => 'on sekiz',
-        19 => 'on dokuz',
-        20 => 'yirmi',
+            0 => 'sıfır',
+            1 => 'bir',
+            2 => 'iki',
+            3 => 'üç',
+            4 => 'dört',
+            5 => 'beş',
+            6 => 'altı',
+            7 => 'yedi',
+            8 => 'sekiz',
+            9 => 'dokuz',
+            10 => 'on',
+            11 => 'on bir',
+            12 => 'on iki',
+            13 => 'on üç',
+            14 => 'on dört',
+            15 => 'on beş',
+            16 => 'on altı',
+            17 => 'on yedi',
+            18 => 'on sekiz',
+            19 => 'on dokuz',
+            20 => 'yirmi',
     ];
 
 }

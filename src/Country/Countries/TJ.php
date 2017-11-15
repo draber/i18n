@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TJ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tajikistan";
-    const COUNTRIES_CODE = "TJ";
-    const CURRENCIES_CODE = "TJS";
-    const CURRENCIES_CURRENCY = "Tajikistani Somoni";
-    const CURRENCIES_SYMBOL = "SM";
+    const COUNTRY_NAME = "Tajikistan";
+    const COUNTRY_CODE = "TJ";
+    const CURRENCY_CODE = "TJS";
+    const CURRENCY_NAME = "Tajikistani Somoni";
+    const CURRENCY_SYMBOL = "SM";
 
 }

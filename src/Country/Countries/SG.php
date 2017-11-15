@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Singapore";
-    const COUNTRIES_CODE = "SG";
-    const CURRENCIES_CODE = "SGD";
-    const CURRENCIES_CURRENCY = "Singapore Dollar";
-    const CURRENCIES_SYMBOL = "S$";
+    const COUNTRY_NAME = "Singapore";
+    const COUNTRY_CODE = "SG";
+    const CURRENCY_CODE = "SGD";
+    const CURRENCY_NAME = "Singapore Dollar";
+    const CURRENCY_SYMBOL = "S$";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Bolivia";
-    const COUNTRIES_CODE = "BO";
-    const CURRENCIES_CODE = "BOB";
-    const CURRENCIES_CURRENCY = "Bolivian Boliviano";
-    const CURRENCIES_SYMBOL = "Bs.";
+    const COUNTRY_NAME = "Bolivia";
+    const COUNTRY_CODE = "BO";
+    const CURRENCY_CODE = "BOB";
+    const CURRENCY_NAME = "Bolivian Boliviano";
+    const CURRENCY_SYMBOL = "Bs.";
 
 }

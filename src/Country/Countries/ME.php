@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ME extends CountryMethods
 {
-    const COUNTRIES_NAME = "Montenegro";
-    const COUNTRIES_CODE = "ME";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Montenegro";
+    const COUNTRY_CODE = "ME";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

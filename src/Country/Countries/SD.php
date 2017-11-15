@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SD extends CountryMethods
 {
-    const COUNTRIES_NAME = "Sudan";
-    const COUNTRIES_CODE = "SD";
-    const CURRENCIES_CODE = "SDG";
-    const CURRENCIES_CURRENCY = "Sudanese Pound";
-    const CURRENCIES_SYMBOL = "£Sd";
+    const COUNTRY_NAME = "Sudan";
+    const COUNTRY_CODE = "SD";
+    const CURRENCY_CODE = "SDG";
+    const CURRENCY_NAME = "Sudanese Pound";
+    const CURRENCY_SYMBOL = "£Sd";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ln extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ln";
-    const LANGUAGES_NAME = "Lingala";
-    const LANGUAGES_NATIVE_NAME = "lingála";
+    const LANGUAGE_CODE = "ln";
+    const LANGUAGE_NAME = "Lingala";
+    const LANGUAGE_NATIVE_NAME = "lingála";
     const NUMERALS = [
-        0 => 'zeló',
-        1 => 'mɔ̌kɔ́',
-        2 => 'míbalé',
-        3 => 'mísáto',
-        4 => 'mínei',
-        5 => 'mítáno',
-        6 => 'motóbá',
-        7 => 'nsambo',
-        8 => 'mwambe',
-        9 => 'libwá',
-        10 => 'zómi',
-        11 => 'zómi na mókó',
-        12 => 'zómi na míbalé',
-        13 => 'zómi na mísató',
-        14 => 'zómi na mínei',
-        15 => 'zómi na mítáno',
-        16 => 'zómi na motóba',
-        17 => 'zómi na sámbó',
-        18 => 'zómi na nwámbe',
-        19 => 'zómi na libwá',
-        20 => 'ntúkú míbalé',
+            0 => 'zeló',
+            1 => 'mɔ̌kɔ́',
+            2 => 'míbalé',
+            3 => 'mísáto',
+            4 => 'mínei',
+            5 => 'mítáno',
+            6 => 'motóbá',
+            7 => 'nsambo',
+            8 => 'mwambe',
+            9 => 'libwá',
+            10 => 'zómi',
+            11 => 'zómi na mókó',
+            12 => 'zómi na míbalé',
+            13 => 'zómi na mísató',
+            14 => 'zómi na mínei',
+            15 => 'zómi na mítáno',
+            16 => 'zómi na motóba',
+            17 => 'zómi na sámbó',
+            18 => 'zómi na nwámbe',
+            19 => 'zómi na libwá',
+            20 => 'ntúkú míbalé',
     ];
 
 }

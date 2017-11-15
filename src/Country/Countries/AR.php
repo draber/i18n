@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Argentina";
-    const COUNTRIES_CODE = "AR";
-    const CURRENCIES_CODE = "ARS";
-    const CURRENCIES_CURRENCY = "Argentine Peso";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Argentina";
+    const COUNTRY_CODE = "AR";
+    const CURRENCY_CODE = "ARS";
+    const CURRENCY_NAME = "Argentine Peso";
+    const CURRENCY_SYMBOL = "$";
 
 }

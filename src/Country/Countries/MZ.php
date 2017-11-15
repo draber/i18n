@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mozambique";
-    const COUNTRIES_CODE = "MZ";
-    const CURRENCIES_CODE = "MZN";
-    const CURRENCIES_CURRENCY = "Mozambican Metical";
-    const CURRENCIES_SYMBOL = "MT";
+    const COUNTRY_NAME = "Mozambique";
+    const COUNTRY_CODE = "MZ";
+    const CURRENCY_CODE = "MZN";
+    const CURRENCY_NAME = "Mozambican Metical";
+    const CURRENCY_SYMBOL = "MT";
 
 }

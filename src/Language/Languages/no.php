@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class no extends LanguageMethods
 {
-    const LANGUAGES_CODE = "no";
-    const LANGUAGES_NAME = "Norwegian";
-    const LANGUAGES_NATIVE_NAME = "Norwegian";
+    const LANGUAGE_CODE = "no";
+    const LANGUAGE_NAME = "Norwegian";
+    const LANGUAGE_NATIVE_NAME = "Norwegian";
     const NUMERALS = [
-        0 => 'null',
-        1 => 'én, éin',
-        2 => 'to',
-        3 => 'tre',
-        4 => 'fire',
-        5 => 'fem',
-        6 => 'seks',
-        7 => 'sju',
-        8 => 'åtte',
-        9 => 'ni',
-        10 => 'ti',
-        11 => 'elleve',
-        12 => 'tolv',
-        13 => 'tretten',
-        14 => 'fjorten',
-        15 => 'femten',
-        16 => 'seksten',
-        17 => 'sytten',
-        18 => 'atten',
-        19 => 'nitten',
-        20 => 'tjue',
+            0 => 'null',
+            1 => 'én, éin',
+            2 => 'to',
+            3 => 'tre',
+            4 => 'fire',
+            5 => 'fem',
+            6 => 'seks',
+            7 => 'sju',
+            8 => 'åtte',
+            9 => 'ni',
+            10 => 'ti',
+            11 => 'elleve',
+            12 => 'tolv',
+            13 => 'tretten',
+            14 => 'fjorten',
+            15 => 'femten',
+            16 => 'seksten',
+            17 => 'sytten',
+            18 => 'atten',
+            19 => 'nitten',
+            20 => 'tjue',
     ];
 
 }

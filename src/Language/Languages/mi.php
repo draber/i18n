@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class mi extends LanguageMethods
 {
-    const LANGUAGES_CODE = "mi";
-    const LANGUAGES_NAME = "Maori";
-    const LANGUAGES_NATIVE_NAME = "Maori";
+    const LANGUAGE_CODE = "mi";
+    const LANGUAGE_NAME = "Maori";
+    const LANGUAGE_NATIVE_NAME = "Maori";
     const NUMERALS = [
-        0 => 'kore',
-        1 => 'tahi',
-        2 => 'rua',
-        3 => 'toru',
-        4 => 'whā',
-        5 => 'rima',
-        6 => 'ono',
-        7 => 'whitu',
-        8 => 'waru',
-        9 => 'iwa',
-        10 => 'tekau',
-        11 => 'tekau mā tahi',
-        12 => 'tekau mā rua',
-        13 => 'tekau mā toru',
-        14 => 'tekau mā whā',
-        15 => 'tekau mā rima',
-        16 => 'tekau mā ono',
-        17 => 'tekau mā whitu',
-        18 => 'tekau mā waru',
-        19 => 'tekau mā iwa',
-        20 => 'rua tekau',
+            0 => 'kore',
+            1 => 'tahi',
+            2 => 'rua',
+            3 => 'toru',
+            4 => 'whā',
+            5 => 'rima',
+            6 => 'ono',
+            7 => 'whitu',
+            8 => 'waru',
+            9 => 'iwa',
+            10 => 'tekau',
+            11 => 'tekau mā tahi',
+            12 => 'tekau mā rua',
+            13 => 'tekau mā toru',
+            14 => 'tekau mā whā',
+            15 => 'tekau mā rima',
+            16 => 'tekau mā ono',
+            17 => 'tekau mā whitu',
+            18 => 'tekau mā waru',
+            19 => 'tekau mā iwa',
+            20 => 'rua tekau',
     ];
 
 }

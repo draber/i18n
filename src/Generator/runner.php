@@ -23,10 +23,7 @@
  * SOFTWARE.
  */
 
-require_once '../Common/CommonBase.php';
-require_once './GeneratorBase.php';
-require_once './JsonGenerator.php';
-require_once './ClassGenerator.php';
+require_once dirname(dirname(dirname(dirname(__DIR__)))) . '/autoload.php';
 
 use draber\i18n\Generator\JsonGenerator;
 use draber\i18n\Generator\ClassGenerator;

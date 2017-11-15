@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class mo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "mo";
-    const LANGUAGES_NAME = "Moldavian";
-    const LANGUAGES_NATIVE_NAME = "Moldavian";
+    const LANGUAGE_CODE = "mo";
+    const LANGUAGE_NAME = "Moldavian";
+    const LANGUAGE_NATIVE_NAME = "Moldavian";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ML extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mali";
-    const COUNTRIES_CODE = "ML";
-    const CURRENCIES_CODE = "XOF";
-    const CURRENCIES_CURRENCY = "West African CFA Franc";
-    const CURRENCIES_SYMBOL = "CFA";
+    const COUNTRY_NAME = "Mali";
+    const COUNTRY_CODE = "ML";
+    const CURRENCY_CODE = "XOF";
+    const CURRENCY_NAME = "West African CFA Franc";
+    const CURRENCY_SYMBOL = "CFA";
 
 }

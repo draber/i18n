@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TT extends CountryMethods
 {
-    const COUNTRIES_NAME = "Trinidad and Tobago";
-    const COUNTRIES_CODE = "TT";
-    const CURRENCIES_CODE = "TTD";
-    const CURRENCIES_CURRENCY = "Trinidad And Tobago Dollar";
-    const CURRENCIES_SYMBOL = "TT$";
+    const COUNTRY_NAME = "Trinidad and Tobago";
+    const COUNTRY_CODE = "TT";
+    const CURRENCY_CODE = "TTD";
+    const CURRENCY_NAME = "Trinidad And Tobago Dollar";
+    const CURRENCY_SYMBOL = "TT$";
 
 }

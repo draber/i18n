@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class et extends LanguageMethods
 {
-    const LANGUAGES_CODE = "et";
-    const LANGUAGES_NAME = "Estonian";
-    const LANGUAGES_NATIVE_NAME = "eesti";
+    const LANGUAGE_CODE = "et";
+    const LANGUAGE_NAME = "Estonian";
+    const LANGUAGE_NATIVE_NAME = "eesti";
     const NUMERALS = [
-        0 => 'null',
-        1 => 'üks',
-        2 => 'kaks',
-        3 => 'kolm',
-        4 => 'neli',
-        5 => 'viis',
-        6 => 'kuus',
-        7 => 'seitse',
-        8 => 'kaheksa',
-        9 => 'üheksa',
-        10 => 'kümme',
-        11 => 'üksteist',
-        12 => 'kaksteist',
-        13 => 'kolmteist',
-        14 => 'neliteist',
-        15 => 'viisteist',
-        16 => 'kuusteist',
-        17 => 'seitseteist',
-        18 => 'kaheksateist',
-        19 => 'üheksateist',
-        20 => 'kakskümmend',
+            0 => 'null',
+            1 => 'üks',
+            2 => 'kaks',
+            3 => 'kolm',
+            4 => 'neli',
+            5 => 'viis',
+            6 => 'kuus',
+            7 => 'seitse',
+            8 => 'kaheksa',
+            9 => 'üheksa',
+            10 => 'kümme',
+            11 => 'üksteist',
+            12 => 'kaksteist',
+            13 => 'kolmteist',
+            14 => 'neliteist',
+            15 => 'viisteist',
+            16 => 'kuusteist',
+            17 => 'seitseteist',
+            18 => 'kaheksateist',
+            19 => 'üheksateist',
+            20 => 'kakskümmend',
     ];
 
 }

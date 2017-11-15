@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class tk extends LanguageMethods
 {
-    const LANGUAGES_CODE = "tk";
-    const LANGUAGES_NAME = "Turkmen";
-    const LANGUAGES_NATIVE_NAME = "Türkmen dili";
+    const LANGUAGE_CODE = "tk";
+    const LANGUAGE_NAME = "Turkmen";
+    const LANGUAGE_NATIVE_NAME = "Türkmen dili";
     const NUMERALS = [
-        0 => 'nol',
-        1 => 'bir',
-        2 => 'iki',
-        3 => 'üç',
-        4 => 'dört',
-        5 => 'bäş',
-        6 => 'alty',
-        7 => 'ýedi',
-        8 => 'sekiz',
-        9 => 'dokuz',
-        10 => 'on',
-        11 => 'on bir',
-        12 => 'on iki',
-        13 => 'on üç',
-        14 => 'on dört',
-        15 => 'on bäş',
-        16 => 'on alty',
-        17 => 'on ýedi',
-        18 => 'on sekiz',
-        19 => 'on dokuz',
-        20 => 'ýigrimi',
+            0 => 'nol',
+            1 => 'bir',
+            2 => 'iki',
+            3 => 'üç',
+            4 => 'dört',
+            5 => 'bäş',
+            6 => 'alty',
+            7 => 'ýedi',
+            8 => 'sekiz',
+            9 => 'dokuz',
+            10 => 'on',
+            11 => 'on bir',
+            12 => 'on iki',
+            13 => 'on üç',
+            14 => 'on dört',
+            15 => 'on bäş',
+            16 => 'on alty',
+            17 => 'on ýedi',
+            18 => 'on sekiz',
+            19 => 'on dokuz',
+            20 => 'ýigrimi',
     ];
 
 }

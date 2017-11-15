@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AD extends CountryMethods
 {
-    const COUNTRIES_NAME = "Andorra";
-    const COUNTRIES_CODE = "AD";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Andorra";
+    const COUNTRY_CODE = "AD";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Syria";
-    const COUNTRIES_CODE = "SY";
-    const CURRENCIES_CODE = "SYP";
-    const CURRENCIES_CURRENCY = "Syrian Pound";
-    const CURRENCIES_SYMBOL = "S£";
+    const COUNTRY_NAME = "Syria";
+    const COUNTRY_CODE = "SY";
+    const CURRENCY_CODE = "SYP";
+    const CURRENCY_NAME = "Syrian Pound";
+    const CURRENCY_SYMBOL = "S£";
 
 }

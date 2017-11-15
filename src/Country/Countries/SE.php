@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Sweden";
-    const COUNTRIES_CODE = "SE";
-    const CURRENCIES_CODE = "SEK";
-    const CURRENCIES_CURRENCY = "Swedish Krona";
-    const CURRENCIES_SYMBOL = "kr";
+    const COUNTRY_NAME = "Sweden";
+    const COUNTRY_CODE = "SE";
+    const CURRENCY_CODE = "SEK";
+    const CURRENCY_NAME = "Swedish Krona";
+    const CURRENCY_SYMBOL = "kr";
 
 }

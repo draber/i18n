@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Sierra Leone";
-    const COUNTRIES_CODE = "SL";
-    const CURRENCIES_CODE = "SLL";
-    const CURRENCIES_CURRENCY = "Sierra Leonean Leone";
-    const CURRENCIES_SYMBOL = "Le";
+    const COUNTRY_NAME = "Sierra Leone";
+    const COUNTRY_CODE = "SL";
+    const CURRENCY_CODE = "SLL";
+    const CURRENCY_NAME = "Sierra Leonean Leone";
+    const CURRENCY_SYMBOL = "Le";
 
 }

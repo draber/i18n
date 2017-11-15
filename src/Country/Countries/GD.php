@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GD extends CountryMethods
 {
-    const COUNTRIES_NAME = "Grenada";
-    const COUNTRIES_CODE = "GD";
-    const CURRENCIES_CODE = "XCD";
-    const CURRENCIES_CURRENCY = "East Caribbean Dollar";
-    const CURRENCIES_SYMBOL = "EC$";
+    const COUNTRY_NAME = "Grenada";
+    const COUNTRY_CODE = "GD";
+    const CURRENCY_CODE = "XCD";
+    const CURRENCY_NAME = "East Caribbean Dollar";
+    const CURRENCY_SYMBOL = "EC$";
 
 }

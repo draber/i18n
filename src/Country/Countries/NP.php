@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NP extends CountryMethods
 {
-    const COUNTRIES_NAME = "Nepal";
-    const COUNTRIES_CODE = "NP";
-    const CURRENCIES_CODE = "NPR";
-    const CURRENCIES_CURRENCY = "Nepalese Rupee";
-    const CURRENCIES_SYMBOL = "NɌs";
+    const COUNTRY_NAME = "Nepal";
+    const COUNTRY_CODE = "NP";
+    const CURRENCY_CODE = "NPR";
+    const CURRENCY_NAME = "Nepalese Rupee";
+    const CURRENCY_SYMBOL = "NɌs";
 
 }

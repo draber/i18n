@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cyprus";
-    const COUNTRIES_CODE = "CY";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Cyprus";
+    const COUNTRY_CODE = "CY";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

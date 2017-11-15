@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class EE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Estonia";
-    const COUNTRIES_CODE = "EE";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Estonia";
+    const COUNTRY_CODE = "EE";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

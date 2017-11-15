@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class tl extends LanguageMethods
 {
-    const LANGUAGES_CODE = "tl";
-    const LANGUAGES_NAME = "Tagalog";
-    const LANGUAGES_NATIVE_NAME = "Tagalog";
+    const LANGUAGE_CODE = "tl";
+    const LANGUAGE_NAME = "Tagalog";
+    const LANGUAGE_NATIVE_NAME = "Tagalog";
     const NUMERALS = [
-        0 => 'wala',
-        1 => 'isá',
-        2 => 'dalawá',
-        3 => 'tatló',
-        4 => 'apat',
-        5 => 'limá',
-        6 => 'anim',
-        7 => 'pitó',
-        8 => 'waló',
-        9 => 'siyám',
-        10 => 'sampû',
-        11 => 'labingisá',
-        12 => 'labindalawá',
-        13 => 'labintatló',
-        14 => 'labingapat',
-        15 => 'labinlimá',
-        16 => 'labinganim',
-        17 => 'labimpitó',
-        18 => 'labingwaló',
-        19 => 'labinsiyám',
-        20 => 'dalawampû',
+            0 => 'wala',
+            1 => 'isá',
+            2 => 'dalawá',
+            3 => 'tatló',
+            4 => 'apat',
+            5 => 'limá',
+            6 => 'anim',
+            7 => 'pitó',
+            8 => 'waló',
+            9 => 'siyám',
+            10 => 'sampû',
+            11 => 'labingisá',
+            12 => 'labindalawá',
+            13 => 'labintatló',
+            14 => 'labingapat',
+            15 => 'labinlimá',
+            16 => 'labinganim',
+            17 => 'labimpitó',
+            18 => 'labingwaló',
+            19 => 'labinsiyám',
+            20 => 'dalawampû',
     ];
 
 }

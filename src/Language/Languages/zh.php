@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class zh extends LanguageMethods
 {
-    const LANGUAGES_CODE = "zh";
-    const LANGUAGES_NAME = "Chinese";
-    const LANGUAGES_NATIVE_NAME = "中文";
+    const LANGUAGE_CODE = "zh";
+    const LANGUAGE_NAME = "Chinese";
+    const LANGUAGE_NATIVE_NAME = "中文";
 
 }

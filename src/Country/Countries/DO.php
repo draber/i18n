@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class DO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Dominican Republic";
-    const COUNTRIES_CODE = "DO";
-    const CURRENCIES_CODE = "DOP";
-    const CURRENCIES_CURRENCY = "Dominican Peso";
-    const CURRENCIES_SYMBOL = "RD$";
+    const COUNTRY_NAME = "Dominican Republic";
+    const COUNTRY_CODE = "DO";
+    const CURRENCY_CODE = "DOP";
+    const CURRENCY_NAME = "Dominican Peso";
+    const CURRENCY_SYMBOL = "RD$";
 
 }

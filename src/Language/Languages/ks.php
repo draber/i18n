@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ks extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ks";
-    const LANGUAGES_NAME = "Kashmiri";
-    const LANGUAGES_NATIVE_NAME = "کٲشُر";
+    const LANGUAGE_CODE = "ks";
+    const LANGUAGE_NAME = "Kashmiri";
+    const LANGUAGE_NATIVE_NAME = "کٲشُر";
     const NUMERALS = [
-        0 => 'sifar',
-        1 => 'akh',
-        2 => 'zɨ',
-        3 => 'tre',
-        4 => 'tsor',
-        5 => 'pã:tsh',
-        6 => 'še',
-        7 => 'sath',
-        8 => 'ǝ:th',
-        9 => 'nav',
-        10 => 'dǝh',
-        11 => 'ka:h',
-        12 => 'ba:h',
-        13 => 'truva:h',
-        14 => 'ts vda:h',
-        15 => 'panda:h',
-        16 => 'šura:h',
-        17 => 'sada:h',
-        18 => 'arda:h',
-        19 => 'kunɨvuh',
-        20 => 'vuh',
+            0 => 'sifar',
+            1 => 'akh',
+            2 => 'zɨ',
+            3 => 'tre',
+            4 => 'tsor',
+            5 => 'pã:tsh',
+            6 => 'še',
+            7 => 'sath',
+            8 => 'ǝ:th',
+            9 => 'nav',
+            10 => 'dǝh',
+            11 => 'ka:h',
+            12 => 'ba:h',
+            13 => 'truva:h',
+            14 => 'ts vda:h',
+            15 => 'panda:h',
+            16 => 'šura:h',
+            17 => 'sada:h',
+            18 => 'arda:h',
+            19 => 'kunɨvuh',
+            20 => 'vuh',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Armenia";
-    const COUNTRIES_CODE = "AM";
-    const CURRENCIES_CODE = "AMD";
-    const CURRENCIES_CURRENCY = "Armenian Dram";
-    const CURRENCIES_SYMBOL = "Armenian dram";
+    const COUNTRY_NAME = "Armenia";
+    const COUNTRY_CODE = "AM";
+    const CURRENCY_CODE = "AMD";
+    const CURRENCY_NAME = "Armenian Dram";
+    const CURRENCY_SYMBOL = "Armenian dram";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Azerbaijan";
-    const COUNTRIES_CODE = "AZ";
-    const CURRENCIES_CODE = "AZN";
-    const CURRENCIES_CURRENCY = "Azerbaijani Manat";
-    const CURRENCIES_SYMBOL = "ман";
+    const COUNTRY_NAME = "Azerbaijan";
+    const COUNTRY_CODE = "AZ";
+    const CURRENCY_CODE = "AZN";
+    const CURRENCY_NAME = "Azerbaijani Manat";
+    const CURRENCY_SYMBOL = "ман";
 
 }

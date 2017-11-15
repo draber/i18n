@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IQ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Iraq";
-    const COUNTRIES_CODE = "IQ";
-    const CURRENCIES_CODE = "IQD";
-    const CURRENCIES_CURRENCY = "Iraqi Dinar";
-    const CURRENCIES_SYMBOL = "ع.د";
+    const COUNTRY_NAME = "Iraq";
+    const COUNTRY_CODE = "IQ";
+    const CURRENCY_CODE = "IQD";
+    const CURRENCY_NAME = "Iraqi Dinar";
+    const CURRENCY_SYMBOL = "ع.د";
 
 }

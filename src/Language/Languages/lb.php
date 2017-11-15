@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class lb extends LanguageMethods
 {
-    const LANGUAGES_CODE = "lb";
-    const LANGUAGES_NAME = "Luxembourgish";
-    const LANGUAGES_NATIVE_NAME = "Lëtzebuergesch";
+    const LANGUAGE_CODE = "lb";
+    const LANGUAGE_NAME = "Luxembourgish";
+    const LANGUAGE_NATIVE_NAME = "Lëtzebuergesch";
     const NUMERALS = [
-        0 => 'null',
-        1 => 'eent',
-        2 => 'zwee',
-        3 => 'dräi',
-        4 => 'véier',
-        5 => 'fënnef',
-        6 => 'sechs',
-        7 => 'siwen',
-        8 => 'aacht',
-        9 => 'néng',
-        10 => 'zéng',
-        11 => 'eelef',
-        12 => 'zwielef',
-        13 => 'dräizéng',
-        14 => 'véierzéng',
-        15 => 'fofzéng',
-        16 => 'siechzéng',
-        17 => 'siwwenzéng',
-        18 => 'uechtzéng',
-        19 => 'nonzéng',
-        20 => 'zwanzeg',
+            0 => 'null',
+            1 => 'eent',
+            2 => 'zwee',
+            3 => 'dräi',
+            4 => 'véier',
+            5 => 'fënnef',
+            6 => 'sechs',
+            7 => 'siwen',
+            8 => 'aacht',
+            9 => 'néng',
+            10 => 'zéng',
+            11 => 'eelef',
+            12 => 'zwielef',
+            13 => 'dräizéng',
+            14 => 'véierzéng',
+            15 => 'fofzéng',
+            16 => 'siechzéng',
+            17 => 'siwwenzéng',
+            18 => 'uechtzéng',
+            19 => 'nonzéng',
+            20 => 'zwanzeg',
     ];
 
 }

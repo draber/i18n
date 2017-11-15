@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Togo";
-    const COUNTRIES_CODE = "TG";
-    const CURRENCIES_CODE = "XOF";
-    const CURRENCIES_CURRENCY = "West African CFA Franc";
-    const CURRENCIES_SYMBOL = "CFA";
+    const COUNTRY_NAME = "Togo";
+    const COUNTRY_CODE = "TG";
+    const CURRENCY_CODE = "XOF";
+    const CURRENCY_NAME = "West African CFA Franc";
+    const CURRENCY_SYMBOL = "CFA";
 
 }

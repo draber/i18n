@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class bo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "bo";
-    const LANGUAGES_NAME = "Tibetan";
-    const LANGUAGES_NATIVE_NAME = "བོད་སྐད་";
+    const LANGUAGE_CODE = "bo";
+    const LANGUAGE_NAME = "Tibetan";
+    const LANGUAGE_NATIVE_NAME = "བོད་སྐད་";
 
 }

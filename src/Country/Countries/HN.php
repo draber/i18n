@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class HN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Honduras";
-    const COUNTRIES_CODE = "HN";
-    const CURRENCIES_CODE = "HNL";
-    const CURRENCIES_CURRENCY = "Honduran Lempira";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Honduras";
+    const COUNTRY_CODE = "HN";
+    const CURRENCY_CODE = "HNL";
+    const CURRENCY_NAME = "Honduran Lempira";
+    const CURRENCY_SYMBOL = "L";
 
 }

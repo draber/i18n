@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class su extends LanguageMethods
 {
-    const LANGUAGES_CODE = "su";
-    const LANGUAGES_NAME = "Sundanese";
-    const LANGUAGES_NATIVE_NAME = "Sundanese";
+    const LANGUAGE_CODE = "su";
+    const LANGUAGE_NAME = "Sundanese";
+    const LANGUAGE_NATIVE_NAME = "Sundanese";
     const NUMERALS = [
-        0 => 'nol',
-        1 => 'hiji',
-        2 => 'dua',
-        3 => 'tilu',
-        4 => 'opat',
-        5 => 'lima',
-        6 => 'genep',
-        7 => 'tujuh',
-        8 => 'dalapan',
-        9 => 'salapan',
-        10 => 'sapuluh',
-        11 => 'sabelas',
-        12 => 'duabelas',
-        13 => 'tilubelas',
-        14 => 'opatbelas',
-        15 => 'limabelas',
-        16 => 'genepbelas',
-        17 => 'tujuhbelas',
-        18 => 'dalapanbelas',
-        19 => 'salapanbelas',
-        20 => 'duapuluh',
+            0 => 'nol',
+            1 => 'hiji',
+            2 => 'dua',
+            3 => 'tilu',
+            4 => 'opat',
+            5 => 'lima',
+            6 => 'genep',
+            7 => 'tujuh',
+            8 => 'dalapan',
+            9 => 'salapan',
+            10 => 'sapuluh',
+            11 => 'sabelas',
+            12 => 'duabelas',
+            13 => 'tilubelas',
+            14 => 'opatbelas',
+            15 => 'limabelas',
+            16 => 'genepbelas',
+            17 => 'tujuhbelas',
+            18 => 'dalapanbelas',
+            19 => 'salapanbelas',
+            20 => 'duapuluh',
     ];
 
 }

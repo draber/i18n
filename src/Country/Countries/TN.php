@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tunisia";
-    const COUNTRIES_CODE = "TN";
-    const CURRENCIES_CODE = "TND";
-    const CURRENCIES_CURRENCY = "Tunisian Dinar";
-    const CURRENCIES_SYMBOL = "د.ت";
+    const COUNTRY_NAME = "Tunisia";
+    const COUNTRY_CODE = "TN";
+    const CURRENCY_CODE = "TND";
+    const CURRENCY_NAME = "Tunisian Dinar";
+    const CURRENCY_SYMBOL = "د.ت";
 
 }

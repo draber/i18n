@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ss extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ss";
-    const LANGUAGES_NAME = "Siswati";
-    const LANGUAGES_NATIVE_NAME = "Siswati";
+    const LANGUAGE_CODE = "ss";
+    const LANGUAGE_NAME = "Siswati";
+    const LANGUAGE_NATIVE_NAME = "Siswati";
 
 }

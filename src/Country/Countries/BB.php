@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BB extends CountryMethods
 {
-    const COUNTRIES_NAME = "Barbados";
-    const COUNTRIES_CODE = "BB";
-    const CURRENCIES_CODE = "BBD";
-    const CURRENCIES_CURRENCY = "Barbadian Dollar";
-    const CURRENCIES_SYMBOL = "Bds$";
+    const COUNTRY_NAME = "Barbados";
+    const COUNTRY_CODE = "BB";
+    const CURRENCY_CODE = "BBD";
+    const CURRENCY_NAME = "Barbadian Dollar";
+    const CURRENCY_SYMBOL = "Bds$";
 
 }

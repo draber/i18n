@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SM extends CountryMethods
 {
-    const COUNTRIES_NAME = "San Marino";
-    const COUNTRIES_CODE = "SM";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "San Marino";
+    const COUNTRY_CODE = "SM";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class bi extends LanguageMethods
 {
-    const LANGUAGES_CODE = "bi";
-    const LANGUAGES_NAME = "Bislama";
-    const LANGUAGES_NATIVE_NAME = "Bislama";
+    const LANGUAGE_CODE = "bi";
+    const LANGUAGE_NAME = "Bislama";
+    const LANGUAGE_NATIVE_NAME = "Bislama";
 
 }

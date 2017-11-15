@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ie extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ie";
-    const LANGUAGES_NAME = "Interlingue";
-    const LANGUAGES_NATIVE_NAME = "Interlingue";
+    const LANGUAGE_CODE = "ie";
+    const LANGUAGE_NAME = "Interlingue";
+    const LANGUAGE_NATIVE_NAME = "Interlingue";
     const NUMERALS = [
-        0 => 'null',
-        1 => 'un',
-        2 => 'du',
-        3 => 'tri',
-        4 => 'quar',
-        5 => 'quin',
-        6 => 'six',
-        7 => 'sett',
-        8 => 'ott',
-        9 => 'nin',
-        10 => 'deci',
-        11 => 'deciun',
-        12 => 'decidu',
-        13 => 'decitri',
-        14 => 'deciquar',
-        15 => 'deciquin',
-        16 => 'decisix',
-        17 => 'decisett',
-        18 => 'deciott',
-        19 => 'decinin',
-        20 => 'duant',
+            0 => 'null',
+            1 => 'un',
+            2 => 'du',
+            3 => 'tri',
+            4 => 'quar',
+            5 => 'quin',
+            6 => 'six',
+            7 => 'sett',
+            8 => 'ott',
+            9 => 'nin',
+            10 => 'deci',
+            11 => 'deciun',
+            12 => 'decidu',
+            13 => 'decitri',
+            14 => 'deciquar',
+            15 => 'deciquin',
+            16 => 'decisix',
+            17 => 'decisett',
+            18 => 'deciott',
+            19 => 'decinin',
+            20 => 'duant',
     ];
 
 }

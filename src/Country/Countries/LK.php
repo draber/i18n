@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Sri Lanka";
-    const COUNTRIES_CODE = "LK";
-    const CURRENCIES_CODE = "LKR";
-    const CURRENCIES_CURRENCY = "Sri Lankan Rupee";
-    const CURRENCIES_SYMBOL = "Ɍs";
+    const COUNTRY_NAME = "Sri Lanka";
+    const COUNTRY_CODE = "LK";
+    const CURRENCY_CODE = "LKR";
+    const CURRENCY_NAME = "Sri Lankan Rupee";
+    const CURRENCY_SYMBOL = "Ɍs";
 
 }

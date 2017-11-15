@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class za extends LanguageMethods
 {
-    const LANGUAGES_CODE = "za";
-    const LANGUAGES_NAME = "Zhuang";
-    const LANGUAGES_NATIVE_NAME = "Zhuang";
+    const LANGUAGE_CODE = "za";
+    const LANGUAGE_NAME = "Zhuang";
+    const LANGUAGE_NATIVE_NAME = "Zhuang";
 
 }

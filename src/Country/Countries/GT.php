@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GT extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guatemala";
-    const COUNTRIES_CODE = "GT";
-    const CURRENCIES_CODE = "GTQ";
-    const CURRENCIES_CURRENCY = "Guatemalan Quetzal";
-    const CURRENCIES_SYMBOL = "Q";
+    const COUNTRY_NAME = "Guatemala";
+    const COUNTRY_CODE = "GT";
+    const CURRENCY_CODE = "GTQ";
+    const CURRENCY_NAME = "Guatemalan Quetzal";
+    const CURRENCY_SYMBOL = "Q";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Suriname";
-    const COUNTRIES_CODE = "SR";
-    const CURRENCIES_CODE = "SRD";
-    const CURRENCIES_CURRENCY = "Surinamese Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Suriname";
+    const COUNTRY_CODE = "SR";
+    const CURRENCY_CODE = "SRD";
+    const CURRENCY_NAME = "Surinamese Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

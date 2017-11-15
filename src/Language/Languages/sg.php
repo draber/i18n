@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sg extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sg";
-    const LANGUAGES_NAME = "Sangho";
-    const LANGUAGES_NATIVE_NAME = "Sängö";
+    const LANGUAGE_CODE = "sg";
+    const LANGUAGE_NAME = "Sangho";
+    const LANGUAGE_NATIVE_NAME = "Sängö";
 
 }

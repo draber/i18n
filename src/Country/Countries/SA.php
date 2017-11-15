@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Saudi Arabia";
-    const COUNTRIES_CODE = "SA";
-    const CURRENCIES_CODE = "SAR";
-    const CURRENCIES_CURRENCY = "Saudi Riyal";
-    const CURRENCIES_SYMBOL = "ر.س";
+    const COUNTRY_NAME = "Saudi Arabia";
+    const COUNTRY_CODE = "SA";
+    const CURRENCY_CODE = "SAR";
+    const CURRENCY_NAME = "Saudi Riyal";
+    const CURRENCY_SYMBOL = "ر.س";
 
 }

@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class bh extends LanguageMethods
 {
-    const LANGUAGES_CODE = "bh";
-    const LANGUAGES_NAME = "Bihari";
-    const LANGUAGES_NATIVE_NAME = "Bihari";
+    const LANGUAGE_CODE = "bh";
+    const LANGUAGE_NAME = "Bihari";
+    const LANGUAGE_NATIVE_NAME = "Bihari";
 
 }

@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class to extends LanguageMethods
 {
-    const LANGUAGES_CODE = "to";
-    const LANGUAGES_NAME = "Tonga";
-    const LANGUAGES_NATIVE_NAME = "lea fakatonga";
+    const LANGUAGE_CODE = "to";
+    const LANGUAGE_NAME = "Tonga";
+    const LANGUAGE_NATIVE_NAME = "lea fakatonga";
 
 }

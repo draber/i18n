@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class lo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "lo";
-    const LANGUAGES_NAME = "Laothian";
-    const LANGUAGES_NATIVE_NAME = "ລາວ";
+    const LANGUAGE_CODE = "lo";
+    const LANGUAGE_NAME = "Laothian";
+    const LANGUAGE_NATIVE_NAME = "ລາວ";
 
 }

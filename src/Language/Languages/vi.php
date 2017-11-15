@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class vi extends LanguageMethods
 {
-    const LANGUAGES_CODE = "vi";
-    const LANGUAGES_NAME = "Vietnamese";
-    const LANGUAGES_NATIVE_NAME = "Tiếng Việt";
+    const LANGUAGE_CODE = "vi";
+    const LANGUAGE_NAME = "Vietnamese";
+    const LANGUAGE_NATIVE_NAME = "Tiếng Việt";
     const NUMERALS = [
-        0 => 'không',
-        1 => '𠬠',
-        2 => '𠄩',
-        3 => '𠀧',
-        4 => '𦊚',
-        5 => '𠄼',
-        6 => '𦒹',
-        7 => '𦉱',
-        8 => '𠔭',
-        9 => '𠃩',
-        10 => '𨒒',
-        11 => '𨒒𠬠',
-        12 => '𨒒𠄩',
-        13 => '𨒒𠀧',
-        14 => '𨒒𦊚',
-        15 => '𨒒𠄼',
-        16 => '𨒒𦒹',
-        17 => '𨒒𦉱',
-        18 => '𨒒𠔭',
-        19 => '𨒒𠃩',
-        20 => '𠄩𨒒',
+            0 => 'không',
+            1 => '𠬠',
+            2 => '𠄩',
+            3 => '𠀧',
+            4 => '𦊚',
+            5 => '𠄼',
+            6 => '𦒹',
+            7 => '𦉱',
+            8 => '𠔭',
+            9 => '𠃩',
+            10 => '𨒒',
+            11 => '𨒒𠬠',
+            12 => '𨒒𠄩',
+            13 => '𨒒𠀧',
+            14 => '𨒒𦊚',
+            15 => '𨒒𠄼',
+            16 => '𨒒𦒹',
+            17 => '𨒒𦉱',
+            18 => '𨒒𠔭',
+            19 => '𨒒𠃩',
+            20 => '𠄩𨒒',
     ];
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sw extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sw";
-    const LANGUAGES_NAME = "Swahili";
-    const LANGUAGES_NATIVE_NAME = "Kiswahili";
+    const LANGUAGE_CODE = "sw";
+    const LANGUAGE_NAME = "Swahili";
+    const LANGUAGE_NATIVE_NAME = "Kiswahili";
     const NUMERALS = [
-        0 => 'sifuri',
-        1 => 'moja',
-        2 => 'mbili',
-        3 => 'tatu',
-        4 => 'nne',
-        5 => 'tano',
-        6 => 'sita',
-        7 => 'saba',
-        8 => 'nane',
-        9 => 'tisa',
-        10 => 'kumi',
-        11 => 'kumi na moja',
-        12 => 'kumi na mbili',
-        13 => 'kumi na tatu',
-        14 => 'kumi na nne',
-        15 => 'kumi na tano',
-        16 => 'kumi na sita',
-        17 => 'kumi na saba',
-        18 => 'kumi na nane',
-        19 => 'kumi na tisa',
-        20 => 'ishirini',
+            0 => 'sifuri',
+            1 => 'moja',
+            2 => 'mbili',
+            3 => 'tatu',
+            4 => 'nne',
+            5 => 'tano',
+            6 => 'sita',
+            7 => 'saba',
+            8 => 'nane',
+            9 => 'tisa',
+            10 => 'kumi',
+            11 => 'kumi na moja',
+            12 => 'kumi na mbili',
+            13 => 'kumi na tatu',
+            14 => 'kumi na nne',
+            15 => 'kumi na tano',
+            16 => 'kumi na sita',
+            17 => 'kumi na saba',
+            18 => 'kumi na nane',
+            19 => 'kumi na tisa',
+            20 => 'ishirini',
     ];
 
 }

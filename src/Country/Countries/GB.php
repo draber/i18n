@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GB extends CountryMethods
 {
-    const COUNTRIES_NAME = "United Kingdom";
-    const COUNTRIES_CODE = "GB";
-    const CURRENCIES_CODE = "GBP";
-    const CURRENCIES_CURRENCY = "British Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "United Kingdom";
+    const COUNTRY_CODE = "GB";
+    const CURRENCY_CODE = "GBP";
+    const CURRENCY_NAME = "British Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }

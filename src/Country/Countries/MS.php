@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MS extends CountryMethods
 {
-    const COUNTRIES_NAME = "Montserrat";
-    const COUNTRIES_CODE = "MS";
-    const CURRENCIES_CODE = "XCD";
-    const CURRENCIES_CURRENCY = "East Caribbean Dollar";
-    const CURRENCIES_SYMBOL = "EC$";
+    const COUNTRY_NAME = "Montserrat";
+    const COUNTRY_CODE = "MS";
+    const CURRENCY_CODE = "XCD";
+    const CURRENCY_NAME = "East Caribbean Dollar";
+    const CURRENCY_SYMBOL = "EC$";
 
 }

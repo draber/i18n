@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Netherlands Antilles";
-    const COUNTRIES_CODE = "AN";
-    const CURRENCIES_CODE = "ANG";
-    const CURRENCIES_CURRENCY = "Netherlands Antilles Guilder";
-    const CURRENCIES_SYMBOL = "ƒ";
+    const COUNTRY_NAME = "Netherlands Antilles";
+    const COUNTRY_CODE = "AN";
+    const CURRENCY_CODE = "ANG";
+    const CURRENCY_NAME = "Netherlands Antilles Guilder";
+    const CURRENCY_SYMBOL = "ƒ";
 
 }

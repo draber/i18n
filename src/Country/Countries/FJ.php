@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class FJ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Fiji";
-    const COUNTRIES_CODE = "FJ";
-    const CURRENCIES_CODE = "FJD";
-    const CURRENCIES_CURRENCY = "Fijian Dollar";
-    const CURRENCIES_SYMBOL = "FJ$";
+    const COUNTRY_NAME = "Fiji";
+    const COUNTRY_CODE = "FJ";
+    const CURRENCY_CODE = "FJD";
+    const CURRENCY_NAME = "Fijian Dollar";
+    const CURRENCY_SYMBOL = "FJ$";
 
 }

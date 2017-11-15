@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Aruba";
-    const COUNTRIES_CODE = "AW";
-    const CURRENCIES_CODE = "AWG";
-    const CURRENCIES_CURRENCY = "Aruban Florin";
-    const CURRENCIES_SYMBOL = "ƒ";
+    const COUNTRY_NAME = "Aruba";
+    const COUNTRY_CODE = "AW";
+    const CURRENCY_CODE = "AWG";
+    const CURRENCY_NAME = "Aruban Florin";
+    const CURRENCY_SYMBOL = "ƒ";
 
 }

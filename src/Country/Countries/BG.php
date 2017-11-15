@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Bulgaria";
-    const COUNTRIES_CODE = "BG";
-    const CURRENCIES_CODE = "BGN";
-    const CURRENCIES_CURRENCY = "Bulgarian Lev";
-    const CURRENCIES_SYMBOL = "лв";
+    const COUNTRY_NAME = "Bulgaria";
+    const COUNTRY_CODE = "BG";
+    const CURRENCY_CODE = "BGN";
+    const CURRENCY_NAME = "Bulgarian Lev";
+    const CURRENCY_SYMBOL = "лв";
 
 }

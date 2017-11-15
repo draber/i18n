@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class pt extends LanguageMethods
 {
-    const LANGUAGES_CODE = "pt";
-    const LANGUAGES_NAME = "Portuguese";
-    const LANGUAGES_NATIVE_NAME = "português";
+    const LANGUAGE_CODE = "pt";
+    const LANGUAGE_NAME = "Portuguese";
+    const LANGUAGE_NATIVE_NAME = "português";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'um',
-        2 => 'dois',
-        3 => 'três',
-        4 => 'quatro',
-        5 => 'cinco',
-        6 => 'seis',
-        7 => 'sete',
-        8 => 'oito',
-        9 => 'nove',
-        10 => 'dez',
-        11 => 'onze',
-        12 => 'doze',
-        13 => 'treze',
-        14 => 'quatorze',
-        15 => 'quinze',
-        16 => 'dezesseis',
-        17 => 'dezessete',
-        18 => 'dezoito',
-        19 => 'dezenove',
-        20 => 'vinte',
+            0 => 'zero',
+            1 => 'um',
+            2 => 'dois',
+            3 => 'três',
+            4 => 'quatro',
+            5 => 'cinco',
+            6 => 'seis',
+            7 => 'sete',
+            8 => 'oito',
+            9 => 'nove',
+            10 => 'dez',
+            11 => 'onze',
+            12 => 'doze',
+            13 => 'treze',
+            14 => 'quatorze',
+            15 => 'quinze',
+            16 => 'dezesseis',
+            17 => 'dezessete',
+            18 => 'dezoito',
+            19 => 'dezenove',
+            20 => 'vinte',
     ];
 
 }

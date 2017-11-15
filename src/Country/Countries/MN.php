@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mongolia";
-    const COUNTRIES_CODE = "MN";
-    const CURRENCIES_CODE = "MNT";
-    const CURRENCIES_CURRENCY = "Mongolian Tugrik";
-    const CURRENCIES_SYMBOL = "₮";
+    const COUNTRY_NAME = "Mongolia";
+    const COUNTRY_CODE = "MN";
+    const CURRENCY_CODE = "MNT";
+    const CURRENCY_NAME = "Mongolian Tugrik";
+    const CURRENCY_SYMBOL = "₮";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tokelau";
-    const COUNTRIES_CODE = "TK";
-    const CURRENCIES_CODE = "NZD";
-    const CURRENCIES_CURRENCY = "New Zealand Dollar";
-    const CURRENCIES_SYMBOL = "NZ$";
+    const COUNTRY_NAME = "Tokelau";
+    const COUNTRY_CODE = "TK";
+    const CURRENCY_CODE = "NZD";
+    const CURRENCY_NAME = "New Zealand Dollar";
+    const CURRENCY_SYMBOL = "NZ$";
 
 }

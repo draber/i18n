@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Malawi";
-    const COUNTRIES_CODE = "MW";
-    const CURRENCIES_CODE = "MWK";
-    const CURRENCIES_CURRENCY = "Malawian Kwacha";
-    const CURRENCIES_SYMBOL = "MK";
+    const COUNTRY_NAME = "Malawi";
+    const COUNTRY_CODE = "MW";
+    const CURRENCY_CODE = "MWK";
+    const CURRENCY_NAME = "Malawian Kwacha";
+    const CURRENCY_SYMBOL = "MK";
 
 }

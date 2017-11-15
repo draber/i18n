@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class so extends LanguageMethods
 {
-    const LANGUAGES_CODE = "so";
-    const LANGUAGES_NAME = "Somali";
-    const LANGUAGES_NATIVE_NAME = "Soomaali";
+    const LANGUAGE_CODE = "so";
+    const LANGUAGE_NAME = "Somali";
+    const LANGUAGE_NATIVE_NAME = "Soomaali";
     const NUMERALS = [
-        0 => 'eber',
-        1 => 'kow',
-        2 => 'laba',
-        3 => 'saddex',
-        4 => 'afar',
-        5 => 'shan',
-        6 => 'lix',
-        7 => 'toddoba',
-        8 => 'siddeed',
-        9 => 'sagaal',
-        10 => 'toban',
-        11 => 'koób iyo toban',
-        12 => 'labá iyo toban',
-        13 => 'sáddex iyo toban',
-        14 => 'áfar iyo toban',
-        15 => 'shán iyo toban',
-        16 => 'líx iyo toban',
-        17 => 'toddobá iyo toban',
-        18 => 'siddeéd iyo toban',
-        19 => 'sagáal iyo toban',
-        20 => 'labaátan',
+            0 => 'eber',
+            1 => 'kow',
+            2 => 'laba',
+            3 => 'saddex',
+            4 => 'afar',
+            5 => 'shan',
+            6 => 'lix',
+            7 => 'toddoba',
+            8 => 'siddeed',
+            9 => 'sagaal',
+            10 => 'toban',
+            11 => 'koób iyo toban',
+            12 => 'labá iyo toban',
+            13 => 'sáddex iyo toban',
+            14 => 'áfar iyo toban',
+            15 => 'shán iyo toban',
+            16 => 'líx iyo toban',
+            17 => 'toddobá iyo toban',
+            18 => 'siddeéd iyo toban',
+            19 => 'sagáal iyo toban',
+            20 => 'labaátan',
     ];
 
 }

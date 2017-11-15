@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IS extends CountryMethods
 {
-    const COUNTRIES_NAME = "Iceland";
-    const COUNTRIES_CODE = "IS";
-    const CURRENCIES_CODE = "ISK";
-    const CURRENCIES_CURRENCY = "Icelandic Króna";
-    const CURRENCIES_SYMBOL = "kr";
+    const COUNTRY_NAME = "Iceland";
+    const COUNTRY_CODE = "IS";
+    const CURRENCY_CODE = "ISK";
+    const CURRENCY_NAME = "Icelandic Króna";
+    const CURRENCY_SYMBOL = "kr";
 
 }

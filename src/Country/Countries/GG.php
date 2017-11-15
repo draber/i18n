@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guernsey";
-    const COUNTRIES_CODE = "GG";
-    const CURRENCIES_CODE = "GBP";
-    const CURRENCIES_CURRENCY = "British Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "Guernsey";
+    const COUNTRY_CODE = "GG";
+    const CURRENCY_CODE = "GBP";
+    const CURRENCY_NAME = "British Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }

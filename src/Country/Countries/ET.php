@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ET extends CountryMethods
 {
-    const COUNTRIES_NAME = "Ethiopia";
-    const COUNTRIES_CODE = "ET";
-    const CURRENCIES_CODE = "ETB";
-    const CURRENCIES_CURRENCY = "Ethiopian Birr";
-    const CURRENCIES_SYMBOL = "Br";
+    const COUNTRY_NAME = "Ethiopia";
+    const COUNTRY_CODE = "ET";
+    const CURRENCY_CODE = "ETB";
+    const CURRENCY_NAME = "Ethiopian Birr";
+    const CURRENCY_SYMBOL = "Br";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sn extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sn";
-    const LANGUAGES_NAME = "Shona";
-    const LANGUAGES_NATIVE_NAME = "chiShona";
+    const LANGUAGE_CODE = "sn";
+    const LANGUAGE_NAME = "Shona";
+    const LANGUAGE_NATIVE_NAME = "chiShona";
     const NUMERALS = [
-        0 => 'ziro',
-        1 => 'motsi',
-        2 => 'piri',
-        3 => 'tatu',
-        4 => 'china',
-        5 => 'shanu',
-        6 => 'tanhatu',
-        7 => 'nomwe',
-        8 => 'sere',
-        9 => 'pfumbamwe',
-        10 => 'gumi',
-        11 => 'gumi neimwe',
-        12 => 'gumi nembiri',
-        13 => 'gumi nenhatu',
-        14 => 'gumi neina',
-        15 => 'gumi neshanu',
-        16 => 'gumi nenhanhatu',
-        17 => 'gumi nenomwe',
-        18 => 'gumi nesere',
-        19 => 'gumi nepfumbamwe',
-        20 => 'makumi maviri',
+            0 => 'ziro',
+            1 => 'motsi',
+            2 => 'piri',
+            3 => 'tatu',
+            4 => 'china',
+            5 => 'shanu',
+            6 => 'tanhatu',
+            7 => 'nomwe',
+            8 => 'sere',
+            9 => 'pfumbamwe',
+            10 => 'gumi',
+            11 => 'gumi neimwe',
+            12 => 'gumi nembiri',
+            13 => 'gumi nenhatu',
+            14 => 'gumi neina',
+            15 => 'gumi neshanu',
+            16 => 'gumi nenhanhatu',
+            17 => 'gumi nenomwe',
+            18 => 'gumi nesere',
+            19 => 'gumi nepfumbamwe',
+            20 => 'makumi maviri',
     ];
 
 }

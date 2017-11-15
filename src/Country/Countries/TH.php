@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Thailand";
-    const COUNTRIES_CODE = "TH";
-    const CURRENCIES_CODE = "THB";
-    const CURRENCIES_CURRENCY = "Thai Baht";
-    const CURRENCIES_SYMBOL = "฿";
+    const COUNTRY_NAME = "Thailand";
+    const COUNTRY_CODE = "TH";
+    const CURRENCY_CODE = "THB";
+    const CURRENCY_NAME = "Thai Baht";
+    const CURRENCY_SYMBOL = "฿";
 
 }

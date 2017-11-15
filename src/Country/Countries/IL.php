@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Israel";
-    const COUNTRIES_CODE = "IL";
-    const CURRENCIES_CODE = "ILS";
-    const CURRENCIES_CURRENCY = "Israeli New Sheqel";
-    const CURRENCIES_SYMBOL = "₪";
+    const COUNTRY_NAME = "Israel";
+    const COUNTRY_CODE = "IL";
+    const CURRENCY_CODE = "ILS";
+    const CURRENCY_NAME = "Israeli New Sheqel";
+    const CURRENCY_SYMBOL = "₪";
 
 }

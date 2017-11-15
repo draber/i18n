@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ga extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ga";
-    const LANGUAGES_NAME = "Irish";
-    const LANGUAGES_NATIVE_NAME = "Gaeilge";
+    const LANGUAGE_CODE = "ga";
+    const LANGUAGE_NAME = "Irish";
+    const LANGUAGE_NATIVE_NAME = "Gaeilge";
     const NUMERALS = [
-        0 => 'náid',
-        1 => 'aon',
-        2 => 'dó',
-        3 => 'trí',
-        4 => 'ceathair',
-        5 => 'cúig',
-        6 => 'sé',
-        7 => 'seacht',
-        8 => 'ocht',
-        9 => 'naoi',
-        10 => 'deich',
-        11 => 'aon déag',
-        12 => 'dó dhéag',
-        13 => 'trí déag',
-        14 => 'ceathair déag',
-        15 => 'cúig déag',
-        16 => 'sé déag',
-        17 => 'seacht déag',
-        18 => 'ocht déag',
-        19 => 'naoi déag',
-        20 => 'fiche',
+            0 => 'náid',
+            1 => 'aon',
+            2 => 'dó',
+            3 => 'trí',
+            4 => 'ceathair',
+            5 => 'cúig',
+            6 => 'sé',
+            7 => 'seacht',
+            8 => 'ocht',
+            9 => 'naoi',
+            10 => 'deich',
+            11 => 'aon déag',
+            12 => 'dó dhéag',
+            13 => 'trí déag',
+            14 => 'ceathair déag',
+            15 => 'cúig déag',
+            16 => 'sé déag',
+            17 => 'seacht déag',
+            18 => 'ocht déag',
+            19 => 'naoi déag',
+            20 => 'fiche',
     ];
 
 }

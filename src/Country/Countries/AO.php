@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Angola";
-    const COUNTRIES_CODE = "AO";
-    const CURRENCIES_CODE = "AOA";
-    const CURRENCIES_CURRENCY = "Angolan Kwanza";
-    const CURRENCIES_SYMBOL = "Kz";
+    const COUNTRY_NAME = "Angola";
+    const COUNTRY_CODE = "AO";
+    const CURRENCY_CODE = "AOA";
+    const CURRENCY_NAME = "Angolan Kwanza";
+    const CURRENCY_SYMBOL = "Kz";
 
 }

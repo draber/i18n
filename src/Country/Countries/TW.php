@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Taiwan";
-    const COUNTRIES_CODE = "TW";
-    const CURRENCIES_CODE = "TWD";
-    const CURRENCIES_CURRENCY = "New Taiwan Dollar";
-    const CURRENCIES_SYMBOL = "NT$";
+    const COUNTRY_NAME = "Taiwan";
+    const COUNTRY_CODE = "TW";
+    const CURRENCY_CODE = "TWD";
+    const CURRENCY_NAME = "New Taiwan Dollar";
+    const CURRENCY_SYMBOL = "NT$";
 
 }

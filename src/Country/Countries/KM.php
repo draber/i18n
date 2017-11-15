@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Comoros";
-    const COUNTRIES_CODE = "KM";
-    const CURRENCIES_CODE = "KMF";
-    const CURRENCIES_CURRENCY = "Comorian Franc";
-    const CURRENCIES_SYMBOL = "CF";
+    const COUNTRY_NAME = "Comoros";
+    const COUNTRY_CODE = "KM";
+    const CURRENCY_CODE = "KMF";
+    const CURRENCY_NAME = "Comorian Franc";
+    const CURRENCY_SYMBOL = "CF";
 
 }

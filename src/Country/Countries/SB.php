@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SB extends CountryMethods
 {
-    const COUNTRIES_NAME = "Solomon Islands";
-    const COUNTRIES_CODE = "SB";
-    const CURRENCIES_CODE = "SBD";
-    const CURRENCIES_CURRENCY = "Solomon Islands Dollar";
-    const CURRENCIES_SYMBOL = "SI$";
+    const COUNTRY_NAME = "Solomon Islands";
+    const COUNTRY_CODE = "SB";
+    const CURRENCY_CODE = "SBD";
+    const CURRENCY_NAME = "Solomon Islands Dollar";
+    const CURRENCY_SYMBOL = "SI$";
 
 }

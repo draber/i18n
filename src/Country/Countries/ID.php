@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ID extends CountryMethods
 {
-    const COUNTRIES_NAME = "Indonesia";
-    const COUNTRIES_CODE = "ID";
-    const CURRENCIES_CODE = "IDR";
-    const CURRENCIES_CURRENCY = "Indonesian Rupiah";
-    const CURRENCIES_SYMBOL = "Rp";
+    const COUNTRY_NAME = "Indonesia";
+    const COUNTRY_CODE = "ID";
+    const CURRENCY_CODE = "IDR";
+    const CURRENCY_NAME = "Indonesian Rupiah";
+    const CURRENCY_SYMBOL = "Rp";
 
 }

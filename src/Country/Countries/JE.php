@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class JE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Jersey";
-    const COUNTRIES_CODE = "JE";
-    const CURRENCIES_CODE = "GBP";
-    const CURRENCIES_CURRENCY = "British Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "Jersey";
+    const COUNTRY_CODE = "JE";
+    const CURRENCY_CODE = "GBP";
+    const CURRENCY_NAME = "British Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }

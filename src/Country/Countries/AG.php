@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Antigua and Barbuda";
-    const COUNTRIES_CODE = "AG";
-    const CURRENCIES_CODE = "XCD";
-    const CURRENCIES_CURRENCY = "East Caribbean Dollar";
-    const CURRENCIES_SYMBOL = "EC$";
+    const COUNTRY_NAME = "Antigua and Barbuda";
+    const COUNTRY_CODE = "AG";
+    const CURRENCY_CODE = "XCD";
+    const CURRENCY_NAME = "East Caribbean Dollar";
+    const CURRENCY_SYMBOL = "EC$";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class mt extends LanguageMethods
 {
-    const LANGUAGES_CODE = "mt";
-    const LANGUAGES_NAME = "Maltese";
-    const LANGUAGES_NATIVE_NAME = "Malti";
+    const LANGUAGE_CODE = "mt";
+    const LANGUAGE_NAME = "Maltese";
+    const LANGUAGE_NATIVE_NAME = "Malti";
     const NUMERALS = [
-        0 => 'żero',
-        1 => 'wieħed',
-        2 => 'tnejn',
-        3 => 'tlieta',
-        4 => 'erbgħa',
-        5 => 'ħamsa',
-        6 => 'sitta',
-        7 => 'sebgħa',
-        8 => 'tmienja',
-        9 => 'disgħa',
-        10 => 'għaxra',
-        11 => 'ħdax',
-        12 => 'tnax',
-        13 => 'tlettax',
-        14 => 'erbatax',
-        15 => 'ħmistax',
-        16 => 'sittax',
-        17 => 'sbatax',
-        18 => 'tmintax',
-        19 => 'dsatax',
-        20 => 'għoxrin',
+            0 => 'żero',
+            1 => 'wieħed',
+            2 => 'tnejn',
+            3 => 'tlieta',
+            4 => 'erbgħa',
+            5 => 'ħamsa',
+            6 => 'sitta',
+            7 => 'sebgħa',
+            8 => 'tmienja',
+            9 => 'disgħa',
+            10 => 'għaxra',
+            11 => 'ħdax',
+            12 => 'tnax',
+            13 => 'tlettax',
+            14 => 'erbatax',
+            15 => 'ħmistax',
+            16 => 'sittax',
+            17 => 'sbatax',
+            18 => 'tmintax',
+            19 => 'dsatax',
+            20 => 'għoxrin',
     ];
 
 }

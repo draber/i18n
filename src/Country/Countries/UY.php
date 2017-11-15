@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class UY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Uruguay";
-    const COUNTRIES_CODE = "UY";
-    const CURRENCIES_CODE = "UYU";
-    const CURRENCIES_CURRENCY = "Uruguayan Peso";
-    const CURRENCIES_SYMBOL = "$U";
+    const COUNTRY_NAME = "Uruguay";
+    const COUNTRY_CODE = "UY";
+    const CURRENCY_CODE = "UYU";
+    const CURRENCY_NAME = "Uruguayan Peso";
+    const CURRENCY_SYMBOL = "$U";
 
 }

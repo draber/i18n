@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class tn extends LanguageMethods
 {
-    const LANGUAGES_CODE = "tn";
-    const LANGUAGES_NAME = "Setswana";
-    const LANGUAGES_NATIVE_NAME = "Setswana";
+    const LANGUAGE_CODE = "tn";
+    const LANGUAGE_NAME = "Setswana";
+    const LANGUAGE_NATIVE_NAME = "Setswana";
     const NUMERALS = [
-        0 => 'lefela',
-        1 => 'nngwe',
-        2 => 'pedi',
-        3 => 'tharo',
-        4 => 'nne',
-        5 => 'tlhano',
-        6 => 'thataro',
-        7 => 'supa',
-        8 => 'robedi',
-        9 => 'robongwe',
-        10 => 'lesome ',
-        11 => 'some le bongwe',
-        12 => 'some le bobedi',
-        13 => 'some le boraro',
-        14 => 'some le bone',
-        15 => 'some le botlhano',
-        16 => 'some le borataro',
-        17 => 'some le bosupa',
-        18 => 'some le borobedi',
-        19 => 'some le borobongwe',
-        20 => 'masome pedi',
+            0 => 'lefela',
+            1 => 'nngwe',
+            2 => 'pedi',
+            3 => 'tharo',
+            4 => 'nne',
+            5 => 'tlhano',
+            6 => 'thataro',
+            7 => 'supa',
+            8 => 'robedi',
+            9 => 'robongwe',
+            10 => 'lesome ',
+            11 => 'some le bongwe',
+            12 => 'some le bobedi',
+            13 => 'some le boraro',
+            14 => 'some le bone',
+            15 => 'some le botlhano',
+            16 => 'some le borataro',
+            17 => 'some le bosupa',
+            18 => 'some le borobedi',
+            19 => 'some le borobongwe',
+            20 => 'masome pedi',
     ];
 
 }

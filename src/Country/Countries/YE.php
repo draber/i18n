@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class YE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Yemen";
-    const COUNTRIES_CODE = "YE";
-    const CURRENCIES_CODE = "YER";
-    const CURRENCIES_CURRENCY = "Yemeni Rial";
-    const CURRENCIES_SYMBOL = "﷼";
+    const COUNTRY_NAME = "Yemen";
+    const COUNTRY_CODE = "YE";
+    const CURRENCY_CODE = "YER";
+    const CURRENCY_NAME = "Yemeni Rial";
+    const CURRENCY_SYMBOL = "﷼";
 
 }

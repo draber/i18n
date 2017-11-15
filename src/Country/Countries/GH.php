@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Ghana";
-    const COUNTRIES_CODE = "GH";
-    const CURRENCIES_CODE = "GHS";
-    const CURRENCIES_CURRENCY = "Ghanian Cedi";
-    const CURRENCIES_SYMBOL = "₵";
+    const COUNTRY_NAME = "Ghana";
+    const COUNTRY_CODE = "GH";
+    const CURRENCY_CODE = "GHS";
+    const CURRENCY_NAME = "Ghanian Cedi";
+    const CURRENCY_SYMBOL = "₵";
 
 }

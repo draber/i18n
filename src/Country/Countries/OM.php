@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class OM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Oman";
-    const COUNTRIES_CODE = "OM";
-    const CURRENCIES_CODE = "OMR";
-    const CURRENCIES_CURRENCY = "Omani Rial";
-    const CURRENCIES_SYMBOL = "ر.ع.";
+    const COUNTRY_NAME = "Oman";
+    const COUNTRY_CODE = "OM";
+    const CURRENCY_CODE = "OMR";
+    const CURRENCY_NAME = "Omani Rial";
+    const CURRENCY_SYMBOL = "ر.ع.";
 
 }

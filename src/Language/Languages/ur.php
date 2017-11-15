@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ur extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ur";
-    const LANGUAGES_NAME = "Urdu";
-    const LANGUAGES_NATIVE_NAME = "اردو";
+    const LANGUAGE_CODE = "ur";
+    const LANGUAGE_NAME = "Urdu";
+    const LANGUAGE_NATIVE_NAME = "اردو";
 
 }

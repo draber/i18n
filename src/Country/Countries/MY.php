@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Malaysia";
-    const COUNTRIES_CODE = "MY";
-    const CURRENCIES_CODE = "MYR";
-    const CURRENCIES_CURRENCY = "Malaysian Ringgit";
-    const CURRENCIES_SYMBOL = "RM";
+    const COUNTRY_NAME = "Malaysia";
+    const COUNTRY_CODE = "MY";
+    const CURRENCY_CODE = "MYR";
+    const CURRENCY_NAME = "Malaysian Ringgit";
+    const CURRENCY_SYMBOL = "RM";
 
 }

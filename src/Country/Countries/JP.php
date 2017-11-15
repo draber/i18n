@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class JP extends CountryMethods
 {
-    const COUNTRIES_NAME = "Japan";
-    const COUNTRIES_CODE = "JP";
-    const CURRENCIES_CODE = "JPY";
-    const CURRENCIES_CURRENCY = "Japanese Yen";
-    const CURRENCIES_SYMBOL = "¥";
+    const COUNTRY_NAME = "Japan";
+    const COUNTRY_CODE = "JP";
+    const CURRENCY_CODE = "JPY";
+    const CURRENCY_NAME = "Japanese Yen";
+    const CURRENCY_SYMBOL = "¥";
 
 }

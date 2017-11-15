@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Timor-Leste";
-    const COUNTRIES_CODE = "TL";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "United States Dollar";
-    const CURRENCIES_SYMBOL = "US$";
+    const COUNTRY_NAME = "Timor-Leste";
+    const COUNTRY_CODE = "TL";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "United States Dollar";
+    const CURRENCY_SYMBOL = "US$";
 
 }

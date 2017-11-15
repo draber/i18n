@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Panama";
-    const COUNTRIES_CODE = "PA";
-    const CURRENCIES_CODE = "PAB";
-    const CURRENCIES_CURRENCY = "Panamanian Balboa";
-    const CURRENCIES_SYMBOL = "B/.";
+    const COUNTRY_NAME = "Panama";
+    const COUNTRY_CODE = "PA";
+    const CURRENCY_CODE = "PAB";
+    const CURRENCY_NAME = "Panamanian Balboa";
+    const CURRENCY_SYMBOL = "B/.";
 
 }

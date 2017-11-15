@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class VU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Vanuatu";
-    const COUNTRIES_CODE = "VU";
-    const CURRENCIES_CODE = "VUV";
-    const CURRENCIES_CURRENCY = "Vanuatu Vatu";
-    const CURRENCIES_SYMBOL = "VT";
+    const COUNTRY_NAME = "Vanuatu";
+    const COUNTRY_CODE = "VU";
+    const CURRENCY_CODE = "VUV";
+    const CURRENCY_NAME = "Vanuatu Vatu";
+    const CURRENCY_SYMBOL = "VT";
 
 }

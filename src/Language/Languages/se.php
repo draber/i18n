@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class se extends LanguageMethods
 {
-    const LANGUAGES_CODE = "se";
-    const LANGUAGES_NAME = "Northern Sámi";
-    const LANGUAGES_NATIVE_NAME = "davvisámegiella";
+    const LANGUAGE_CODE = "se";
+    const LANGUAGE_NAME = "Northern Sámi";
+    const LANGUAGE_NATIVE_NAME = "davvisámegiella";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Bosnia and Herzegovina";
-    const COUNTRIES_CODE = "BA";
-    const CURRENCIES_CODE = "BAM";
-    const CURRENCIES_CURRENCY = "Bosnia And Herzegovina Convertible Mark";
-    const CURRENCIES_SYMBOL = "KM";
+    const COUNTRY_NAME = "Bosnia and Herzegovina";
+    const COUNTRY_CODE = "BA";
+    const CURRENCY_CODE = "BAM";
+    const CURRENCY_NAME = "Bosnia And Herzegovina Convertible Mark";
+    const CURRENCY_SYMBOL = "KM";
 
 }

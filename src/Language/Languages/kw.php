@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class kw extends LanguageMethods
 {
-    const LANGUAGES_CODE = "kw";
-    const LANGUAGES_NAME = "Cornish";
-    const LANGUAGES_NATIVE_NAME = "kernewek";
+    const LANGUAGE_CODE = "kw";
+    const LANGUAGE_NAME = "Cornish";
+    const LANGUAGE_NATIVE_NAME = "kernewek";
     const NUMERALS = [
-        0 => 'mann',
-        1 => 'onen',
-        2 => 'dew',
-        3 => 'tri',
-        4 => 'peswar',
-        5 => 'pymp',
-        6 => 'hwegh',
-        7 => 'seyth',
-        8 => 'eth',
-        9 => 'naw',
-        10 => 'deg',
-        11 => 'unnek',
-        12 => 'dewdhek',
-        13 => 'tredhek',
-        14 => 'peswardhek',
-        15 => 'pymthek',
-        16 => 'hwetek',
-        17 => 'seytek',
-        18 => 'etek',
-        19 => 'nownsek',
-        20 => 'ugens',
+            0 => 'mann',
+            1 => 'onen',
+            2 => 'dew',
+            3 => 'tri',
+            4 => 'peswar',
+            5 => 'pymp',
+            6 => 'hwegh',
+            7 => 'seyth',
+            8 => 'eth',
+            9 => 'naw',
+            10 => 'deg',
+            11 => 'unnek',
+            12 => 'dewdhek',
+            13 => 'tredhek',
+            14 => 'peswardhek',
+            15 => 'pymthek',
+            16 => 'hwetek',
+            17 => 'seytek',
+            18 => 'etek',
+            19 => 'nownsek',
+            20 => 'ugens',
     ];
 
 }

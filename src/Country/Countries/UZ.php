@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class UZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Uzbekistan";
-    const COUNTRIES_CODE = "UZ";
-    const CURRENCIES_CODE = "UZS";
-    const CURRENCIES_CURRENCY = "Uzbekistani Som";
-    const CURRENCIES_SYMBOL = "лв";
+    const COUNTRY_NAME = "Uzbekistan";
+    const COUNTRY_CODE = "UZ";
+    const CURRENCY_CODE = "UZS";
+    const CURRENCY_NAME = "Uzbekistani Som";
+    const CURRENCY_SYMBOL = "лв";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Kenya";
-    const COUNTRIES_CODE = "KE";
-    const CURRENCIES_CODE = "KES";
-    const CURRENCIES_CURRENCY = "Kenyan Shilling";
-    const CURRENCIES_SYMBOL = "KSh";
+    const COUNTRY_NAME = "Kenya";
+    const COUNTRY_CODE = "KE";
+    const CURRENCY_CODE = "KES";
+    const CURRENCY_NAME = "Kenyan Shilling";
+    const CURRENCY_SYMBOL = "KSh";
 
 }

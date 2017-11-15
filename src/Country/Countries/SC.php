@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SC extends CountryMethods
 {
-    const COUNTRIES_NAME = "Seychelles";
-    const COUNTRIES_CODE = "SC";
-    const CURRENCIES_CODE = "SCR";
-    const CURRENCIES_CURRENCY = "Seychellois Rupee";
-    const CURRENCIES_SYMBOL = "Ɍs";
+    const COUNTRY_NAME = "Seychelles";
+    const COUNTRY_CODE = "SC";
+    const CURRENCY_CODE = "SCR";
+    const CURRENCY_NAME = "Seychellois Rupee";
+    const CURRENCY_SYMBOL = "Ɍs";
 
 }

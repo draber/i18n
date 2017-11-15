@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Isle of Man";
-    const COUNTRIES_CODE = "IM";
-    const CURRENCIES_CODE = "GBP";
-    const CURRENCIES_CURRENCY = "British Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "Isle of Man";
+    const COUNTRY_CODE = "IM";
+    const CURRENCY_CODE = "GBP";
+    const CURRENCY_NAME = "British Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }

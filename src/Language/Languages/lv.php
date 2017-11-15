@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class lv extends LanguageMethods
 {
-    const LANGUAGES_CODE = "lv";
-    const LANGUAGES_NAME = "Latvian";
-    const LANGUAGES_NATIVE_NAME = "latviešu";
+    const LANGUAGE_CODE = "lv";
+    const LANGUAGE_NAME = "Latvian";
+    const LANGUAGE_NATIVE_NAME = "latviešu";
     const NUMERALS = [
-        0 => 'nulle',
-        1 => 'viens',
-        2 => 'divi',
-        3 => 'trīs',
-        4 => 'četri',
-        5 => 'pieci',
-        6 => 'seši',
-        7 => 'septiņi',
-        8 => 'astoņi',
-        9 => 'deviņi',
-        10 => 'desmit',
-        11 => 'vienpadsmit',
-        12 => 'divpadsmit',
-        13 => 'trīspadsmit',
-        14 => 'četrpadsmit',
-        15 => 'piecpadsmit',
-        16 => 'sešpadsmit',
-        17 => 'septiņpadsmit',
-        18 => 'astoņpadsmit',
-        19 => 'deviņpadsmit',
-        20 => 'divdesmit',
+            0 => 'nulle',
+            1 => 'viens',
+            2 => 'divi',
+            3 => 'trīs',
+            4 => 'četri',
+            5 => 'pieci',
+            6 => 'seši',
+            7 => 'septiņi',
+            8 => 'astoņi',
+            9 => 'deviņi',
+            10 => 'desmit',
+            11 => 'vienpadsmit',
+            12 => 'divpadsmit',
+            13 => 'trīspadsmit',
+            14 => 'četrpadsmit',
+            15 => 'piecpadsmit',
+            16 => 'sešpadsmit',
+            17 => 'septiņpadsmit',
+            18 => 'astoņpadsmit',
+            19 => 'deviņpadsmit',
+            20 => 'divdesmit',
     ];
 
 }

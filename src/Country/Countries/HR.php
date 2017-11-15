@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class HR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Croatia";
-    const COUNTRIES_CODE = "HR";
-    const CURRENCIES_CODE = "HRK";
-    const CURRENCIES_CURRENCY = "Croatian Kuna";
-    const CURRENCIES_SYMBOL = "kn";
+    const COUNTRY_NAME = "Croatia";
+    const COUNTRY_CODE = "HR";
+    const CURRENCY_CODE = "HRK";
+    const CURRENCY_NAME = "Croatian Kuna";
+    const CURRENCY_SYMBOL = "kn";
 
 }

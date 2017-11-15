@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ay extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ay";
-    const LANGUAGES_NAME = "Aymara";
-    const LANGUAGES_NATIVE_NAME = "Aymara";
+    const LANGUAGE_CODE = "ay";
+    const LANGUAGE_NAME = "Aymara";
+    const LANGUAGE_NATIVE_NAME = "Aymara";
     const NUMERALS = [
-        0 => 'n/a',
-        1 => 'maya',
-        2 => 'paya',
-        3 => 'quimsa',
-        4 => 'pusi',
-        5 => 'pheska',
-        6 => 'sojjta',
-        7 => 'pakallko',
-        8 => 'quimsakallko',
-        9 => 'llätunca',
-        10 => 'tunca',
-        11 => 'tunca mayani',
-        12 => 'tunca payani',
-        13 => 'tunca quimsani',
-        14 => 'tunca pusini',
-        15 => 'tunca pheskani',
-        16 => 'tunca sojjtani',
-        17 => 'tunca pakallkoni',
-        18 => 'tunca quimsakallkoni',
-        19 => 'tunca llätuncani',
-        20 => 'pä tunc',
+            0 => 'n/a',
+            1 => 'maya',
+            2 => 'paya',
+            3 => 'quimsa',
+            4 => 'pusi',
+            5 => 'pheska',
+            6 => 'sojjta',
+            7 => 'pakallko',
+            8 => 'quimsakallko',
+            9 => 'llätunca',
+            10 => 'tunca',
+            11 => 'tunca mayani',
+            12 => 'tunca payani',
+            13 => 'tunca quimsani',
+            14 => 'tunca pusini',
+            15 => 'tunca pheskani',
+            16 => 'tunca sojjtani',
+            17 => 'tunca pakallkoni',
+            18 => 'tunca quimsakallkoni',
+            19 => 'tunca llätuncani',
+            20 => 'pä tunc',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class UA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Ukraine";
-    const COUNTRIES_CODE = "UA";
-    const CURRENCIES_CODE = "UAH";
-    const CURRENCIES_CURRENCY = "Ukrainian Hryvnia";
-    const CURRENCIES_SYMBOL = "₴";
+    const COUNTRY_NAME = "Ukraine";
+    const COUNTRY_CODE = "UA";
+    const CURRENCY_CODE = "UAH";
+    const CURRENCY_NAME = "Ukrainian Hryvnia";
+    const CURRENCY_SYMBOL = "₴";
 
 }

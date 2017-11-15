@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Poland";
-    const COUNTRIES_CODE = "PL";
-    const CURRENCIES_CODE = "PLN";
-    const CURRENCIES_CURRENCY = "Polish Zloty";
-    const CURRENCIES_SYMBOL = "zł";
+    const COUNTRY_NAME = "Poland";
+    const COUNTRY_CODE = "PL";
+    const CURRENCY_CODE = "PLN";
+    const CURRENCY_NAME = "Polish Zloty";
+    const CURRENCY_SYMBOL = "zł";
 
 }

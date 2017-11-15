@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LS extends CountryMethods
 {
-    const COUNTRIES_NAME = "Lesotho";
-    const COUNTRIES_CODE = "LS";
-    const CURRENCIES_CODE = "LSL";
-    const CURRENCIES_CURRENCY = "Lesotho Loti";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Lesotho";
+    const COUNTRY_CODE = "LS";
+    const CURRENCY_CODE = "LSL";
+    const CURRENCY_NAME = "Lesotho Loti";
+    const CURRENCY_SYMBOL = "L";
 
 }

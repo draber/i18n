@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Gabon";
-    const COUNTRIES_CODE = "GA";
-    const CURRENCIES_CODE = "XAF";
-    const CURRENCIES_CURRENCY = "Central African CFA Franc";
-    const CURRENCIES_SYMBOL = "CFA";
+    const COUNTRY_NAME = "Gabon";
+    const COUNTRY_CODE = "GA";
+    const CURRENCY_CODE = "XAF";
+    const CURRENCY_NAME = "Central African CFA Franc";
+    const CURRENCY_SYMBOL = "CFA";
 
 }

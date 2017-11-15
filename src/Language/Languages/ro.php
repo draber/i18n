@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ro extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ro";
-    const LANGUAGES_NAME = "Romanian";
-    const LANGUAGES_NATIVE_NAME = "română";
+    const LANGUAGE_CODE = "ro";
+    const LANGUAGE_NAME = "Romanian";
+    const LANGUAGE_NATIVE_NAME = "română";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'unu',
-        2 => 'doi',
-        3 => 'trei',
-        4 => 'patru',
-        5 => 'cinci',
-        6 => 'șase',
-        7 => 'șapte',
-        8 => 'opt',
-        9 => 'nouă',
-        10 => 'zece',
-        11 => 'unsprezece',
-        12 => 'doisprezece',
-        13 => 'treisprezece',
-        14 => 'paisprezece',
-        15 => 'cincisprezece',
-        16 => 'șaisprezece',
-        17 => 'șaptesprezece',
-        18 => 'optsprezece',
-        19 => 'nouăsprezece',
-        20 => 'douăzeci',
+            0 => 'zero',
+            1 => 'unu',
+            2 => 'doi',
+            3 => 'trei',
+            4 => 'patru',
+            5 => 'cinci',
+            6 => 'șase',
+            7 => 'șapte',
+            8 => 'opt',
+            9 => 'nouă',
+            10 => 'zece',
+            11 => 'unsprezece',
+            12 => 'doisprezece',
+            13 => 'treisprezece',
+            14 => 'paisprezece',
+            15 => 'cincisprezece',
+            16 => 'șaisprezece',
+            17 => 'șaptesprezece',
+            18 => 'optsprezece',
+            19 => 'nouăsprezece',
+            20 => 'douăzeci',
     ];
 
 }

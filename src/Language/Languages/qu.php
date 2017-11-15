@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class qu extends LanguageMethods
 {
-    const LANGUAGES_CODE = "qu";
-    const LANGUAGES_NAME = "Quechua";
-    const LANGUAGES_NATIVE_NAME = "Runasimi";
+    const LANGUAGE_CODE = "qu";
+    const LANGUAGE_NAME = "Quechua";
+    const LANGUAGE_NATIVE_NAME = "Runasimi";
     const NUMERALS = [
-        0 => 'illaq',
-        1 => 'huq',
-        2 => 'iskay',
-        3 => 'kinsa',
-        4 => 'tawa',
-        5 => 'pisqa',
-        6 => 'suqta',
-        7 => 'qanchis',
-        8 => 'pusaq',
-        9 => 'isqun',
-        10 => 'chunka',
-        11 => 'chunka huqniyuq',
-        12 => 'chunka iskayniyuq',
-        13 => 'chunka kinsaniyuq',
-        14 => 'chunka tawaniyuq',
-        15 => 'chunka pisqaniyuq',
-        16 => 'chunka suqtaniyuq',
-        17 => 'chunka qanchisniyuq',
-        18 => 'chunka pusaqniyuq',
-        19 => 'chunka isqunniyuq',
-        20 => 'iskay chunka',
+            0 => 'illaq',
+            1 => 'huq',
+            2 => 'iskay',
+            3 => 'kinsa',
+            4 => 'tawa',
+            5 => 'pisqa',
+            6 => 'suqta',
+            7 => 'qanchis',
+            8 => 'pusaq',
+            9 => 'isqun',
+            10 => 'chunka',
+            11 => 'chunka huqniyuq',
+            12 => 'chunka iskayniyuq',
+            13 => 'chunka kinsaniyuq',
+            14 => 'chunka tawaniyuq',
+            15 => 'chunka pisqaniyuq',
+            16 => 'chunka suqtaniyuq',
+            17 => 'chunka qanchisniyuq',
+            18 => 'chunka pusaqniyuq',
+            19 => 'chunka isqunniyuq',
+            20 => 'iskay chunka',
     ];
 
 }

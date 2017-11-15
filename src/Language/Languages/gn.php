@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class gn extends LanguageMethods
 {
-    const LANGUAGES_CODE = "gn";
-    const LANGUAGES_NAME = "Guarani";
-    const LANGUAGES_NATIVE_NAME = "Guarani";
+    const LANGUAGE_CODE = "gn";
+    const LANGUAGE_NAME = "Guarani";
+    const LANGUAGE_NATIVE_NAME = "Guarani";
     const NUMERALS = [
-        0 => 'mba’eve',
-        1 => 'peteĩ',
-        2 => 'mokoĩ',
-        3 => 'mbohapy',
-        4 => 'irundy',
-        5 => 'po',
-        6 => 'poteĩ',
-        7 => 'pokóĩ',
-        8 => 'poapy',
-        9 => 'porundy',
-        10 => 'pa',
-        11 => 'pateĩ',
-        12 => 'pakóĩ',
-        13 => 'pa’apy',
-        14 => 'pa irundy',
-        15 => 'pa po',
-        16 => 'pa poteĩ',
-        17 => 'pa pokóĩ',
-        18 => 'pa poapy',
-        19 => 'pa porundy',
-        20 => 'mokóĩ pa',
+            0 => 'mba’eve',
+            1 => 'peteĩ',
+            2 => 'mokoĩ',
+            3 => 'mbohapy',
+            4 => 'irundy',
+            5 => 'po',
+            6 => 'poteĩ',
+            7 => 'pokóĩ',
+            8 => 'poapy',
+            9 => 'porundy',
+            10 => 'pa',
+            11 => 'pateĩ',
+            12 => 'pakóĩ',
+            13 => 'pa’apy',
+            14 => 'pa irundy',
+            15 => 'pa po',
+            16 => 'pa poteĩ',
+            17 => 'pa pokóĩ',
+            18 => 'pa poapy',
+            19 => 'pa porundy',
+            20 => 'mokóĩ pa',
     ];
 
 }

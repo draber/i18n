@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ti extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ti";
-    const LANGUAGES_NAME = "Tigrinya";
-    const LANGUAGES_NATIVE_NAME = "ትግርኛ";
+    const LANGUAGE_CODE = "ti";
+    const LANGUAGE_NAME = "Tigrinya";
+    const LANGUAGE_NATIVE_NAME = "ትግርኛ";
     const NUMERALS = [
-        0 => 'bado',
-        1 => 'hade',
-        2 => 'kilte',
-        3 => 'seleste',
-        4 => 'arba’ete',
-        5 => 'hamushte',
-        6 => 'shidishte',
-        7 => 'shob’ate',
-        8 => 'shomonte',
-        9 => 'tishi’ate',
-        10 => 'aserte',
-        11 => 'aserte hade',
-        12 => 'aserte kilte',
-        13 => 'aserte seleste',
-        14 => 'aserte arba’ete',
-        15 => 'aserte hamushte',
-        16 => 'aserte shidishte',
-        17 => 'aserte shob’ate',
-        18 => 'aserte shomonte',
-        19 => 'aserte tishi’ate',
-        20 => 'isra',
+            0 => 'bado',
+            1 => 'hade',
+            2 => 'kilte',
+            3 => 'seleste',
+            4 => 'arba’ete',
+            5 => 'hamushte',
+            6 => 'shidishte',
+            7 => 'shob’ate',
+            8 => 'shomonte',
+            9 => 'tishi’ate',
+            10 => 'aserte',
+            11 => 'aserte hade',
+            12 => 'aserte kilte',
+            13 => 'aserte seleste',
+            14 => 'aserte arba’ete',
+            15 => 'aserte hamushte',
+            16 => 'aserte shidishte',
+            17 => 'aserte shob’ate',
+            18 => 'aserte shomonte',
+            19 => 'aserte tishi’ate',
+            20 => 'isra',
     ];
 
 }

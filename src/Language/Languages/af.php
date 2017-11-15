@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class af extends LanguageMethods
 {
-    const LANGUAGES_CODE = "af";
-    const LANGUAGES_NAME = "Afrikaans";
-    const LANGUAGES_NATIVE_NAME = "Afrikaans";
+    const LANGUAGE_CODE = "af";
+    const LANGUAGE_NAME = "Afrikaans";
+    const LANGUAGE_NATIVE_NAME = "Afrikaans";
     const NUMERALS = [
-        0 => 'nul',
-        1 => 'een',
-        2 => 'twee',
-        3 => 'drie',
-        4 => 'vier',
-        5 => 'vyf',
-        6 => 'ses',
-        7 => 'sewe',
-        8 => 'agt',
-        9 => 'nege',
-        10 => 'tien',
-        11 => 'elf',
-        12 => 'twaalf',
-        13 => 'dertien',
-        14 => 'veertien',
-        15 => 'vyftien',
-        16 => 'sestien',
-        17 => 'sewentien',
-        18 => 'agtien',
-        19 => 'negentien',
-        20 => 'twintig',
+            0 => 'nul',
+            1 => 'een',
+            2 => 'twee',
+            3 => 'drie',
+            4 => 'vier',
+            5 => 'vyf',
+            6 => 'ses',
+            7 => 'sewe',
+            8 => 'agt',
+            9 => 'nege',
+            10 => 'tien',
+            11 => 'elf',
+            12 => 'twaalf',
+            13 => 'dertien',
+            14 => 'veertien',
+            15 => 'vyftien',
+            16 => 'sestien',
+            17 => 'sewentien',
+            18 => 'agtien',
+            19 => 'negentien',
+            20 => 'twintig',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PE extends CountryMethods
 {
-    const COUNTRIES_NAME = "Peru";
-    const COUNTRIES_CODE = "PE";
-    const CURRENCIES_CODE = "PEN";
-    const CURRENCIES_CURRENCY = "Peruvian Nuevo Sol";
-    const CURRENCIES_SYMBOL = "S/.";
+    const COUNTRY_NAME = "Peru";
+    const COUNTRY_CODE = "PE";
+    const CURRENCY_CODE = "PEN";
+    const CURRENCY_NAME = "Peruvian Nuevo Sol";
+    const CURRENCY_SYMBOL = "S/.";
 
 }

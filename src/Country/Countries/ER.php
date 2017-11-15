@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ER extends CountryMethods
 {
-    const COUNTRIES_NAME = "Eritrea";
-    const COUNTRIES_CODE = "ER";
-    const CURRENCIES_CODE = "ERN";
-    const CURRENCIES_CURRENCY = "Eritrean Nakfa";
-    const CURRENCIES_SYMBOL = "Nfa";
+    const COUNTRY_NAME = "Eritrea";
+    const COUNTRY_CODE = "ER";
+    const CURRENCY_CODE = "ERN";
+    const CURRENCY_NAME = "Eritrean Nakfa";
+    const CURRENCY_SYMBOL = "Nfa";
 
 }

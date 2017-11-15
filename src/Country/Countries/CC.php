@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CC extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cocos (Keeling) Islands";
-    const COUNTRIES_CODE = "CC";
-    const CURRENCIES_CODE = "AUD";
-    const CURRENCIES_CURRENCY = "Australian Dollar";
-    const CURRENCIES_SYMBOL = "AU$";
+    const COUNTRY_NAME = "Cocos (Keeling) Islands";
+    const COUNTRY_CODE = "CC";
+    const CURRENCY_CODE = "AUD";
+    const CURRENCY_NAME = "Australian Dollar";
+    const CURRENCY_SYMBOL = "AU$";
 
 }

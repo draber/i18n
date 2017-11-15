@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Nigeria";
-    const COUNTRIES_CODE = "NG";
-    const CURRENCIES_CODE = "NGN";
-    const CURRENCIES_CURRENCY = "Nigerian Naira";
-    const CURRENCIES_SYMBOL = "₦";
+    const COUNTRY_NAME = "Nigeria";
+    const COUNTRY_CODE = "NG";
+    const CURRENCY_CODE = "NGN";
+    const CURRENCY_NAME = "Nigerian Naira";
+    const CURRENCY_SYMBOL = "₦";
 
 }

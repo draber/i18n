@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LV extends CountryMethods
 {
-    const COUNTRIES_NAME = "Latvia";
-    const COUNTRIES_CODE = "LV";
-    const CURRENCIES_CODE = "LVL";
-    const CURRENCIES_CURRENCY = "Latvian Lats";
-    const CURRENCIES_SYMBOL = "Ls";
+    const COUNTRY_NAME = "Latvia";
+    const COUNTRY_CODE = "LV";
+    const CURRENCY_CODE = "LVL";
+    const CURRENCY_NAME = "Latvian Lats";
+    const CURRENCY_SYMBOL = "Ls";
 
 }

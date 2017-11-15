@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BT extends CountryMethods
 {
-    const COUNTRIES_NAME = "Bhutan";
-    const COUNTRIES_CODE = "BT";
-    const CURRENCIES_CODE = "BTN";
-    const CURRENCIES_CURRENCY = "Bhutanese Ngultrum";
-    const CURRENCIES_SYMBOL = "Nu.";
+    const COUNTRY_NAME = "Bhutan";
+    const COUNTRY_CODE = "BT";
+    const CURRENCY_CODE = "BTN";
+    const CURRENCY_NAME = "Bhutanese Ngultrum";
+    const CURRENCY_SYMBOL = "Nu.";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cuba";
-    const COUNTRIES_CODE = "CU";
-    const CURRENCIES_CODE = "CUC";
-    const CURRENCIES_CURRENCY = "Cuban Peso";
-    const CURRENCIES_SYMBOL = "₱";
+    const COUNTRY_NAME = "Cuba";
+    const COUNTRY_CODE = "CU";
+    const CURRENCY_CODE = "CUC";
+    const CURRENCY_NAME = "Cuban Peso";
+    const CURRENCY_SYMBOL = "₱";
 
 }

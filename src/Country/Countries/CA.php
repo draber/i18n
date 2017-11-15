@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Canada";
-    const COUNTRIES_CODE = "CA";
-    const CURRENCIES_CODE = "CAD";
-    const CURRENCIES_CURRENCY = "Canadian Dollar";
-    const CURRENCIES_SYMBOL = "C$";
+    const COUNTRY_NAME = "Canada";
+    const COUNTRY_CODE = "CA";
+    const CURRENCY_CODE = "CAD";
+    const CURRENCY_NAME = "Canadian Dollar";
+    const CURRENCY_SYMBOL = "C$";
 
 }

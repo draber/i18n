@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mauritania";
-    const COUNTRIES_CODE = "MR";
-    const CURRENCIES_CODE = "MRO";
-    const CURRENCIES_CURRENCY = "Mauritanian Ouguiya";
-    const CURRENCIES_SYMBOL = "UM";
+    const COUNTRY_NAME = "Mauritania";
+    const COUNTRY_CODE = "MR";
+    const CURRENCY_CODE = "MRO";
+    const CURRENCY_NAME = "Mauritanian Ouguiya";
+    const CURRENCY_SYMBOL = "UM";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guinea";
-    const COUNTRIES_CODE = "GN";
-    const CURRENCIES_CODE = "GNF";
-    const CURRENCIES_CURRENCY = "Guinean Franc";
-    const CURRENCIES_SYMBOL = "FG";
+    const COUNTRY_NAME = "Guinea";
+    const COUNTRY_CODE = "GN";
+    const CURRENCY_CODE = "GNF";
+    const CURRENCY_NAME = "Guinean Franc";
+    const CURRENCY_SYMBOL = "FG";
 
 }

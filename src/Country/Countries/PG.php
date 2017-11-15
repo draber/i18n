@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Papua New Guinea";
-    const COUNTRIES_CODE = "PG";
-    const CURRENCIES_CODE = "PGK";
-    const CURRENCIES_CURRENCY = "Papua New Guinea Kina";
-    const CURRENCIES_SYMBOL = "K";
+    const COUNTRY_NAME = "Papua New Guinea";
+    const COUNTRY_CODE = "PG";
+    const CURRENCY_CODE = "PGK";
+    const CURRENCY_NAME = "Papua New Guinea Kina";
+    const CURRENCY_SYMBOL = "K";
 
 }

@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class iu extends LanguageMethods
 {
-    const LANGUAGES_CODE = "iu";
-    const LANGUAGES_NAME = "Inuktitut";
-    const LANGUAGES_NATIVE_NAME = "Inuktitut";
+    const LANGUAGE_CODE = "iu";
+    const LANGUAGE_NAME = "Inuktitut";
+    const LANGUAGE_NATIVE_NAME = "Inuktitut";
 
 }

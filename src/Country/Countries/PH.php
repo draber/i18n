@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Philippines";
-    const COUNTRIES_CODE = "PH";
-    const CURRENCIES_CODE = "PHP";
-    const CURRENCIES_CURRENCY = "Philippine Peso";
-    const CURRENCIES_SYMBOL = "₱";
+    const COUNTRY_NAME = "Philippines";
+    const COUNTRY_CODE = "PH";
+    const CURRENCY_CODE = "PHP";
+    const CURRENCY_NAME = "Philippine Peso";
+    const CURRENCY_SYMBOL = "₱";
 
 }

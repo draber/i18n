@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Nauru";
-    const COUNTRIES_CODE = "NR";
-    const CURRENCIES_CODE = "AUD";
-    const CURRENCIES_CURRENCY = "Australian Dollar";
-    const CURRENCIES_SYMBOL = "A$";
+    const COUNTRY_NAME = "Nauru";
+    const COUNTRY_CODE = "NR";
+    const CURRENCY_CODE = "AUD";
+    const CURRENCY_NAME = "Australian Dollar";
+    const CURRENCY_SYMBOL = "A$";
 
 }

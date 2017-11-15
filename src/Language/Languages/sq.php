@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sq extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sq";
-    const LANGUAGES_NAME = "Albanian";
-    const LANGUAGES_NATIVE_NAME = "shqip";
+    const LANGUAGE_CODE = "sq";
+    const LANGUAGE_NAME = "Albanian";
+    const LANGUAGE_NATIVE_NAME = "shqip";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'një',
-        2 => 'dy',
-        3 => 'tre',
-        4 => 'katër',
-        5 => 'pesë',
-        6 => 'gjashtë',
-        7 => 'shtatë',
-        8 => 'tetë',
-        9 => 'nëntë',
-        10 => 'dhjetë',
-        11 => 'njëmbëdhjetë',
-        12 => 'dymbëdhjetë',
-        13 => 'trembëdhjetë',
-        14 => 'katërmbëdhjetë',
-        15 => 'pesëmbëdhjetë',
-        16 => 'gjashtëmbëdhjetë',
-        17 => 'shtatëmbëdhjetë',
-        18 => 'tetëmbëdhjetë',
-        19 => 'nëntëmbëdhjetë',
-        20 => 'njëzet',
+            0 => 'zero',
+            1 => 'një',
+            2 => 'dy',
+            3 => 'tre',
+            4 => 'katër',
+            5 => 'pesë',
+            6 => 'gjashtë',
+            7 => 'shtatë',
+            8 => 'tetë',
+            9 => 'nëntë',
+            10 => 'dhjetë',
+            11 => 'njëmbëdhjetë',
+            12 => 'dymbëdhjetë',
+            13 => 'trembëdhjetë',
+            14 => 'katërmbëdhjetë',
+            15 => 'pesëmbëdhjetë',
+            16 => 'gjashtëmbëdhjetë',
+            17 => 'shtatëmbëdhjetë',
+            18 => 'tetëmbëdhjetë',
+            19 => 'nëntëmbëdhjetë',
+            20 => 'njëzet',
     ];
 
 }

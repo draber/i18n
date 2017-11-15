@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class RO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Romania";
-    const COUNTRIES_CODE = "RO";
-    const CURRENCIES_CODE = "RON";
-    const CURRENCIES_CURRENCY = "Romanian Leu";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Romania";
+    const COUNTRY_CODE = "RO";
+    const CURRENCY_CODE = "RON";
+    const CURRENCY_NAME = "Romanian Leu";
+    const CURRENCY_SYMBOL = "L";
 
 }

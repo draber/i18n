@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TM extends CountryMethods
 {
-    const COUNTRIES_NAME = "Turkmenistan";
-    const COUNTRIES_CODE = "TM";
-    const CURRENCIES_CODE = "TMT";
-    const CURRENCIES_CURRENCY = "Turkmenistani Manat";
-    const CURRENCIES_SYMBOL = "m";
+    const COUNTRY_NAME = "Turkmenistan";
+    const COUNTRY_CODE = "TM";
+    const CURRENCY_CODE = "TMT";
+    const CURRENCY_NAME = "Turkmenistani Manat";
+    const CURRENCY_SYMBOL = "m";
 
 }

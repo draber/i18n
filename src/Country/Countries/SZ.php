@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Swaziland";
-    const COUNTRIES_CODE = "SZ";
-    const CURRENCIES_CODE = "SZL";
-    const CURRENCIES_CURRENCY = "Swazi Lilangeni";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Swaziland";
+    const COUNTRY_CODE = "SZ";
+    const CURRENCY_CODE = "SZL";
+    const CURRENCY_NAME = "Swazi Lilangeni";
+    const CURRENCY_SYMBOL = "L";
 
 }

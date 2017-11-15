@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AE extends CountryMethods
 {
-    const COUNTRIES_NAME = "United Arab Emirates";
-    const COUNTRIES_CODE = "AE";
-    const CURRENCIES_CODE = "AED";
-    const CURRENCIES_CURRENCY = "United Arab Emirates Dirham";
-    const CURRENCIES_SYMBOL = "د.إ";
+    const COUNTRY_NAME = "United Arab Emirates";
+    const COUNTRY_CODE = "AE";
+    const CURRENCY_CODE = "AED";
+    const CURRENCY_NAME = "United Arab Emirates Dirham";
+    const CURRENCY_SYMBOL = "د.إ";
 
 }

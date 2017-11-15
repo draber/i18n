@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class vo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "vo";
-    const LANGUAGES_NAME = "Volapük";
-    const LANGUAGES_NATIVE_NAME = "vo";
+    const LANGUAGE_CODE = "vo";
+    const LANGUAGE_NAME = "Volapük";
+    const LANGUAGE_NATIVE_NAME = "vo";
     const NUMERALS = [
-        0 => 'ser',
-        1 => 'bal',
-        2 => 'tel',
-        3 => 'kil',
-        4 => 'fol',
-        5 => 'lul',
-        6 => 'mäl',
-        7 => 'vel',
-        8 => 'jöl',
-        9 => 'zül',
-        10 => 'deg',
-        11 => 'deg bal',
-        12 => 'deg tel',
-        13 => 'deg kil',
-        14 => 'deg fol',
-        15 => 'deg lul',
-        16 => 'deg mäl',
-        17 => 'deg vel',
-        18 => 'deg jöl',
-        19 => 'deg zül',
-        20 => 'teldeg',
+            0 => 'ser',
+            1 => 'bal',
+            2 => 'tel',
+            3 => 'kil',
+            4 => 'fol',
+            5 => 'lul',
+            6 => 'mäl',
+            7 => 'vel',
+            8 => 'jöl',
+            9 => 'zül',
+            10 => 'deg',
+            11 => 'deg bal',
+            12 => 'deg tel',
+            13 => 'deg kil',
+            14 => 'deg fol',
+            15 => 'deg lul',
+            16 => 'deg mäl',
+            17 => 'deg vel',
+            18 => 'deg jöl',
+            19 => 'deg zül',
+            20 => 'teldeg',
     ];
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class fo extends LanguageMethods
 {
-    const LANGUAGES_CODE = "fo";
-    const LANGUAGES_NAME = "Faroese";
-    const LANGUAGES_NATIVE_NAME = "føroyskt";
+    const LANGUAGE_CODE = "fo";
+    const LANGUAGE_NAME = "Faroese";
+    const LANGUAGE_NATIVE_NAME = "føroyskt";
     const NUMERALS = [
-        0 => 'null',
-        1 => 'ein',
-        2 => 'tveir',
-        3 => 'tríggir',
-        4 => 'fýra',
-        5 => 'fimm',
-        6 => 'seks',
-        7 => 'sjey',
-        8 => 'átta',
-        9 => 'níggju',
-        10 => 'tíggju',
-        11 => 'ellivu',
-        12 => 'tólv',
-        13 => 'trettan',
-        14 => 'fjúrtan',
-        15 => 'fimtan',
-        16 => 'sekstan',
-        17 => 'seytjan',
-        18 => 'átjan',
-        19 => 'nítjan',
-        20 => 'tjúgu',
+            0 => 'null',
+            1 => 'ein',
+            2 => 'tveir',
+            3 => 'tríggir',
+            4 => 'fýra',
+            5 => 'fimm',
+            6 => 'seks',
+            7 => 'sjey',
+            8 => 'átta',
+            9 => 'níggju',
+            10 => 'tíggju',
+            11 => 'ellivu',
+            12 => 'tólv',
+            13 => 'trettan',
+            14 => 'fjúrtan',
+            15 => 'fimtan',
+            16 => 'sekstan',
+            17 => 'seytjan',
+            18 => 'átjan',
+            19 => 'nítjan',
+            20 => 'tjúgu',
     ];
 
 }

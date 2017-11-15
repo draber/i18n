@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class sv extends LanguageMethods
 {
-    const LANGUAGES_CODE = "sv";
-    const LANGUAGES_NAME = "Swedish";
-    const LANGUAGES_NATIVE_NAME = "svenska";
+    const LANGUAGE_CODE = "sv";
+    const LANGUAGE_NAME = "Swedish";
+    const LANGUAGE_NATIVE_NAME = "svenska";
     const NUMERALS = [
-        0 => 'noll',
-        1 => 'en',
-        2 => 'två',
-        3 => 'tre',
-        4 => 'fyra',
-        5 => 'fem',
-        6 => 'sex',
-        7 => 'sju',
-        8 => 'åtta',
-        9 => 'nio',
-        10 => 'tio',
-        11 => 'elva',
-        12 => 'tolv',
-        13 => 'tretton',
-        14 => 'fjorton',
-        15 => 'femton',
-        16 => 'sexton',
-        17 => 'sjutton',
-        18 => 'arton',
-        19 => 'nitton',
-        20 => 'tjugo',
+            0 => 'noll',
+            1 => 'en',
+            2 => 'två',
+            3 => 'tre',
+            4 => 'fyra',
+            5 => 'fem',
+            6 => 'sex',
+            7 => 'sju',
+            8 => 'åtta',
+            9 => 'nio',
+            10 => 'tio',
+            11 => 'elva',
+            12 => 'tolv',
+            13 => 'tretton',
+            14 => 'fjorton',
+            15 => 'femton',
+            16 => 'sexton',
+            17 => 'sjutton',
+            18 => 'arton',
+            19 => 'nitton',
+            20 => 'tjugo',
     ];
 
 }

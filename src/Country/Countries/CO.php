@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CO extends CountryMethods
 {
-    const COUNTRIES_NAME = "Colombia";
-    const COUNTRIES_CODE = "CO";
-    const CURRENCIES_CODE = "COP";
-    const CURRENCIES_CURRENCY = "Colombian Peso";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Colombia";
+    const COUNTRY_CODE = "CO";
+    const CURRENCY_CODE = "COP";
+    const CURRENCY_NAME = "Colombian Peso";
+    const CURRENCY_SYMBOL = "$";
 
 }

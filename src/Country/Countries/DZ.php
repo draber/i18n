@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class DZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Algeria";
-    const COUNTRIES_CODE = "DZ";
-    const CURRENCIES_CODE = "DZD";
-    const CURRENCIES_CURRENCY = "Algerian Dinar";
-    const CURRENCIES_SYMBOL = "د.ج";
+    const COUNTRY_NAME = "Algeria";
+    const COUNTRY_CODE = "DZ";
+    const CURRENCY_CODE = "DZD";
+    const CURRENCY_NAME = "Algerian Dinar";
+    const CURRENCY_SYMBOL = "د.ج";
 
 }

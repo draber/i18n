@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class ZW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Zimbabwe";
-    const COUNTRIES_CODE = "ZW";
-    const CURRENCIES_CODE = "ZWL";
-    const CURRENCIES_CURRENCY = "Zimbabwean Dollar";
-    const CURRENCIES_SYMBOL = "Z$";
+    const COUNTRY_NAME = "Zimbabwe";
+    const COUNTRY_CODE = "ZW";
+    const CURRENCY_CODE = "ZWL";
+    const CURRENCY_NAME = "Zimbabwean Dollar";
+    const CURRENCY_SYMBOL = "Z$";
 
 }

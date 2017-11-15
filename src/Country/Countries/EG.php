@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class EG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Egypt";
-    const COUNTRIES_CODE = "EG";
-    const CURRENCIES_CODE = "EGP";
-    const CURRENCIES_CURRENCY = "Egyptian Pound";
-    const CURRENCIES_SYMBOL = "E£";
+    const COUNTRY_NAME = "Egypt";
+    const COUNTRY_CODE = "EG";
+    const CURRENCY_CODE = "EGP";
+    const CURRENCY_NAME = "Egyptian Pound";
+    const CURRENCY_SYMBOL = "E£";
 
 }

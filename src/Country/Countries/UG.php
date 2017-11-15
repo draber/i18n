@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class UG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Uganda";
-    const COUNTRIES_CODE = "UG";
-    const CURRENCIES_CODE = "UGX";
-    const CURRENCIES_CURRENCY = "Ugandan Shilling";
-    const CURRENCIES_SYMBOL = "USh";
+    const COUNTRY_NAME = "Uganda";
+    const COUNTRY_CODE = "UG";
+    const CURRENCY_CODE = "UGX";
+    const CURRENCY_NAME = "Ugandan Shilling";
+    const CURRENCY_SYMBOL = "USh";
 
 }

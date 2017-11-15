@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class gd extends LanguageMethods
 {
-    const LANGUAGES_CODE = "gd";
-    const LANGUAGES_NAME = "Scots Gaelic";
-    const LANGUAGES_NATIVE_NAME = "Gàidhlig";
+    const LANGUAGE_CODE = "gd";
+    const LANGUAGE_NAME = "Scots Gaelic";
+    const LANGUAGE_NATIVE_NAME = "Gàidhlig";
     const NUMERALS = [
-        0 => 'neoni',
-        1 => 'aon',
-        2 => 'dà',
-        3 => 'trì',
-        4 => 'ceithir',
-        5 => 'cóig',
-        6 => 'sia',
-        7 => 'seachd',
-        8 => 'ochd',
-        9 => 'naoi',
-        10 => 'deich',
-        11 => 'aon deug',
-        12 => 'dà dheug',
-        13 => 'trì deug',
-        14 => 'ceithir deug',
-        15 => 'còig deug',
-        16 => 'sia deug',
-        17 => 'seachd deug',
-        18 => 'ochd deug',
-        19 => 'naoi deug',
-        20 => 'fichead',
+            0 => 'neoni',
+            1 => 'aon',
+            2 => 'dà',
+            3 => 'trì',
+            4 => 'ceithir',
+            5 => 'cóig',
+            6 => 'sia',
+            7 => 'seachd',
+            8 => 'ochd',
+            9 => 'naoi',
+            10 => 'deich',
+            11 => 'aon deug',
+            12 => 'dà dheug',
+            13 => 'trì deug',
+            14 => 'ceithir deug',
+            15 => 'còig deug',
+            16 => 'sia deug',
+            17 => 'seachd deug',
+            18 => 'ochd deug',
+            19 => 'naoi deug',
+            20 => 'fichead',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Brazil";
-    const COUNTRIES_CODE = "BR";
-    const CURRENCIES_CODE = "BRL";
-    const CURRENCIES_CURRENCY = "Brazilian Real";
-    const CURRENCIES_SYMBOL = "R$";
+    const COUNTRY_NAME = "Brazil";
+    const COUNTRY_CODE = "BR";
+    const CURRENCY_CODE = "BRL";
+    const CURRENCY_NAME = "Brazilian Real";
+    const CURRENCY_SYMBOL = "R$";
 
 }

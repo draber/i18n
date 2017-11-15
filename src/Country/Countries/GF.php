@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GF extends CountryMethods
 {
-    const COUNTRIES_NAME = "French Guiana";
-    const COUNTRIES_CODE = "GF";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "European Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "French Guiana";
+    const COUNTRY_CODE = "GF";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "European Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

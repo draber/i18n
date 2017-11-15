@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TV extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tuvalu";
-    const COUNTRIES_CODE = "TV";
-    const CURRENCIES_CODE = "AUD";
-    const CURRENCIES_CURRENCY = "Australian Dollar";
-    const CURRENCIES_SYMBOL = "A$";
+    const COUNTRY_NAME = "Tuvalu";
+    const COUNTRY_CODE = "TV";
+    const CURRENCY_CODE = "AUD";
+    const CURRENCY_NAME = "Australian Dollar";
+    const CURRENCY_SYMBOL = "A$";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PF extends CountryMethods
 {
-    const COUNTRIES_NAME = "French Polynesia";
-    const COUNTRIES_CODE = "PF";
-    const CURRENCIES_CODE = "XPF";
-    const CURRENCIES_CURRENCY = "CFP Franc";
-    const CURRENCIES_SYMBOL = "F";
+    const COUNTRY_NAME = "French Polynesia";
+    const COUNTRY_CODE = "PF";
+    const CURRENCY_CODE = "XPF";
+    const CURRENCY_NAME = "CFP Franc";
+    const CURRENCY_SYMBOL = "F";
 
 }

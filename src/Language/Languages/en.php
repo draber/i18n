@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class en extends LanguageMethods
 {
-    const LANGUAGES_CODE = "en";
-    const LANGUAGES_NAME = "English";
-    const LANGUAGES_NATIVE_NAME = "English";
+    const LANGUAGE_CODE = "en";
+    const LANGUAGE_NAME = "English";
+    const LANGUAGE_NATIVE_NAME = "English";
     const NUMERALS = [
-        0 => 'zero',
-        1 => 'one',
-        2 => 'two',
-        3 => 'three',
-        4 => 'four',
-        5 => 'five',
-        6 => 'six',
-        7 => 'seven',
-        8 => 'eight',
-        9 => 'nine',
-        10 => 'ten',
-        11 => 'eleven',
-        12 => 'twelve',
-        13 => 'thirteen',
-        14 => 'fourteen',
-        15 => 'fifteen',
-        16 => 'sixteen',
-        17 => 'seventeen',
-        18 => 'eighteen',
-        19 => 'nineteen',
-        20 => 'twenty',
+            0 => 'zero',
+            1 => 'one',
+            2 => 'two',
+            3 => 'three',
+            4 => 'four',
+            5 => 'five',
+            6 => 'six',
+            7 => 'seven',
+            8 => 'eight',
+            9 => 'nine',
+            10 => 'ten',
+            11 => 'eleven',
+            12 => 'twelve',
+            13 => 'thirteen',
+            14 => 'fourteen',
+            15 => 'fifteen',
+            16 => 'sixteen',
+            17 => 'seventeen',
+            18 => 'eighteen',
+            19 => 'nineteen',
+            20 => 'twenty',
     ];
 
 }

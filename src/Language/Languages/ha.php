@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ha extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ha";
-    const LANGUAGES_NAME = "Hausa";
-    const LANGUAGES_NATIVE_NAME = "Hausa";
+    const LANGUAGE_CODE = "ha";
+    const LANGUAGE_NAME = "Hausa";
+    const LANGUAGE_NATIVE_NAME = "Hausa";
     const NUMERALS = [
-        0 => 'sifili',
-        1 => 'd’aya',
-        2 => 'biyu',
-        3 => 'uku',
-        4 => 'hud’u',
-        5 => 'biyar',
-        6 => 'shida',
-        7 => 'bakwai',
-        8 => 'takwas',
-        9 => 'tara',
-        10 => 'goma',
-        11 => 'goma sha d’aya',
-        12 => 'goma sha biyu',
-        13 => 'goma sha uku',
-        14 => 'goma sha hud’u',
-        15 => 'goma sha biyar',
-        16 => 'goma sha shida',
-        17 => 'goma sha bakwai',
-        18 => 'goma sha takwas',
-        19 => 'goma sha tara',
-        20 => 'ashirin',
+            0 => 'sifili',
+            1 => 'd’aya',
+            2 => 'biyu',
+            3 => 'uku',
+            4 => 'hud’u',
+            5 => 'biyar',
+            6 => 'shida',
+            7 => 'bakwai',
+            8 => 'takwas',
+            9 => 'tara',
+            10 => 'goma',
+            11 => 'goma sha d’aya',
+            12 => 'goma sha biyu',
+            13 => 'goma sha uku',
+            14 => 'goma sha hud’u',
+            15 => 'goma sha biyar',
+            16 => 'goma sha shida',
+            17 => 'goma sha bakwai',
+            18 => 'goma sha takwas',
+            19 => 'goma sha tara',
+            20 => 'ashirin',
     ];
 
 }

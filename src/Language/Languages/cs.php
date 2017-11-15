@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class cs extends LanguageMethods
 {
-    const LANGUAGES_CODE = "cs";
-    const LANGUAGES_NAME = "Czech";
-    const LANGUAGES_NATIVE_NAME = "čeština";
+    const LANGUAGE_CODE = "cs";
+    const LANGUAGE_NAME = "Czech";
+    const LANGUAGE_NATIVE_NAME = "čeština";
     const NUMERALS = [
-        0 => 'nula',
-        1 => 'jeden',
-        2 => 'dva',
-        3 => 'tři',
-        4 => 'čtyři',
-        5 => 'pět',
-        6 => 'šest',
-        7 => 'sedm',
-        8 => 'osm',
-        9 => 'devět',
-        10 => 'deset',
-        11 => 'jedenáct',
-        12 => 'dvanáct',
-        13 => 'třináct',
-        14 => 'čtrnáct',
-        15 => 'patnáct',
-        16 => 'šestnáct',
-        17 => 'sedmnáct',
-        18 => 'osmnáct',
-        19 => 'devatenáct',
-        20 => 'dvacet',
+            0 => 'nula',
+            1 => 'jeden',
+            2 => 'dva',
+            3 => 'tři',
+            4 => 'čtyři',
+            5 => 'pět',
+            6 => 'šest',
+            7 => 'sedm',
+            8 => 'osm',
+            9 => 'devět',
+            10 => 'deset',
+            11 => 'jedenáct',
+            12 => 'dvanáct',
+            13 => 'třináct',
+            14 => 'čtrnáct',
+            15 => 'patnáct',
+            16 => 'šestnáct',
+            17 => 'sedmnáct',
+            18 => 'osmnáct',
+            19 => 'devatenáct',
+            20 => 'dvacet',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class LB extends CountryMethods
 {
-    const COUNTRIES_NAME = "Lebanon";
-    const COUNTRIES_CODE = "LB";
-    const CURRENCIES_CODE = "LBP";
-    const CURRENCIES_CURRENCY = "Lebanese Pound";
-    const CURRENCIES_SYMBOL = "L£";
+    const COUNTRY_NAME = "Lebanon";
+    const COUNTRY_CODE = "LB";
+    const CURRENCY_CODE = "LBP";
+    const CURRENCY_NAME = "Lebanese Pound";
+    const CURRENCY_SYMBOL = "L£";
 
 }

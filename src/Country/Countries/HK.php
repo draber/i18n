@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class HK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Hong Kong";
-    const COUNTRIES_CODE = "HK";
-    const CURRENCIES_CODE = "HKD";
-    const CURRENCIES_CURRENCY = "Hong Kong Dollar";
-    const CURRENCIES_SYMBOL = "HK$";
+    const COUNTRY_NAME = "Hong Kong";
+    const COUNTRY_CODE = "HK";
+    const CURRENCY_CODE = "HKD";
+    const CURRENCY_NAME = "Hong Kong Dollar";
+    const CURRENCY_SYMBOL = "HK$";
 
 }

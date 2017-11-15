@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ku extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ku";
-    const LANGUAGES_NAME = "Kurdish";
-    const LANGUAGES_NATIVE_NAME = "Kurdish";
+    const LANGUAGE_CODE = "ku";
+    const LANGUAGE_NAME = "Kurdish";
+    const LANGUAGE_NATIVE_NAME = "Kurdish";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Namibia";
-    const COUNTRIES_CODE = "NA";
-    const CURRENCIES_CODE = "NAD";
-    const CURRENCIES_CURRENCY = "Namibian Dollar";
-    const CURRENCIES_SYMBOL = "N$";
+    const COUNTRY_NAME = "Namibia";
+    const COUNTRY_CODE = "NA";
+    const CURRENCY_CODE = "NAD";
+    const CURRENCY_NAME = "Namibian Dollar";
+    const CURRENCY_SYMBOL = "N$";
 
 }

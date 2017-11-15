@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NI extends CountryMethods
 {
-    const COUNTRIES_NAME = "Nicaragua";
-    const COUNTRIES_CODE = "NI";
-    const CURRENCIES_CODE = "NIO";
-    const CURRENCIES_CURRENCY = "Nicaraguan Córdoba";
-    const CURRENCIES_SYMBOL = "C$";
+    const COUNTRY_NAME = "Nicaragua";
+    const COUNTRY_CODE = "NI";
+    const CURRENCY_CODE = "NIO";
+    const CURRENCY_NAME = "Nicaraguan Córdoba";
+    const CURRENCY_SYMBOL = "C$";
 
 }

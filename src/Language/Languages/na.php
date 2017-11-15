@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class na extends LanguageMethods
 {
-    const LANGUAGES_CODE = "na";
-    const LANGUAGES_NAME = "Nauru";
-    const LANGUAGES_NATIVE_NAME = "Nauru";
+    const LANGUAGE_CODE = "na";
+    const LANGUAGE_NAME = "Nauru";
+    const LANGUAGE_NATIVE_NAME = "Nauru";
 
 }

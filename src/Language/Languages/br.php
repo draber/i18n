@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class br extends LanguageMethods
 {
-    const LANGUAGES_CODE = "br";
-    const LANGUAGES_NAME = "Breton";
-    const LANGUAGES_NATIVE_NAME = "brezhoneg";
+    const LANGUAGE_CODE = "br";
+    const LANGUAGE_NAME = "Breton";
+    const LANGUAGE_NATIVE_NAME = "brezhoneg";
     const NUMERALS = [
-        0 => 'mann',
-        1 => 'unan',
-        2 => 'daou',
-        3 => 'tri',
-        4 => 'pevar',
-        5 => 'pemp',
-        6 => 'c’hwec’h',
-        7 => 'seizh',
-        8 => 'eizh',
-        9 => 'nav',
-        10 => 'dek',
-        11 => 'unnek',
-        12 => 'daouzek',
-        13 => 'trizek',
-        14 => 'pevarzek',
-        15 => 'pemzek',
-        16 => 'c’hwezek',
-        17 => 'seitek',
-        18 => 'triwec’h',
-        19 => 'naontek',
-        20 => 'ugent',
+            0 => 'mann',
+            1 => 'unan',
+            2 => 'daou',
+            3 => 'tri',
+            4 => 'pevar',
+            5 => 'pemp',
+            6 => 'c’hwec’h',
+            7 => 'seizh',
+            8 => 'eizh',
+            9 => 'nav',
+            10 => 'dek',
+            11 => 'unnek',
+            12 => 'daouzek',
+            13 => 'trizek',
+            14 => 'pevarzek',
+            15 => 'pemzek',
+            16 => 'c’hwezek',
+            17 => 'seitek',
+            18 => 'triwec’h',
+            19 => 'naontek',
+            20 => 'ugent',
     ];
 
 }

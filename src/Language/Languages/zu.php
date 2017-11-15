@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class zu extends LanguageMethods
 {
-    const LANGUAGES_CODE = "zu";
-    const LANGUAGES_NAME = "Zulu";
-    const LANGUAGES_NATIVE_NAME = "isiZulu";
+    const LANGUAGE_CODE = "zu";
+    const LANGUAGE_NAME = "Zulu";
+    const LANGUAGE_NATIVE_NAME = "isiZulu";
     const NUMERALS = [
-        0 => 'iqanda',
-        1 => 'kunye',
-        2 => 'kubili',
-        3 => 'kuthathu',
-        4 => 'kune',
-        5 => 'kuhlanu',
-        6 => 'isithupha',
-        7 => 'isikhombisa',
-        8 => 'isishiyagalombili',
-        9 => 'isishiyagalolunye',
-        10 => 'ishumi',
-        11 => 'ishumi nanye',
-        12 => 'ishumi nambili',
-        13 => 'ishumi nantathu',
-        14 => 'ishumi nane',
-        15 => 'ishumi nanhlanu',
-        16 => 'ishumi nesithupha',
-        17 => 'ishumi nesikhombisa',
-        18 => 'ishumi nesishiyagalombili',
-        19 => 'ishumi nesishiyagalolunye',
-        20 => 'amashumi amabili',
+            0 => 'iqanda',
+            1 => 'kunye',
+            2 => 'kubili',
+            3 => 'kuthathu',
+            4 => 'kune',
+            5 => 'kuhlanu',
+            6 => 'isithupha',
+            7 => 'isikhombisa',
+            8 => 'isishiyagalombili',
+            9 => 'isishiyagalolunye',
+            10 => 'ishumi',
+            11 => 'ishumi nanye',
+            12 => 'ishumi nambili',
+            13 => 'ishumi nantathu',
+            14 => 'ishumi nane',
+            15 => 'ishumi nanhlanu',
+            16 => 'ishumi nesithupha',
+            17 => 'ishumi nesikhombisa',
+            18 => 'ishumi nesishiyagalombili',
+            19 => 'ishumi nesishiyagalolunye',
+            20 => 'amashumi amabili',
     ];
 
 }

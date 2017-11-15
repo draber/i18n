@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MP extends CountryMethods
 {
-    const COUNTRIES_NAME = "Northern Mariana Islands";
-    const COUNTRIES_CODE = "MP";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "United States Dollar";
-    const CURRENCIES_SYMBOL = "US$";
+    const COUNTRY_NAME = "Northern Mariana Islands";
+    const COUNTRY_CODE = "MP";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "United States Dollar";
+    const CURRENCY_SYMBOL = "US$";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class om extends LanguageMethods
 {
-    const LANGUAGES_CODE = "om";
-    const LANGUAGES_NAME = "(Afan) Oromo";
-    const LANGUAGES_NATIVE_NAME = "Oromoo";
+    const LANGUAGE_CODE = "om";
+    const LANGUAGE_NAME = "(Afan) Oromo";
+    const LANGUAGE_NATIVE_NAME = "Oromoo";
     const NUMERALS = [
-        0 => 'tokko',
-        1 => 'tokko',
-        2 => 'lama',
-        3 => 'sadi',
-        4 => 'afur',
-        5 => 'shan',
-        6 => 'jaya',
-        7 => 'torba',
-        8 => 'saddeet',
-        9 => 'sagal',
-        10 => 'khudan',
-        11 => 'khuda-tokko',
-        12 => 'khuda-lama',
-        13 => 'khuda-sadi',
-        14 => 'khuda-afur',
-        15 => 'khuda-shan',
-        16 => 'khuda-jaya',
-        17 => 'khuda-torba',
-        18 => 'khuda-saddeet',
-        19 => 'khuda-sagal',
-        20 => 'digdama',
+            0 => 'tokko',
+            1 => 'tokko',
+            2 => 'lama',
+            3 => 'sadi',
+            4 => 'afur',
+            5 => 'shan',
+            6 => 'jaya',
+            7 => 'torba',
+            8 => 'saddeet',
+            9 => 'sagal',
+            10 => 'khudan',
+            11 => 'khuda-tokko',
+            12 => 'khuda-lama',
+            13 => 'khuda-sadi',
+            14 => 'khuda-afur',
+            15 => 'khuda-shan',
+            16 => 'khuda-jaya',
+            17 => 'khuda-torba',
+            18 => 'khuda-saddeet',
+            19 => 'khuda-sagal',
+            20 => 'digdama',
     ];
 
 }

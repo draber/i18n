@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MA extends CountryMethods
 {
-    const COUNTRIES_NAME = "Morocco";
-    const COUNTRIES_CODE = "MA";
-    const CURRENCIES_CODE = "MAD";
-    const CURRENCIES_CURRENCY = "Moroccan Dirham";
-    const CURRENCIES_SYMBOL = "د.م.";
+    const COUNTRY_NAME = "Morocco";
+    const COUNTRY_CODE = "MA";
+    const CURRENCY_CODE = "MAD";
+    const CURRENCY_NAME = "Moroccan Dirham";
+    const CURRENCY_SYMBOL = "د.م.";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class RW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Rwanda";
-    const COUNTRIES_CODE = "RW";
-    const CURRENCIES_CODE = "RWF";
-    const CURRENCIES_CURRENCY = "Rwandan Franc";
-    const CURRENCIES_SYMBOL = "RF";
+    const COUNTRY_NAME = "Rwanda";
+    const COUNTRY_CODE = "RW";
+    const CURRENCY_CODE = "RWF";
+    const CURRENCY_NAME = "Rwandan Franc";
+    const CURRENCY_SYMBOL = "RF";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BD extends CountryMethods
 {
-    const COUNTRIES_NAME = "Bangladesh";
-    const COUNTRIES_CODE = "BD";
-    const CURRENCIES_CODE = "BDT";
-    const CURRENCIES_CURRENCY = "Bangladeshi Taka";
-    const CURRENCIES_SYMBOL = "৳";
+    const COUNTRY_NAME = "Bangladesh";
+    const COUNTRY_CODE = "BD";
+    const CURRENCY_CODE = "BDT";
+    const CURRENCY_NAME = "Bangladeshi Taka";
+    const CURRENCY_SYMBOL = "৳";
 
 }

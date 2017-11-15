@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class mg extends LanguageMethods
 {
-    const LANGUAGES_CODE = "mg";
-    const LANGUAGES_NAME = "Malagasy";
-    const LANGUAGES_NATIVE_NAME = "Malagasy";
+    const LANGUAGE_CODE = "mg";
+    const LANGUAGE_NAME = "Malagasy";
+    const LANGUAGE_NATIVE_NAME = "Malagasy";
     const NUMERALS = [
-        0 => 'aotra',
-        1 => 'isa',
-        2 => 'roa',
-        3 => 'telo',
-        4 => 'efatra',
-        5 => 'dimy',
-        6 => 'enina',
-        7 => 'fito',
-        8 => 'valo',
-        9 => 'sivy',
-        10 => 'folo',
-        11 => 'iraika ambinʼny folo',
-        12 => 'roa ambinʼny folo',
-        13 => 'telo ambinʼny folo',
-        14 => 'efatra ambinʼny folo',
-        15 => 'dimy ambinʼny folo',
-        16 => 'enina ambinʼny folo',
-        17 => 'fito ambinʼny folo',
-        18 => 'valo ambinʼny folo',
-        19 => 'sivy ambinʼny folo',
-        20 => 'roapolo',
+            0 => 'aotra',
+            1 => 'isa',
+            2 => 'roa',
+            3 => 'telo',
+            4 => 'efatra',
+            5 => 'dimy',
+            6 => 'enina',
+            7 => 'fito',
+            8 => 'valo',
+            9 => 'sivy',
+            10 => 'folo',
+            11 => 'iraika ambinʼny folo',
+            12 => 'roa ambinʼny folo',
+            13 => 'telo ambinʼny folo',
+            14 => 'efatra ambinʼny folo',
+            15 => 'dimy ambinʼny folo',
+            16 => 'enina ambinʼny folo',
+            17 => 'fito ambinʼny folo',
+            18 => 'valo ambinʼny folo',
+            19 => 'sivy ambinʼny folo',
+            20 => 'roapolo',
     ];
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SV extends CountryMethods
 {
-    const COUNTRIES_NAME = "El Salvador";
-    const COUNTRIES_CODE = "SV";
-    const CURRENCIES_CODE = "SVC";
-    const CURRENCIES_CURRENCY = "Salvadoran Colón";
-    const CURRENCIES_SYMBOL = "₡";
+    const COUNTRY_NAME = "El Salvador";
+    const COUNTRY_CODE = "SV";
+    const CURRENCY_CODE = "SVC";
+    const CURRENCY_NAME = "Salvadoran Colón";
+    const CURRENCY_SYMBOL = "₡";
 
 }

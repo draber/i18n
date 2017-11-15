@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BW extends CountryMethods
 {
-    const COUNTRIES_NAME = "Botswana";
-    const COUNTRIES_CODE = "BW";
-    const CURRENCIES_CODE = "BWP";
-    const CURRENCIES_CURRENCY = "Botswana Pula";
-    const CURRENCIES_SYMBOL = "P";
+    const COUNTRY_NAME = "Botswana";
+    const COUNTRY_CODE = "BW";
+    const CURRENCY_CODE = "BWP";
+    const CURRENCY_NAME = "Botswana Pula";
+    const CURRENCY_SYMBOL = "P";
 
 }

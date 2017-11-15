@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cayman Islands";
-    const COUNTRIES_CODE = "KY";
-    const CURRENCIES_CODE = "KYD";
-    const CURRENCIES_CURRENCY = "Cayman Islands Dollar";
-    const CURRENCIES_SYMBOL = "KY$";
+    const COUNTRY_NAME = "Cayman Islands";
+    const COUNTRY_CODE = "KY";
+    const CURRENCY_CODE = "KYD";
+    const CURRENCY_NAME = "Cayman Islands Dollar";
+    const CURRENCY_SYMBOL = "KY$";
 
 }

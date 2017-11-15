@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class CK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Cook Islands";
-    const COUNTRIES_CODE = "CK";
-    const CURRENCIES_CODE = "NZD";
-    const CURRENCIES_CURRENCY = "New Zealand Dollar";
-    const CURRENCIES_SYMBOL = "NZ$";
+    const COUNTRY_NAME = "Cook Islands";
+    const COUNTRY_CODE = "CK";
+    const CURRENCY_CODE = "NZD";
+    const CURRENCY_NAME = "New Zealand Dollar";
+    const CURRENCY_SYMBOL = "NZ$";
 
 }

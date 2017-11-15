@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class aa extends LanguageMethods
 {
-    const LANGUAGES_CODE = "aa";
-    const LANGUAGES_NAME = "Afar";
-    const LANGUAGES_NATIVE_NAME = "Afar";
+    const LANGUAGE_CODE = "aa";
+    const LANGUAGE_NAME = "Afar";
+    const LANGUAGE_NATIVE_NAME = "Afar";
 
 }

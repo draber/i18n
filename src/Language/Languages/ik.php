@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class ik extends LanguageMethods
 {
-    const LANGUAGES_CODE = "ik";
-    const LANGUAGES_NAME = "Inupiak";
-    const LANGUAGES_NATIVE_NAME = "Inupiak";
+    const LANGUAGE_CODE = "ik";
+    const LANGUAGE_NAME = "Inupiak";
+    const LANGUAGE_NATIVE_NAME = "Inupiak";
 
 }

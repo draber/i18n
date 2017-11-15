@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Brunei";
-    const COUNTRIES_CODE = "BN";
-    const CURRENCIES_CODE = "BND";
-    const CURRENCIES_CURRENCY = "Brunei Dollar";
-    const CURRENCIES_SYMBOL = "B$";
+    const COUNTRY_NAME = "Brunei";
+    const COUNTRY_CODE = "BN";
+    const CURRENCY_CODE = "BND";
+    const CURRENCY_NAME = "Brunei Dollar";
+    const CURRENCY_SYMBOL = "B$";
 
 }

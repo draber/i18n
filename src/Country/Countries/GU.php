@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guam";
-    const COUNTRIES_CODE = "GU";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "United States Dollar";
-    const CURRENCIES_SYMBOL = "US$";
+    const COUNTRY_NAME = "Guam";
+    const COUNTRY_CODE = "GU";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "United States Dollar";
+    const CURRENCY_SYMBOL = "US$";
 
 }

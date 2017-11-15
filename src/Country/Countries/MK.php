@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Macedonia";
-    const COUNTRIES_CODE = "MK";
-    const CURRENCIES_CODE = "MKD";
-    const CURRENCIES_CURRENCY = "Macedonia Denar";
-    const CURRENCIES_SYMBOL = "ден";
+    const COUNTRY_NAME = "Macedonia";
+    const COUNTRY_CODE = "MK";
+    const CURRENCY_CODE = "MKD";
+    const CURRENCY_NAME = "Macedonia Denar";
+    const CURRENCY_SYMBOL = "ден";
 
 }

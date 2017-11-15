@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class lt extends LanguageMethods
 {
-    const LANGUAGES_CODE = "lt";
-    const LANGUAGES_NAME = "Lithuanian";
-    const LANGUAGES_NATIVE_NAME = "lietuvių";
+    const LANGUAGE_CODE = "lt";
+    const LANGUAGE_NAME = "Lithuanian";
+    const LANGUAGE_NATIVE_NAME = "lietuvių";
     const NUMERALS = [
-        0 => 'nulis',
-        1 => 'vienas',
-        2 => 'du',
-        3 => 'trys',
-        4 => 'keturi',
-        5 => 'penki',
-        6 => 'šeši',
-        7 => 'septyni',
-        8 => 'aštuoni',
-        9 => 'devyni',
-        10 => 'dešimt',
-        11 => 'vienuolika',
-        12 => 'dvylika',
-        13 => 'trylika',
-        14 => 'keturiolika',
-        15 => 'penkiolika',
-        16 => 'šešiolika',
-        17 => 'septyniolika',
-        18 => 'aštuoniolika',
-        19 => 'devyniolika',
-        20 => 'dvidešimt',
+            0 => 'nulis',
+            1 => 'vienas',
+            2 => 'du',
+            3 => 'trys',
+            4 => 'keturi',
+            5 => 'penki',
+            6 => 'šeši',
+            7 => 'septyni',
+            8 => 'aštuoni',
+            9 => 'devyni',
+            10 => 'dešimt',
+            11 => 'vienuolika',
+            12 => 'dvylika',
+            13 => 'trylika',
+            14 => 'keturiolika',
+            15 => 'penkiolika',
+            16 => 'šešiolika',
+            17 => 'septyniolika',
+            18 => 'aštuoniolika',
+            19 => 'devyniolika',
+            20 => 'dvidešimt',
     ];
 
 }

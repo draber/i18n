@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class VN extends CountryMethods
 {
-    const COUNTRIES_NAME = "Viet Nam";
-    const COUNTRIES_CODE = "VN";
-    const CURRENCIES_CODE = "VND";
-    const CURRENCIES_CURRENCY = "Viet Nam Dong";
-    const CURRENCIES_SYMBOL = "₫";
+    const COUNTRY_NAME = "Viet Nam";
+    const COUNTRY_CODE = "VN";
+    const CURRENCY_CODE = "VND";
+    const CURRENCY_NAME = "Viet Nam Dong";
+    const CURRENCY_SYMBOL = "₫";
 
 }

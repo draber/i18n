@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class YT extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mayotte";
-    const COUNTRIES_CODE = "YT";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "European Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Mayotte";
+    const COUNTRY_CODE = "YT";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "European Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

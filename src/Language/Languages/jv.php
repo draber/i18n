@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class jv extends LanguageMethods
 {
-    const LANGUAGES_CODE = "jv";
-    const LANGUAGES_NAME = "Javanese";
-    const LANGUAGES_NATIVE_NAME = "Javanese";
+    const LANGUAGE_CODE = "jv";
+    const LANGUAGE_NAME = "Javanese";
+    const LANGUAGE_NATIVE_NAME = "Javanese";
     const NUMERALS = [
-        0 => 'nul',
-        1 => 'siji',
-        2 => 'loro',
-        3 => 'telu',
-        4 => 'papat',
-        5 => 'lima',
-        6 => 'nem',
-        7 => 'pitu',
-        8 => 'wolu',
-        9 => 'sanga',
-        10 => 'sapuluh',
-        11 => 'sewelas',
-        12 => 'rolas',
-        13 => 'telulas',
-        14 => 'patbelas',
-        15 => 'limalas',
-        16 => 'nembelas',
-        17 => 'pitulas',
-        18 => 'wolulas',
-        19 => 'sangalas',
-        20 => 'rong puluh',
+            0 => 'nul',
+            1 => 'siji',
+            2 => 'loro',
+            3 => 'telu',
+            4 => 'papat',
+            5 => 'lima',
+            6 => 'nem',
+            7 => 'pitu',
+            8 => 'wolu',
+            9 => 'sanga',
+            10 => 'sapuluh',
+            11 => 'sewelas',
+            12 => 'rolas',
+            13 => 'telulas',
+            14 => 'patbelas',
+            15 => 'limalas',
+            16 => 'nembelas',
+            17 => 'pitulas',
+            18 => 'wolulas',
+            19 => 'sangalas',
+            20 => 'rong puluh',
     ];
 
 }

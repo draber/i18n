@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TC extends CountryMethods
 {
-    const COUNTRIES_NAME = "Turks and Caicos Islands";
-    const COUNTRIES_CODE = "TC";
-    const CURRENCIES_CODE = "USD";
-    const CURRENCIES_CURRENCY = "US Dollar";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Turks and Caicos Islands";
+    const COUNTRY_CODE = "TC";
+    const CURRENCY_CODE = "USD";
+    const CURRENCY_NAME = "US Dollar";
+    const CURRENCY_SYMBOL = "$";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Niue";
-    const COUNTRIES_CODE = "NU";
-    const CURRENCIES_CODE = "NZD";
-    const CURRENCIES_CURRENCY = "New Zealand Dollar";
-    const CURRENCIES_SYMBOL = "NZ$";
+    const COUNTRY_NAME = "Niue";
+    const COUNTRY_CODE = "NU";
+    const CURRENCY_CODE = "NZD";
+    const CURRENCY_NAME = "New Zealand Dollar";
+    const CURRENCY_SYMBOL = "NZ$";
 
 }

@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GP extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guadeloupe";
-    const COUNTRIES_CODE = "GP";
-    const CURRENCIES_CODE = "EUR";
-    const CURRENCIES_CURRENCY = "European Euro";
-    const CURRENCIES_SYMBOL = "€";
+    const COUNTRY_NAME = "Guadeloupe";
+    const COUNTRY_CODE = "GP";
+    const CURRENCY_CODE = "EUR";
+    const CURRENCY_NAME = "European Euro";
+    const CURRENCY_SYMBOL = "€";
 
 }

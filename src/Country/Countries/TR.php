@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TR extends CountryMethods
 {
-    const COUNTRIES_NAME = "Turkey";
-    const COUNTRIES_CODE = "TR";
-    const CURRENCIES_CODE = "TRY";
-    const CURRENCIES_CURRENCY = "Turkish Lira";
-    const CURRENCIES_SYMBOL = "TL";
+    const COUNTRY_NAME = "Turkey";
+    const COUNTRY_CODE = "TR";
+    const CURRENCY_CODE = "TRY";
+    const CURRENCY_NAME = "Turkish Lira";
+    const CURRENCY_SYMBOL = "TL";
 
 }

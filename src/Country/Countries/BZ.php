@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Belize";
-    const COUNTRIES_CODE = "BZ";
-    const CURRENCIES_CODE = "BZD";
-    const CURRENCIES_CURRENCY = "Belizean Dollar";
-    const CURRENCIES_SYMBOL = "BZ$";
+    const COUNTRY_NAME = "Belize";
+    const COUNTRY_CODE = "BZ";
+    const CURRENCY_CODE = "BZD";
+    const CURRENCY_NAME = "Belizean Dollar";
+    const CURRENCY_SYMBOL = "BZ$";
 
 }

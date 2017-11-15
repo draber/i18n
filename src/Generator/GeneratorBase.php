@@ -91,15 +91,19 @@ class GeneratorBase extends CommonBase
      *
      * @param $array
      * @return string
-     * @todo don't replace anything in the actual values!
+     * @see https://gist.github.com/stemar/bb7c5cd2614b21b624bf57608f995ac0
      */
     protected static function prettyPrint(array $array)
     {
         $indent = '    '; // 4 spaces
-        $string = var_export($array, 1);
-        $string = preg_replace("~\s*array \(~m", " [", str_replace('),' . PHP_EOL, '],' . PHP_EOL, $string));
-        $string = trim(str_replace('  ', $indent, $string));
-        return trim(preg_replace("/^/m", $indent, $string));
+        $object = json_decode(str_replace(['(', ')'], ['&#40', '&#41'], json_encode($array)), true);
+        $export = str_replace(['array (', ')', '&#40', '&#41'], ['[', ']', '(', ')'], var_export($object, true));
+        $export = preg_replace("/ => \n[^\S\n]*\[/m", ' => [', $export);
+        $export = preg_replace("/ => \[\n[^\S\n]*\]/m", ' => []', $export);
+        $export = preg_replace("/([ ]{2})(?![^ ])/m", $indent, $export);
+        $export = preg_replace("/^([ ]{2})/m", $indent, $export);
+        $export = trim(str_replace('  ', $indent, $export));
+        return trim(preg_replace("/^/m", $indent, $export));
     }
 
     /**

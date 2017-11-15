@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Kazakhstan";
-    const COUNTRIES_CODE = "KZ";
-    const CURRENCIES_CODE = "KZT";
-    const CURRENCIES_CURRENCY = "Kazakhstani Tenge";
-    const CURRENCIES_SYMBOL = "₸";
+    const COUNTRY_NAME = "Kazakhstan";
+    const COUNTRY_CODE = "KZ";
+    const CURRENCY_CODE = "KZT";
+    const CURRENCY_NAME = "Kazakhstani Tenge";
+    const CURRENCY_SYMBOL = "₸";
 
 }

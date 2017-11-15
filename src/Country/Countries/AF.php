@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class AF extends CountryMethods
 {
-    const COUNTRIES_NAME = "Afghanistan";
-    const COUNTRIES_CODE = "AF";
-    const CURRENCIES_CODE = "AFN";
-    const CURRENCIES_CURRENCY = "Afghan Afghani";
-    const CURRENCIES_SYMBOL = "؋";
+    const COUNTRY_NAME = "Afghanistan";
+    const COUNTRY_CODE = "AF";
+    const CURRENCY_CODE = "AFN";
+    const CURRENCY_NAME = "Afghan Afghani";
+    const CURRENCY_SYMBOL = "؋";
 
 }

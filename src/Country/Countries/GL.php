@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GL extends CountryMethods
 {
-    const COUNTRIES_NAME = "Greenland";
-    const COUNTRIES_CODE = "GL";
-    const CURRENCIES_CODE = "DKK";
-    const CURRENCIES_CURRENCY = "Danish Krone";
-    const CURRENCIES_SYMBOL = "ø";
+    const COUNTRY_NAME = "Greenland";
+    const COUNTRY_CODE = "GL";
+    const CURRENCY_CODE = "DKK";
+    const CURRENCY_NAME = "Danish Krone";
+    const CURRENCY_SYMBOL = "ø";
 
 }

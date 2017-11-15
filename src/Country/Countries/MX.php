@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MX extends CountryMethods
 {
-    const COUNTRIES_NAME = "Mexico";
-    const COUNTRIES_CODE = "MX";
-    const CURRENCIES_CODE = "MXN";
-    const CURRENCIES_CURRENCY = "Mexican Peso";
-    const CURRENCIES_SYMBOL = "$";
+    const COUNTRY_NAME = "Mexico";
+    const COUNTRY_CODE = "MX";
+    const CURRENCY_CODE = "MXN";
+    const CURRENCY_NAME = "Mexican Peso";
+    const CURRENCY_SYMBOL = "$";
 
 }

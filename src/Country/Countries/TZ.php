@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class TZ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Tanzania";
-    const COUNTRIES_CODE = "TZ";
-    const CURRENCIES_CODE = "TZS";
-    const CURRENCIES_CURRENCY = "Tanzanian Shilling";
-    const CURRENCIES_SYMBOL = "TSh";
+    const COUNTRY_NAME = "Tanzania";
+    const COUNTRY_CODE = "TZ";
+    const CURRENCY_CODE = "TZS";
+    const CURRENCY_NAME = "Tanzanian Shilling";
+    const CURRENCY_SYMBOL = "TSh";
 
 }

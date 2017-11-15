@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class HU extends CountryMethods
 {
-    const COUNTRIES_NAME = "Hungary";
-    const COUNTRIES_CODE = "HU";
-    const CURRENCIES_CODE = "HUF";
-    const CURRENCIES_CURRENCY = "Hungarian Forint";
-    const CURRENCIES_SYMBOL = "Ft";
+    const COUNTRY_NAME = "Hungary";
+    const COUNTRY_CODE = "HU";
+    const CURRENCY_CODE = "HUF";
+    const CURRENCY_NAME = "Hungarian Forint";
+    const CURRENCY_SYMBOL = "Ft";
 
 }

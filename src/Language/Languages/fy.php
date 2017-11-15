@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class fy extends LanguageMethods
 {
-    const LANGUAGES_CODE = "fy";
-    const LANGUAGES_NAME = "Frisian";
-    const LANGUAGES_NATIVE_NAME = "Frysk";
+    const LANGUAGE_CODE = "fy";
+    const LANGUAGE_NAME = "Frisian";
+    const LANGUAGE_NATIVE_NAME = "Frysk";
     const NUMERALS = [
-        0 => 'nul',
-        1 => 'ien',
-        2 => 'twa',
-        3 => 'trije',
-        4 => 'fjouwer',
-        5 => 'fiif',
-        6 => 'seis',
-        7 => 'sân',
-        8 => 'acht',
-        9 => 'njoggen',
-        10 => 'tsien',
-        11 => 'alve',
-        12 => 'tolve',
-        13 => 'trettjin',
-        14 => 'fjirtjin',
-        15 => 'fyftjin',
-        16 => 'sechtjin',
-        17 => 'santjin',
-        18 => 'achttjin',
-        19 => 'njoggentjin',
-        20 => 'tweintich',
+            0 => 'nul',
+            1 => 'ien',
+            2 => 'twa',
+            3 => 'trije',
+            4 => 'fjouwer',
+            5 => 'fiif',
+            6 => 'seis',
+            7 => 'sân',
+            8 => 'acht',
+            9 => 'njoggen',
+            10 => 'tsien',
+            11 => 'alve',
+            12 => 'tolve',
+            13 => 'trettjin',
+            14 => 'fjirtjin',
+            15 => 'fyftjin',
+            16 => 'sechtjin',
+            17 => 'santjin',
+            18 => 'achttjin',
+            19 => 'njoggentjin',
+            20 => 'tweintich',
     ];
 
 }

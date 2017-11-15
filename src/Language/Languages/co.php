@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class co extends LanguageMethods
 {
-    const LANGUAGES_CODE = "co";
-    const LANGUAGES_NAME = "Corsican";
-    const LANGUAGES_NATIVE_NAME = "Corsican";
+    const LANGUAGE_CODE = "co";
+    const LANGUAGE_NAME = "Corsican";
+    const LANGUAGE_NATIVE_NAME = "Corsican";
     const NUMERALS = [
-        0 => 'zeru',
-        1 => 'unu',
-        2 => 'dui',
-        3 => 'trè',
-        4 => 'quattru',
-        5 => 'cinque',
-        6 => 'séi',
-        7 => 'sétte',
-        8 => 'óttu',
-        9 => 'nóve',
-        10 => 'déce',
-        11 => 'òndeci',
-        12 => 'dòdeci',
-        13 => 'trèdeci',
-        14 => 'quattòrdeci',
-        15 => 'quindeci',
-        16 => 'sèdeci',
-        17 => 'dicessétte',
-        18 => 'dicióttu',
-        19 => 'dicennóve',
-        20 => 'vinti',
+            0 => 'zeru',
+            1 => 'unu',
+            2 => 'dui',
+            3 => 'trè',
+            4 => 'quattru',
+            5 => 'cinque',
+            6 => 'séi',
+            7 => 'sétte',
+            8 => 'óttu',
+            9 => 'nóve',
+            10 => 'déce',
+            11 => 'òndeci',
+            12 => 'dòdeci',
+            13 => 'trèdeci',
+            14 => 'quattòrdeci',
+            15 => 'quindeci',
+            16 => 'sèdeci',
+            17 => 'dicessétte',
+            18 => 'dicióttu',
+            19 => 'dicennóve',
+            20 => 'vinti',
     ];
 
 }

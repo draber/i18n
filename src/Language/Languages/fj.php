@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class fj extends LanguageMethods
 {
-    const LANGUAGES_CODE = "fj";
-    const LANGUAGES_NAME = "Fiji";
-    const LANGUAGES_NATIVE_NAME = "Fiji";
+    const LANGUAGE_CODE = "fj";
+    const LANGUAGE_NAME = "Fiji";
+    const LANGUAGE_NATIVE_NAME = "Fiji";
 
 }

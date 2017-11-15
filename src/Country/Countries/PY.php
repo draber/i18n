@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Paraguay";
-    const COUNTRIES_CODE = "PY";
-    const CURRENCIES_CODE = "PYG";
-    const CURRENCIES_CURRENCY = "Paraguayan Guarani";
-    const CURRENCIES_SYMBOL = "₲";
+    const COUNTRY_NAME = "Paraguay";
+    const COUNTRY_CODE = "PY";
+    const CURRENCY_CODE = "PYG";
+    const CURRENCY_NAME = "Paraguayan Guarani";
+    const CURRENCY_SYMBOL = "₲";
 
 }

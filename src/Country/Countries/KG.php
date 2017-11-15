@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class KG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Kyrgyzstan";
-    const COUNTRIES_CODE = "KG";
-    const CURRENCIES_CODE = "KGS";
-    const CURRENCIES_CURRENCY = "Kyrgyzstani Som";
-    const CURRENCIES_SYMBOL = "лв";
+    const COUNTRY_NAME = "Kyrgyzstan";
+    const COUNTRY_CODE = "KG";
+    const CURRENCY_CODE = "KGS";
+    const CURRENCY_NAME = "Kyrgyzstani Som";
+    const CURRENCY_SYMBOL = "лв";
 
 }

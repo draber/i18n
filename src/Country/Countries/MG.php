@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MG extends CountryMethods
 {
-    const COUNTRIES_NAME = "Madagascar";
-    const COUNTRIES_CODE = "MG";
-    const CURRENCIES_CODE = "MGA";
-    const CURRENCIES_CURRENCY = "Malagasy Ariary";
-    const CURRENCIES_SYMBOL = "Ar";
+    const COUNTRY_NAME = "Madagascar";
+    const COUNTRY_CODE = "MG";
+    const CURRENCY_CODE = "MGA";
+    const CURRENCY_NAME = "Malagasy Ariary";
+    const CURRENCY_SYMBOL = "Ar";
 
 }

@@ -42,32 +42,32 @@ class LanguageMethods extends LanguageBase
 {
     
     /** 
-     * Retrieve the value of static::LANGUAGES_CODE
+     * Retrieve the value of static::LANGUAGE_CODE
      * 
      * @return string|null
      */
-    public function getLanguagesCode() {
-        return defined('static::LANGUAGES_CODE') ? static::LANGUAGES_CODE : null;
+    public function getLanguageCode() {
+        return defined('static::LANGUAGE_CODE') ? static::LANGUAGE_CODE : null;
     }
     
 
     /** 
-     * Retrieve the value of static::LANGUAGES_NAME
+     * Retrieve the value of static::LANGUAGE_NAME
      * 
      * @return string|null
      */
-    public function getLanguagesName() {
-        return defined('static::LANGUAGES_NAME') ? static::LANGUAGES_NAME : null;
+    public function getLanguageName() {
+        return defined('static::LANGUAGE_NAME') ? static::LANGUAGE_NAME : null;
     }
     
 
     /** 
-     * Retrieve the value of static::LANGUAGES_NATIVE_NAME
+     * Retrieve the value of static::LANGUAGE_NATIVE_NAME
      * 
      * @return string|null
      */
-    public function getLanguagesNativeName() {
-        return defined('static::LANGUAGES_NATIVE_NAME') ? static::LANGUAGES_NATIVE_NAME : null;
+    public function getLanguageNativeName() {
+        return defined('static::LANGUAGE_NATIVE_NAME') ? static::LANGUAGE_NATIVE_NAME : null;
     }
     
 

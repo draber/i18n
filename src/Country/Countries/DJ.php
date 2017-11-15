@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class DJ extends CountryMethods
 {
-    const COUNTRIES_NAME = "Djibouti";
-    const COUNTRIES_CODE = "DJ";
-    const CURRENCIES_CODE = "DJF";
-    const CURRENCIES_CURRENCY = "Djiboutian Franc";
-    const CURRENCIES_SYMBOL = "Fdj";
+    const COUNTRY_NAME = "Djibouti";
+    const COUNTRY_CODE = "DJ";
+    const CURRENCY_CODE = "DJF";
+    const CURRENCY_NAME = "Djiboutian Franc";
+    const CURRENCY_SYMBOL = "Fdj";
 
 }

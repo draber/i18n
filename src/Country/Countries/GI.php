@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GI extends CountryMethods
 {
-    const COUNTRIES_NAME = "Gibraltar";
-    const COUNTRIES_CODE = "GI";
-    const CURRENCIES_CODE = "GIP";
-    const CURRENCIES_CURRENCY = "Gibraltar Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "Gibraltar";
+    const COUNTRY_CODE = "GI";
+    const CURRENCY_CODE = "GIP";
+    const CURRENCY_NAME = "Gibraltar Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }

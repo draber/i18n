@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class da extends LanguageMethods
 {
-    const LANGUAGES_CODE = "da";
-    const LANGUAGES_NAME = "Danish";
-    const LANGUAGES_NATIVE_NAME = "dansk";
+    const LANGUAGE_CODE = "da";
+    const LANGUAGE_NAME = "Danish";
+    const LANGUAGE_NATIVE_NAME = "dansk";
     const NUMERALS = [
-        0 => 'nul',
-        1 => 'en',
-        2 => 'to',
-        3 => 'tre',
-        4 => 'fire',
-        5 => 'fem',
-        6 => 'seks',
-        7 => 'syv',
-        8 => 'otte',
-        9 => 'ni',
-        10 => 'ti',
-        11 => 'elleve',
-        12 => 'tolv',
-        13 => 'tretten',
-        14 => 'fjorten',
-        15 => 'femten',
-        16 => 'seksten',
-        17 => 'sytten',
-        18 => 'atten',
-        19 => 'nitten',
-        20 => 'tyve',
+            0 => 'nul',
+            1 => 'en',
+            2 => 'to',
+            3 => 'tre',
+            4 => 'fire',
+            5 => 'fem',
+            6 => 'seks',
+            7 => 'syv',
+            8 => 'otte',
+            9 => 'ni',
+            10 => 'ti',
+            11 => 'elleve',
+            12 => 'tolv',
+            13 => 'tretten',
+            14 => 'fjorten',
+            15 => 'femten',
+            16 => 'seksten',
+            17 => 'sytten',
+            18 => 'atten',
+            19 => 'nitten',
+            20 => 'tyve',
     ];
 
 }

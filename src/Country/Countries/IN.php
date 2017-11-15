@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class IN extends CountryMethods
 {
-    const COUNTRIES_NAME = "India";
-    const COUNTRIES_CODE = "IN";
-    const CURRENCIES_CODE = "INR";
-    const CURRENCIES_CURRENCY = "Indian Rupee";
-    const CURRENCIES_SYMBOL = "Indian rupee";
+    const COUNTRY_NAME = "India";
+    const COUNTRY_CODE = "IN";
+    const CURRENCY_CODE = "INR";
+    const CURRENCY_NAME = "Indian Rupee";
+    const CURRENCY_SYMBOL = "Indian rupee";
 
 }

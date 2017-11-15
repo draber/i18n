@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class DK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Denmark";
-    const COUNTRIES_CODE = "DK";
-    const CURRENCIES_CODE = "DKK";
-    const CURRENCIES_CURRENCY = "Danish Krone";
-    const CURRENCIES_SYMBOL = "kr";
+    const COUNTRY_NAME = "Denmark";
+    const COUNTRY_CODE = "DK";
+    const CURRENCY_CODE = "DKK";
+    const CURRENCY_NAME = "Danish Krone";
+    const CURRENCY_SYMBOL = "kr";
 
 }

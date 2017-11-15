@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BF extends CountryMethods
 {
-    const COUNTRIES_NAME = "Burkina Faso";
-    const COUNTRIES_CODE = "BF";
-    const CURRENCIES_CODE = "XOF";
-    const CURRENCIES_CURRENCY = "West African CFA Franc";
-    const CURRENCIES_SYMBOL = "CFA";
+    const COUNTRY_NAME = "Burkina Faso";
+    const COUNTRY_CODE = "BF";
+    const CURRENCY_CODE = "XOF";
+    const CURRENCY_NAME = "West African CFA Franc";
+    const CURRENCY_SYMBOL = "CFA";
 
 }

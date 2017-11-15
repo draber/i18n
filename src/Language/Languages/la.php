@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class la extends LanguageMethods
 {
-    const LANGUAGES_CODE = "la";
-    const LANGUAGES_NAME = "Latin";
-    const LANGUAGES_NATIVE_NAME = "Latin";
+    const LANGUAGE_CODE = "la";
+    const LANGUAGE_NAME = "Latin";
+    const LANGUAGE_NATIVE_NAME = "Latin";
     const NUMERALS = [
-        0 => 'nulla',
-        1 => 'ūnus',
-        2 => 'duo',
-        3 => 'trēs',
-        4 => 'quattuor',
-        5 => 'quīnque',
-        6 => 'sex',
-        7 => 'septem',
-        8 => 'octō',
-        9 => 'novem',
-        10 => 'decem',
-        11 => 'ūndecim',
-        12 => 'duodecim',
-        13 => 'tredecim',
-        14 => 'quattuordecim',
-        15 => 'quīndecim',
-        16 => 'sēdecim',
-        17 => 'septendecim',
-        18 => 'duodēvīgintī',
-        19 => 'ūndēvīgintī',
-        20 => 'vīgintī',
+            0 => 'nulla',
+            1 => 'ūnus',
+            2 => 'duo',
+            3 => 'trēs',
+            4 => 'quattuor',
+            5 => 'quīnque',
+            6 => 'sex',
+            7 => 'septem',
+            8 => 'octō',
+            9 => 'novem',
+            10 => 'decem',
+            11 => 'ūndecim',
+            12 => 'duodecim',
+            13 => 'tredecim',
+            14 => 'quattuordecim',
+            15 => 'quīndecim',
+            16 => 'sēdecim',
+            17 => 'septendecim',
+            18 => 'duodēvīgintī',
+            19 => 'ūndēvīgintī',
+            20 => 'vīgintī',
     ];
 
 }

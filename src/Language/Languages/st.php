@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class st extends LanguageMethods
 {
-    const LANGUAGES_CODE = "st";
-    const LANGUAGES_NAME = "Sesotho";
-    const LANGUAGES_NATIVE_NAME = "Sesotho";
+    const LANGUAGE_CODE = "st";
+    const LANGUAGE_NAME = "Sesotho";
+    const LANGUAGE_NATIVE_NAME = "Sesotho";
 
 }

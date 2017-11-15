@@ -42,52 +42,52 @@ class CountryMethods extends CountryBase
 {
     
     /** 
-     * Retrieve the value of static::COUNTRIES_NAME
+     * Retrieve the value of static::COUNTRY_NAME
      * 
      * @return string|null
      */
-    public function getCountriesName() {
-        return defined('static::COUNTRIES_NAME') ? static::COUNTRIES_NAME : null;
+    public function getCountryName() {
+        return defined('static::COUNTRY_NAME') ? static::COUNTRY_NAME : null;
     }
     
 
     /** 
-     * Retrieve the value of static::COUNTRIES_CODE
+     * Retrieve the value of static::COUNTRY_CODE
      * 
      * @return string|null
      */
-    public function getCountriesCode() {
-        return defined('static::COUNTRIES_CODE') ? static::COUNTRIES_CODE : null;
+    public function getCountryCode() {
+        return defined('static::COUNTRY_CODE') ? static::COUNTRY_CODE : null;
     }
     
 
     /** 
-     * Retrieve the value of static::CURRENCIES_CODE
+     * Retrieve the value of static::CURRENCY_CODE
      * 
      * @return string|null
      */
-    public function getCurrenciesCode() {
-        return defined('static::CURRENCIES_CODE') ? static::CURRENCIES_CODE : null;
+    public function getCurrencyCode() {
+        return defined('static::CURRENCY_CODE') ? static::CURRENCY_CODE : null;
     }
     
 
     /** 
-     * Retrieve the value of static::CURRENCIES_CURRENCY
+     * Retrieve the value of static::CURRENCY_NAME
      * 
      * @return string|null
      */
-    public function getCurrenciesCurrency() {
-        return defined('static::CURRENCIES_CURRENCY') ? static::CURRENCIES_CURRENCY : null;
+    public function getCurrencyName() {
+        return defined('static::CURRENCY_NAME') ? static::CURRENCY_NAME : null;
     }
     
 
     /** 
-     * Retrieve the value of static::CURRENCIES_SYMBOL
+     * Retrieve the value of static::CURRENCY_SYMBOL
      * 
      * @return string|null
      */
-    public function getCurrenciesSymbol() {
-        return defined('static::CURRENCIES_SYMBOL') ? static::CURRENCIES_SYMBOL : null;
+    public function getCurrencySymbol() {
+        return defined('static::CURRENCY_SYMBOL') ? static::CURRENCY_SYMBOL : null;
     }
     
 

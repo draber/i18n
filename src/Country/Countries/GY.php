@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class GY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Guyana";
-    const COUNTRIES_CODE = "GY";
-    const CURRENCIES_CODE = "GYD";
-    const CURRENCIES_CURRENCY = "Guyanese Dollar";
-    const CURRENCIES_SYMBOL = "GY$";
+    const COUNTRY_NAME = "Guyana";
+    const COUNTRY_CODE = "GY";
+    const CURRENCY_CODE = "GYD";
+    const CURRENCY_NAME = "Guyanese Dollar";
+    const CURRENCY_SYMBOL = "GY$";
 
 }

@@ -40,31 +40,31 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class hu extends LanguageMethods
 {
-    const LANGUAGES_CODE = "hu";
-    const LANGUAGES_NAME = "Hungarian";
-    const LANGUAGES_NATIVE_NAME = "magyar";
+    const LANGUAGE_CODE = "hu";
+    const LANGUAGE_NAME = "Hungarian";
+    const LANGUAGE_NATIVE_NAME = "magyar";
     const NUMERALS = [
-        0 => 'nulla',
-        1 => 'egy',
-        2 => 'kettő',
-        3 => 'három',
-        4 => 'négy',
-        5 => 'öt',
-        6 => 'hat',
-        7 => 'hét',
-        8 => 'nyolc',
-        9 => 'kilenc',
-        10 => 'tíz',
-        11 => 'tizenegy',
-        12 => 'tizenkettő',
-        13 => 'tizenhárom',
-        14 => 'tizennégy',
-        15 => 'tizenöt',
-        16 => 'tizenhat',
-        17 => 'tizenhét',
-        18 => 'tizennyolc',
-        19 => 'tizenkilenc',
-        20 => 'húsz',
+            0 => 'nulla',
+            1 => 'egy',
+            2 => 'kettő',
+            3 => 'három',
+            4 => 'négy',
+            5 => 'öt',
+            6 => 'hat',
+            7 => 'hét',
+            8 => 'nyolc',
+            9 => 'kilenc',
+            10 => 'tíz',
+            11 => 'tizenegy',
+            12 => 'tizenkettő',
+            13 => 'tizenhárom',
+            14 => 'tizennégy',
+            15 => 'tizenöt',
+            16 => 'tizenhat',
+            17 => 'tizenhét',
+            18 => 'tizennyolc',
+            19 => 'tizenkilenc',
+            20 => 'húsz',
     ];
 
 }

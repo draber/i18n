@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class tw extends LanguageMethods
 {
-    const LANGUAGES_CODE = "tw";
-    const LANGUAGES_NAME = "Twi";
-    const LANGUAGES_NATIVE_NAME = "Twi";
+    const LANGUAGE_CODE = "tw";
+    const LANGUAGE_NAME = "Twi";
+    const LANGUAGE_NATIVE_NAME = "Twi";
 
 }

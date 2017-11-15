@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class MD extends CountryMethods
 {
-    const COUNTRIES_NAME = "Moldova";
-    const COUNTRIES_CODE = "MD";
-    const CURRENCIES_CODE = "MDL";
-    const CURRENCIES_CURRENCY = "Moldovan Leu";
-    const CURRENCIES_SYMBOL = "L";
+    const COUNTRY_NAME = "Moldova";
+    const COUNTRY_CODE = "MD";
+    const CURRENCY_CODE = "MDL";
+    const CURRENCY_NAME = "Moldovan Leu";
+    const CURRENCY_SYMBOL = "L";
 
 }

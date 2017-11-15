@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class PK extends CountryMethods
 {
-    const COUNTRIES_NAME = "Pakistan";
-    const COUNTRIES_CODE = "PK";
-    const CURRENCIES_CODE = "PKR";
-    const CURRENCIES_CURRENCY = "Pakistani Rupee";
-    const CURRENCIES_SYMBOL = "Ɍs";
+    const COUNTRY_NAME = "Pakistan";
+    const COUNTRY_CODE = "PK";
+    const CURRENCY_CODE = "PKR";
+    const CURRENCY_NAME = "Pakistani Rupee";
+    const CURRENCY_SYMBOL = "Ɍs";
 
 }

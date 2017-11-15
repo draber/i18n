@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BY extends CountryMethods
 {
-    const COUNTRIES_NAME = "Belarus";
-    const COUNTRIES_CODE = "BY";
-    const CURRENCIES_CODE = "BYR";
-    const CURRENCIES_CURRENCY = "Belarusian Ruble";
-    const CURRENCIES_SYMBOL = "Br";
+    const COUNTRY_NAME = "Belarus";
+    const COUNTRY_CODE = "BY";
+    const CURRENCY_CODE = "BYR";
+    const CURRENCY_NAME = "Belarusian Ruble";
+    const CURRENCY_SYMBOL = "Br";
 
 }

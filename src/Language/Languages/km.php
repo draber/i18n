@@ -40,8 +40,8 @@ use draber\i18n\Language\Languages\LanguageMethods;
  */
 class km extends LanguageMethods
 {
-    const LANGUAGES_CODE = "km";
-    const LANGUAGES_NAME = "Cambodian";
-    const LANGUAGES_NATIVE_NAME = "ខ្មែរ";
+    const LANGUAGE_CODE = "km";
+    const LANGUAGE_NAME = "Cambodian";
+    const LANGUAGE_NATIVE_NAME = "ខ្មែរ";
 
 }

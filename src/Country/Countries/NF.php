@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class NF extends CountryMethods
 {
-    const COUNTRIES_NAME = "Norfolk Island";
-    const COUNTRIES_CODE = "NF";
-    const CURRENCIES_CODE = "AUD";
-    const CURRENCIES_CURRENCY = "Australian Dollar";
-    const CURRENCIES_SYMBOL = "AU$";
+    const COUNTRY_NAME = "Norfolk Island";
+    const COUNTRY_CODE = "NF";
+    const CURRENCY_CODE = "AUD";
+    const CURRENCY_NAME = "Australian Dollar";
+    const CURRENCY_SYMBOL = "AU$";
 
 }

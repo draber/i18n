@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class BI extends CountryMethods
 {
-    const COUNTRIES_NAME = "Burundi";
-    const COUNTRIES_CODE = "BI";
-    const CURRENCIES_CODE = "BIF";
-    const CURRENCIES_CURRENCY = "Burundian Franc";
-    const CURRENCIES_SYMBOL = "FBu";
+    const COUNTRY_NAME = "Burundi";
+    const COUNTRY_CODE = "BI";
+    const CURRENCY_CODE = "BIF";
+    const CURRENCY_NAME = "Burundian Franc";
+    const CURRENCY_SYMBOL = "FBu";
 
 }

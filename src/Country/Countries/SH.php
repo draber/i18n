@@ -40,10 +40,10 @@ use draber\i18n\Country\Countries\CountryMethods;
  */
 class SH extends CountryMethods
 {
-    const COUNTRIES_NAME = "Saint Helena";
-    const COUNTRIES_CODE = "SH";
-    const CURRENCIES_CODE = "SHP";
-    const CURRENCIES_CURRENCY = "Saint Helena Pound";
-    const CURRENCIES_SYMBOL = "£";
+    const COUNTRY_NAME = "Saint Helena";
+    const COUNTRY_CODE = "SH";
+    const CURRENCY_CODE = "SHP";
+    const CURRENCY_NAME = "Saint Helena Pound";
+    const CURRENCY_SYMBOL = "£";
 
 }
