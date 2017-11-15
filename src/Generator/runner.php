@@ -69,5 +69,5 @@ $classGen = new ClassGenerator();
 // $jsonGen->buildDataFromJson('../../resources/data/currency.json', [date('Y:m:d H:i:s')])->save('./data/countries/currency.json');
 
 // Generate classes
-//$classGen->languages();
-$classGen->countries();
+$classGen->languages();
+//$classGen->countries();

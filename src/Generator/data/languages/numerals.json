@@ -1,7 +1,7 @@
 {
     "meta": [
         "Numerals from 0-20",
-        "2017:11:13 23:04:11"
+        "2017:11:15 10:17:10"
     ],
     "data": {
         "ab": [
@@ -1174,7 +1174,8 @@
             "arvirsanillit",
             "arvirsani marluk",
             "arvirsani pingasut",
-            "arvirsani sisamat"
+            "arvirsani sisamat",
+            "arvirsani tallimat"
         ],
         "kn": [
             "\u0cb8\u0cca\u0ca8\u0ccd\u0ca8\u0cc6",
@@ -1292,6 +1293,7 @@
             "v\u012bgint\u012b"
         ],
         "lb": [
+            "null",
             "eent",
             "zwee",
             "dr\u00e4i",
@@ -1311,8 +1313,7 @@
             "siwwenz\u00e9ng",
             "uechtz\u00e9ng",
             "nonz\u00e9ng",
-            "zwanzeg",
-            ""
+            "zwanzeg"
         ],
         "ln": [
             "zel\u00f3",
@@ -1637,6 +1638,7 @@
             "tjue"
         ],
         "oc": [
+            "zero",
             "un",
             "dos",
             "tres",
@@ -1656,8 +1658,7 @@
             "d\u00e8tz-e-s\u00e8t",
             "d\u00e8tz-e-u\u00e8ch",
             "d\u00e8tz-e-n\u00f2u",
-            "vint",
-            ""
+            "vint"
         ],
         "om": [
             "tokko",
@@ -2696,6 +2697,9 @@
         ]
     },
     "config": {
+        "csvEncloser": "\"",
+        "csvSeparator": ",",
+        "csvFirstLineKeys": false,
         "generatorKeepArray": true
     }
 }

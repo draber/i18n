@@ -64,6 +64,7 @@ class kl extends LanguageMethods
         17 => 'arvirsani marluk',
         18 => 'arvirsani pingasut',
         19 => 'arvirsani sisamat',
+        20 => 'arvirsani tallimat',
     ];
 
 }
