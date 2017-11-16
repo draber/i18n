@@ -318,6 +318,7 @@ class ClassGenerator extends GeneratorBase
         ];
 
         $docs = [];
+        $longest = 0;
         foreach ($classes as $target => $classData) {
             $classes[$target]['reflection'] = new \ReflectionClass($classData['class']);
             $classes[$target]['methods']    = $classes[$target]['reflection']->getMethods(\ReflectionMethod::IS_PUBLIC);
@@ -328,9 +329,28 @@ class ClassGenerator extends GeneratorBase
             foreach($classes[$target]['methods'] as $method) {
                 $data = $classes[$target]['instance']->{$method->name}();
                 $type = gettype($data);
-                $data = $type === 'string' ? static::quote($data) : static::prettyPrint($data);
-                $docs[$target][] = '$' . strtolower($target) . '->' . $method->name . '(); // returns ' . $type . ' ' . $data;
+                $call = '$' . strtolower($target) . '->' . $method->name . '();';
+                $longest = max([$longest, strlen($call)]);
+                $docs[$target][] = [
+                    'method' => $call,
+                    'type' => $type,
+                    'data' => $data
+                ];
             }
+
+            foreach($docs[$target] as $key => $valueArr) {
+                $valueArr['method'] = str_pad($valueArr['method'], $longest);
+                if($valueArr['type'] === 'string') {
+                    $valueArr['data'] = static::quote($valueArr['data'], "'");
+                }
+                else {
+                    $valueArr['data'] = static::prettyPrint($valueArr['data']);
+                    $valueArr['data'] = trim(preg_replace("/^/m", str_repeat(' ', $longest) . ' // ', $valueArr['data']), ' /');
+                }
+                $docs[$target][$key] = str_pad($valueArr['method'], $longest)
+                    . ' // returns ' . $valueArr['type'] . ' ' . $valueArr['data'];
+            }
+            $longest = 0;
         }
 
         return file_put_contents(dirname(dirname(__DIR__)) . '/README.md', str_replace(

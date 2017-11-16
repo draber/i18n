@@ -76,10 +76,11 @@ class CommonBase
     /**
      * Quote a string with double quotes
      *
-     * @param $string
+     * @param string $string
+     * @param string $char
      * @return string
      */
-    protected function quote($string) {
-        return '"' . str_replace('"', '\\' . '"', $string) . '"';
+    protected function quote($string, $char = '"') {
+        return $char . str_replace($char, '\\' . $char, $string) . $char;
     }
 }
