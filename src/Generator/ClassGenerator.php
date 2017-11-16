@@ -110,7 +110,9 @@ class ClassGenerator extends GeneratorBase
         // topic is the bare name of a JSON file, e.g. 'numeral'
         foreach($this->data as $topic => $data){
             $config = $this->config[$topic];
-            $sTopic = Inflector::singularize($topic);
+            // make sure methods and constants get valid and reasonable names
+            $uTopic = str_replace('-', '_', $topic);
+            $sTopic = Inflector::singularize($uTopic);
 
             // code is an ISO code
             foreach($data as $code => $entries){
@@ -119,8 +121,8 @@ class ClassGenerator extends GeneratorBase
                 }
                 // all values in an array
                 if(!empty($config[static::CONFIG_GEN_KEEP_ARRAY])){
-                    $this->addConstant($code, $topic, $entries);
-                    $this->addMethod($topic, $entries);
+                    $this->addConstant($code, $uTopic, $entries);
+                    $this->addMethod($uTopic, $entries);
                 }
                 // one value = one constant
                 else{
@@ -284,6 +286,7 @@ class ClassGenerator extends GeneratorBase
             file_get_contents(__DIR__ . '/templates/methods.tpl'),
             $classCode
         );
+
         return file_put_contents($this->classDir . '/' . $this->singular . 'Methods.php', $content);
     }
 
@@ -322,7 +325,9 @@ class ClassGenerator extends GeneratorBase
                 ltrim($classCode),
                 $code
             );
-            file_put_contents($this->classDir . '/' . $code . '.php', $content);
+            if(false !== $content) {
+                file_put_contents($this->classDir . '/' . $code . '.php', $content);
+            }
         }
         return true;
     }
@@ -333,10 +338,13 @@ class ClassGenerator extends GeneratorBase
      * @param $classCode
      * @param $isoCode
      *
-     * @return string
+     * @return string|bool
      */
     protected function populateTemplate($template, $classCode, $isoCode = '')
     {
+        if($isoCode && empty($this->isoList[$isoCode])) {
+            return false;
+        }
         return $isoCode
             ? str_replace(
                 ['{SINGULAR}', '{PLURAL}', '{LOWER_PLURAL}', '{ISO_CODE}', '{NAME}', '{CLASS_CODE}'],
@@ -349,5 +357,3 @@ class ClassGenerator extends GeneratorBase
             );
     }
 }
-
-

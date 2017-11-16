@@ -45,5 +45,17 @@ class SD extends CountryMethods
     const CURRENCY_CODE = "SDG";
     const CURRENCY_NAME = "Sudanese Pound";
     const CURRENCY_SYMBOL = "£Sd";
+    const NUMBER_FORMAT_DECIMAL = ".";
+    const NUMBER_FORMAT_GROUP = ",";
+    const NUMBER_FORMAT_LIST = ";";
+    const NUMBER_FORMAT_PERCENT_SIGN = "%";
+    const NUMBER_FORMAT_PLUS_SIGN = "+";
+    const NUMBER_FORMAT_MINUS_SIGN = "-";
+    const NUMBER_FORMAT_EXPONENTIAL = "E";
+    const NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT = "×";
+    const NUMBER_FORMAT_PER_MILLE = "‰";
+    const NUMBER_FORMAT_INFINITY = "∞";
+    const NUMBER_FORMAT_NAN = "NaN";
+    const NUMBER_FORMAT_TIME_SEPARATOR = ":";
 
 }

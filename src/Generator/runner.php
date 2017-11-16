@@ -36,15 +36,14 @@ $classGen = new ClassGenerator();
 // Examples with CSV import
 // $jsonGen->buildDataFromAnything('../../resources/data/numerals.csv')->view();
 //$jsonGen->buildDataFromCsv(
-//    '../../resources/data/numerals.csv',
-//    [
-//        'Numerals from 0-20',
-//        date('Y:m:d H:i:s')
-//    ],
-//    [
-//        JsonGenerator::CONFIG_GEN_KEEP_ARRAY => true
-//    ]
-//)->view();
+//   '../../resources/data/number-formats.csv',
+//   [
+//       'Number Formats',
+//   ],
+//   [
+//       JsonGenerator::CONFIG_CSV_FIRST_LINE_KEYS => true
+//   ]
+//)->view()->save('./data/countries/number-formats.json');
 
 // Examples with JSON import
 // $jsonGen->buildDataFromAnything('./data/languages/numerals.json', [JsonGenerator::CONFIG_GEN_KEEP_ARRAY => true])->view();
@@ -75,4 +74,4 @@ $classGen = new ClassGenerator();
 
 // Generate classes
 // $classGen->languages();
-// $classGen->countries();
+$classGen->countries();
