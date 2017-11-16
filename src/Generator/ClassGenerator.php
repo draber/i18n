@@ -29,6 +29,10 @@ use draber\i18n\Generator\GeneratorBase;
 use draber\i18n\Language\LanguageBase;
 use draber\i18n\Country\CountryBase;
 use Doctrine\Common\Inflector\Inflector;
+use draber\i18n\Common\Factory;
+
+use draber\i18n\Language\Languages\LanguageMethods;
+use draber\i18n\Country\Countries\CountryMethods;
 
 /**
  * Generate classes that contain country or language specific current
@@ -47,6 +51,13 @@ class ClassGenerator extends GeneratorBase
     public function {METHOD}() {
         return defined('static::{CONSTANT}') ? static::{CONSTANT} : null;
     }
+    ";
+
+    const README_TPL = "
+    /** 
+     * Retrieve the value of static::{CONSTANT}
+     */
+    {CLASS)->{METHOD}();
     ";
 
     private $lookupClass;
@@ -108,25 +119,24 @@ class ClassGenerator extends GeneratorBase
         $this->loadData(__DIR__ . '/data/' . $this->lowerPlural);
 
         // topic is the bare name of a JSON file, e.g. 'numeral'
-        foreach($this->data as $topic => $data){
+        foreach ($this->data as $topic => $data) {
             $config = $this->config[$topic];
             // make sure methods and constants get valid and reasonable names
             $uTopic = str_replace('-', '_', $topic);
             $sTopic = Inflector::singularize($uTopic);
 
             // code is an ISO code
-            foreach($data as $code => $entries){
-                if($topic === $this->lowerPlural){
+            foreach ($data as $code => $entries) {
+                if ($topic === $this->lowerPlural) {
                     $this->isoList[$code] = $entries['name'];
                 }
                 // all values in an array
-                if(!empty($config[static::CONFIG_GEN_KEEP_ARRAY])){
+                if (!empty($config[static::CONFIG_GEN_KEEP_ARRAY])) {
                     $this->addConstant($code, $uTopic, $entries);
                     $this->addMethod($uTopic, $entries);
-                }
-                // one value = one constant
-                else{
-                    foreach($entries as $key => $entry){
+                } // one value = one constant
+                else {
+                    foreach ($entries as $key => $entry) {
                         $this->addConstant($code, $sTopic, $entries, $key);
                         $this->addMethod($sTopic, $entries, $key);
                     }
@@ -151,11 +161,11 @@ class ClassGenerator extends GeneratorBase
      */
     protected function loadData($dataDir)
     {
-        if(!is_dir($dataDir)){
+        if (!is_dir($dataDir)) {
             throw new \Exception('Unknown directory ' . $dataDir);
         }
 
-        foreach(glob($dataDir . '/*.json') as $i => $current){
+        foreach (glob($dataDir . '/*.json') as $i => $current) {
 
             $currentKey = static::bareName($current);
             $data       = json_decode(file_get_contents($current), 1);
@@ -197,11 +207,11 @@ class ClassGenerator extends GeneratorBase
      */
     protected function metaToComment($currentKey)
     {
-        if(empty($this->metaData[$currentKey])){
+        if (empty($this->metaData[$currentKey])) {
             return false;
         }
         $comment = "    /**\n";
-        foreach($this->metaData[$currentKey] as $entry){
+        foreach ($this->metaData[$currentKey] as $entry) {
             $comment .= '     *' . $entry . "\n";
         }
         $comment = "     */\n";
@@ -250,12 +260,12 @@ class ClassGenerator extends GeneratorBase
         $type     = gettype($value);
         $constant = $key ? strtoupper($topic . '_' . $key) : strtoupper($topic);
         $method   = 'get' . str_replace(' ', '', ucwords(str_replace('_', ' ', strtolower($constant))));
-        if(method_exists($this->lookupClass, $method)){
+        if (method_exists($this->lookupClass, $method)) {
             $this->methods[$this->lookupClass . '::' . $method] = true;
 
             return false;
         }
-        if(!empty($this->methods[$this->lookupClass . '::' . $method])){
+        if (!empty($this->methods[$this->lookupClass . '::' . $method])) {
             return false;
         }
         $this->methods[$this->lookupClass . '::' . $method] = str_replace(
@@ -276,18 +286,58 @@ class ClassGenerator extends GeneratorBase
     protected function buildMethodClass()
     {
         $classCode = '';
-        foreach($this->methods as $method){
-            if(!is_string($method)){
+        foreach ($this->methods as $method) {
+            if (!is_string($method)) {
                 continue;
             }
             $classCode .= $method . "\n";
         }
-        $content  = $this->populateTemplate(
+        $content = $this->populateTemplate(
             file_get_contents(__DIR__ . '/templates/methods.tpl'),
             $classCode
         );
 
         return file_put_contents($this->classDir . '/' . $this->singular . 'Methods.php', $content);
+    }
+
+
+    /**
+     * Build class with getters
+     *
+     * @return bool|int
+     */
+    public function buildDocs()
+    {
+        $classes = [
+            'Language' => [
+                'class' => LanguageMethods::class,
+            ],
+            'Country'  => [
+                'class' => CountryMethods::class,
+            ]
+        ];
+
+        $docs = [];
+        foreach ($classes as $target => $classData) {
+            $classes[$target]['reflection'] = new \ReflectionClass($classData['class']);
+            $classes[$target]['methods']    = $classes[$target]['reflection']->getMethods(\ReflectionMethod::IS_PUBLIC);
+            $classes[$target]['instance']   = call_user_func(
+                [Factory::class, 'get' . $target],
+                'de'
+            );
+            foreach($classes[$target]['methods'] as $method) {
+                $data = $classes[$target]['instance']->{$method->name}();
+                $type = gettype($data);
+                $data = $type === 'string' ? static::quote($data) : static::prettyPrint($data);
+                $docs[$target][] = '$' . strtolower($target) . '->' . $method->name . '(); // returns ' . $type . ' ' . $data;
+            }
+        }
+
+        return file_put_contents(dirname(dirname(__DIR__)) . '/README.md', str_replace(
+            ['{LANGUAGE_CLASS_CODE}', '{COUNTRY_CLASS_CODE}'],
+            [implode("\n", $docs['Language']), implode("\n", $docs['Country'])],
+            file_get_contents(__DIR__ . '/templates/readme.tpl')
+        ));
     }
 
 
@@ -313,19 +363,19 @@ class ClassGenerator extends GeneratorBase
      */
     protected function buildConstantClasses()
     {
-        $template  = file_get_contents(__DIR__ . '/templates/constants.tpl');
+        $template = file_get_contents(__DIR__ . '/templates/constants.tpl');
 
-        foreach($this->constants as $code => $constants){
+        foreach ($this->constants as $code => $constants) {
             $classCode = '';
-            foreach($constants as $constant) {
+            foreach ($constants as $constant) {
                 $classCode .= $constant . "\n";
             }
-            $content  = $this->populateTemplate(
+            $content = $this->populateTemplate(
                 $template,
                 ltrim($classCode),
                 $code
             );
-            if(false !== $content) {
+            if (false !== $content) {
                 file_put_contents($this->classDir . '/' . $code . '.php', $content);
             }
         }
@@ -342,7 +392,7 @@ class ClassGenerator extends GeneratorBase
      */
     protected function populateTemplate($template, $classCode, $isoCode = '')
     {
-        if($isoCode && empty($this->isoList[$isoCode])) {
+        if ($isoCode && empty($this->isoList[$isoCode])) {
             return false;
         }
         return $isoCode

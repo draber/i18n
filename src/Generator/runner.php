@@ -73,5 +73,7 @@ $classGen = new ClassGenerator();
 // $csvGen->fromGeneratedJson('./data/languages/languages.json')->save('../../resources/data/languages.csv');
 
 // Generate classes
-// $classGen->languages();
-$classGen->countries();
+//$classGen->languages();
+//$classGen->countries();
+
+$classGen->buildDocs();
