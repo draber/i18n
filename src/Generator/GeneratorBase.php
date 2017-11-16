@@ -89,14 +89,18 @@ class GeneratorBase extends CommonBase
     /**
      * Format array for printing
      *
-     * @param $array
+     * @param $data
+     *
      * @return string
      * @see https://gist.github.com/stemar/bb7c5cd2614b21b624bf57608f995ac0
      */
-    protected static function prettyPrint(array $array)
+    protected static function prettyPrint($data)
     {
+        if(!is_array($data)) {
+            return $data;
+        }
         $indent = '    '; // 4 spaces
-        $object = json_decode(str_replace(['(', ')'], ['&#40', '&#41'], json_encode($array)), true);
+        $object = json_decode(str_replace(['(', ')'], ['&#40', '&#41'], json_encode($data)), true);
         $export = str_replace(['array (', ')', '&#40', '&#41'], ['[', ']', '(', ')'], var_export($object, true));
         $export = preg_replace("/ => \n[^\S\n]*\[/m", ' => [', $export);
         $export = preg_replace("/ => \[\n[^\S\n]*\]/m", ' => []', $export);
