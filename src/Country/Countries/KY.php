@@ -45,5 +45,17 @@ class KY extends CountryMethods
     const CURRENCY_CODE = "KYD";
     const CURRENCY_NAME = "Cayman Islands Dollar";
     const CURRENCY_SYMBOL = "KY$";
+    const NUMBER_FORMAT_DECIMAL = ".";
+    const NUMBER_FORMAT_GROUP = ",";
+    const NUMBER_FORMAT_LIST = ";";
+    const NUMBER_FORMAT_PERCENT_SIGN = "%";
+    const NUMBER_FORMAT_PLUS_SIGN = "+";
+    const NUMBER_FORMAT_MINUS_SIGN = "-";
+    const NUMBER_FORMAT_EXPONENTIAL = "E";
+    const NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT = "×";
+    const NUMBER_FORMAT_PER_MILLE = "‰";
+    const NUMBER_FORMAT_INFINITY = "∞";
+    const NUMBER_FORMAT_NAN = "NaN";
+    const NUMBER_FORMAT_TIME_SEPARATOR = ":";
 
 }

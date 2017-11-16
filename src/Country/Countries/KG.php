@@ -45,5 +45,17 @@ class KG extends CountryMethods
     const CURRENCY_CODE = "KGS";
     const CURRENCY_NAME = "Kyrgyzstani Som";
     const CURRENCY_SYMBOL = "лв";
+    const NUMBER_FORMAT_DECIMAL = ",";
+    const NUMBER_FORMAT_GROUP = " ";
+    const NUMBER_FORMAT_LIST = ";";
+    const NUMBER_FORMAT_PERCENT_SIGN = "%";
+    const NUMBER_FORMAT_PLUS_SIGN = "+";
+    const NUMBER_FORMAT_MINUS_SIGN = "-";
+    const NUMBER_FORMAT_EXPONENTIAL = "E";
+    const NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT = "×";
+    const NUMBER_FORMAT_PER_MILLE = "‰";
+    const NUMBER_FORMAT_INFINITY = "∞";
+    const NUMBER_FORMAT_NAN = "не число";
+    const NUMBER_FORMAT_TIME_SEPARATOR = ":";
 
 }

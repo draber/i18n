@@ -192,10 +192,10 @@ class GeneratorBase extends CommonBase
                 $code = array_shift($rowData);
                 if($i === 0 && $config[static::CONFIG_CSV_FIRST_LINE_KEYS]) {
                     $keys = $rowData;
+                    $i++;
                     continue;
                 }
                 $data[$code] = $config[static::CONFIG_CSV_FIRST_LINE_KEYS] ? array_combine($keys, $rowData) : $rowData;
-                $i++;
             }
             fclose($handle);
         }

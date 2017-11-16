@@ -91,4 +91,124 @@ class CountryMethods extends CountryBase
     }
     
 
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_DECIMAL
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatDecimal() {
+        return defined('static::NUMBER_FORMAT_DECIMAL') ? static::NUMBER_FORMAT_DECIMAL : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_GROUP
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatGroup() {
+        return defined('static::NUMBER_FORMAT_GROUP') ? static::NUMBER_FORMAT_GROUP : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_LIST
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatList() {
+        return defined('static::NUMBER_FORMAT_LIST') ? static::NUMBER_FORMAT_LIST : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_PERCENT_SIGN
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatPercentSign() {
+        return defined('static::NUMBER_FORMAT_PERCENT_SIGN') ? static::NUMBER_FORMAT_PERCENT_SIGN : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_PLUS_SIGN
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatPlusSign() {
+        return defined('static::NUMBER_FORMAT_PLUS_SIGN') ? static::NUMBER_FORMAT_PLUS_SIGN : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_MINUS_SIGN
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatMinusSign() {
+        return defined('static::NUMBER_FORMAT_MINUS_SIGN') ? static::NUMBER_FORMAT_MINUS_SIGN : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_EXPONENTIAL
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatExponential() {
+        return defined('static::NUMBER_FORMAT_EXPONENTIAL') ? static::NUMBER_FORMAT_EXPONENTIAL : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatSuperscriptingExponent() {
+        return defined('static::NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT') ? static::NUMBER_FORMAT_SUPERSCRIPTING_EXPONENT : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_PER_MILLE
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatPerMille() {
+        return defined('static::NUMBER_FORMAT_PER_MILLE') ? static::NUMBER_FORMAT_PER_MILLE : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_INFINITY
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatInfinity() {
+        return defined('static::NUMBER_FORMAT_INFINITY') ? static::NUMBER_FORMAT_INFINITY : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_NAN
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatNan() {
+        return defined('static::NUMBER_FORMAT_NAN') ? static::NUMBER_FORMAT_NAN : null;
+    }
+    
+
+    /** 
+     * Retrieve the value of static::NUMBER_FORMAT_TIME_SEPARATOR
+     * 
+     * @return string|null
+     */
+    public function getNumberFormatTimeSeparator() {
+        return defined('static::NUMBER_FORMAT_TIME_SEPARATOR') ? static::NUMBER_FORMAT_TIME_SEPARATOR : null;
+    }
+    
+
 }
